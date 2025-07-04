@@ -19,7 +19,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Clone Repositories and JSON Generation
+## Clone Repositories and Generate JSON with Computation Models
 
 ```bash
 python3 src/extractpr_python.py
