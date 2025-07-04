@@ -1,0 +1,12 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/urscript_interface/script_command" [shape=ellipse, fillcolor=white];
+  "URScriptInterfaceTest" -> "/urscript_interface/script_command";
+  "/io_and_status_controller/io_states" [shape=ellipse, fillcolor=white];
+  "/io_and_status_controller/io_states" -> "URScriptInterfaceTest";
+  "direction" [shape=ellipse, fillcolor=white];
+  "ForceModeExample" -> "direction";
+  "URScriptInterfaceTest" [shape=box, fillcolor=lightblue];
+  "ForceModeExample" [shape=box, fillcolor=lightblue];
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "https://github.com/mikeferguson/ubr_reloaded",
+    "topics": {
+      "local_plan": {
+        "subscribers": [
+          "NavHeadController"
+        ]
+      },
+      "joy": {
+        "subscribers": [
+          "ControllerResetTeleop"
+        ]
+      },
+      "base_controller/command": {
+        "publishers": [
+          "BaseTest"
+        ]
+      },
+      "base_controller/odom": {
+        "subscribers": [
+          "BaseTest"
+        ]
+      },
+      "joint_states": {
+        "subscribers": [
+          "BaseTest"
+        ]
+      }
+    }
+  }
+]

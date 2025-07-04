@@ -1,0 +1,56 @@
+[
+  {
+    "repository": "https://github.com/knmcguire/crazyflie_ros2_experimental",
+    "topics": {
+      "/odom": {
+        "subscribers": [
+          "RangeToLidar",
+          "SimpleMapper"
+        ]
+      },
+      "/multiranger_scan": {
+        "subscribers": [
+          "RangeToLidar"
+        ]
+      },
+      "/cmd_vel": {
+        "publishers": [
+          "RangeToLidar"
+        ]
+      },
+      "/scan": {
+        "publishers": [
+          "RangeToLidar"
+        ],
+        "subscribers": [
+          "SimpleMapper"
+        ]
+      },
+      "/map": {
+        "publishers": [
+          "SimpleMapper"
+        ]
+      },
+      "zrange": {
+        "publishers": [
+          "CrazyfliePublisher"
+        ]
+      },
+      "scan": {
+        "publishers": [
+          "CrazyfliePublisher"
+        ]
+      },
+      "odom": {
+        "publishers": [
+          "CrazyfliePublisher"
+        ]
+      },
+      "cmd_vel": {
+        "subscribers": [
+          "CrazyfliePublisher"
+        ]
+      }
+    }
+  }
+]

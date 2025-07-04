@@ -1,0 +1,27 @@
+[
+  {
+    "repository": "https://github.com/hmakelin/gisnav",
+    "topics": {
+      "/fmu/in/sensor_gps": {
+        "subscribers": [
+          "SensorGpsListenerContext"
+        ]
+      },
+      "/fmu/out/vehicle_global_position": {
+        "subscribers": [
+          "SensorGpsListenerContext"
+        ]
+      },
+      "/gisnav/nmea_node/sentence": {
+        "subscribers": [
+          "NMEAPublisherNode"
+        ]
+      },
+      "/gisnav/ublox_node/navpvt": {
+        "subscribers": [
+          "UBXPublisherNode"
+        ]
+      }
+    }
+  }
+]

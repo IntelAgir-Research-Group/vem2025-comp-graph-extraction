@@ -1,0 +1,17 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "local_plan" [shape=ellipse, fillcolor=white];
+  "local_plan" -> "NavHeadController";
+  "joy" [shape=ellipse, fillcolor=white];
+  "joy" -> "ControllerResetTeleop";
+  "base_controller/command" [shape=ellipse, fillcolor=white];
+  "BaseTest" -> "base_controller/command";
+  "base_controller/odom" [shape=ellipse, fillcolor=white];
+  "base_controller/odom" -> "BaseTest";
+  "joint_states" [shape=ellipse, fillcolor=white];
+  "joint_states" -> "BaseTest";
+  "NavHeadController" [shape=box, fillcolor=lightblue];
+  "ControllerResetTeleop" [shape=box, fillcolor=lightblue];
+  "BaseTest" [shape=box, fillcolor=lightblue];
+}

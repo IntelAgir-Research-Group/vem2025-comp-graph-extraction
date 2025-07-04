@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "https://github.com/frankaemika/franka_ros2",
+    "topics": {
+      "~/joint_states": {
+        "publishers": [
+          "FakeGripperStatePublisher"
+        ]
+      }
+    }
+  }
+]

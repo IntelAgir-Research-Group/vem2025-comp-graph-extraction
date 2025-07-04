@@ -1,0 +1,15 @@
+[
+  {
+    "repository": "https://github.com/IFRA-Cranfield/ros2_RobotSimulation",
+    "topics": {
+      "ros2_Detach": {
+        "publishers": [
+          "DetacherPUB"
+        ],
+        "subscribers": [
+          "Detach"
+        ]
+      }
+    }
+  }
+]

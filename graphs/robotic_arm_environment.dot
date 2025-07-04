@@ -1,0 +1,18 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/joint_trajectory_controller/joint_trajectory" [shape=ellipse, fillcolor=white];
+  "TrajectoryPublisher" -> "/joint_trajectory_controller/joint_trajectory";
+  "marker_position" [shape=ellipse, fillcolor=white];
+  "MyNode" -> "marker_position";
+  "/gazebo/model_states" [shape=ellipse, fillcolor=white];
+  "/gazebo/model_states" -> "MyEnvironmentNode";
+  "/gazebo/model_states" -> "MyNode";
+  "/joint_states" [shape=ellipse, fillcolor=white];
+  "/joint_states" -> "MyEnvironmentNode";
+  "/contact_sensor/bumper_link6" [shape=ellipse, fillcolor=white];
+  "/contact_sensor/bumper_link6" -> "MyEnvironmentNode";
+  "TrajectoryPublisher" [shape=box, fillcolor=lightblue];
+  "MyEnvironmentNode" [shape=box, fillcolor=lightblue];
+  "MyNode" [shape=box, fillcolor=lightblue];
+}

@@ -1,0 +1,27 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/odom" [shape=ellipse, fillcolor=white];
+  "/odom" -> "RangeToLidar";
+  "/odom" -> "SimpleMapper";
+  "/multiranger_scan" [shape=ellipse, fillcolor=white];
+  "/multiranger_scan" -> "RangeToLidar";
+  "/cmd_vel" [shape=ellipse, fillcolor=white];
+  "RangeToLidar" -> "/cmd_vel";
+  "/scan" [shape=ellipse, fillcolor=white];
+  "RangeToLidar" -> "/scan";
+  "/scan" -> "SimpleMapper";
+  "/map" [shape=ellipse, fillcolor=white];
+  "SimpleMapper" -> "/map";
+  "zrange" [shape=ellipse, fillcolor=white];
+  "CrazyfliePublisher" -> "zrange";
+  "scan" [shape=ellipse, fillcolor=white];
+  "CrazyfliePublisher" -> "scan";
+  "odom" [shape=ellipse, fillcolor=white];
+  "CrazyfliePublisher" -> "odom";
+  "cmd_vel" [shape=ellipse, fillcolor=white];
+  "cmd_vel" -> "CrazyfliePublisher";
+  "SimpleMapper" [shape=box, fillcolor=lightblue];
+  "RangeToLidar" [shape=box, fillcolor=lightblue];
+  "CrazyfliePublisher" [shape=box, fillcolor=lightblue];
+}

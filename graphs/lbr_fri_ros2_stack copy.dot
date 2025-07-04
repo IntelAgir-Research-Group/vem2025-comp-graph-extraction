@@ -1,0 +1,27 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "servo_node/delta_joint_cmds" [shape=ellipse, fillcolor=white];
+  "ForwardKeyboardNode" -> "servo_node/delta_joint_cmds";
+  "servo_node/delta_twist_cmds" [shape=ellipse, fillcolor=white];
+  "ForwardKeyboardNode" -> "servo_node/delta_twist_cmds";
+  "joint_states" [shape=ellipse, fillcolor=white];
+  "joint_states" -> "ForwardKeyboardNode";
+  "command/torque" [shape=ellipse, fillcolor=white];
+  "TorqueSineOverlayNode" -> "command/torque";
+  "state" [shape=ellipse, fillcolor=white];
+  "state" -> "JointSineOverlayNode";
+  "state" -> "LBRBasePositionCommandNode";
+  "state" -> "TorqueSineOverlayNode";
+  "state" -> "WrenchSineOverlayNode";
+  "command/joint_position" [shape=ellipse, fillcolor=white];
+  "JointSineOverlayNode" -> "command/joint_position";
+  "LBRBasePositionCommandNode" -> "command/joint_position";
+  "command/wrench" [shape=ellipse, fillcolor=white];
+  "WrenchSineOverlayNode" -> "command/wrench";
+  "WrenchSineOverlayNode" [shape=box, fillcolor=lightblue];
+  "ForwardKeyboardNode" [shape=box, fillcolor=lightblue];
+  "LBRBasePositionCommandNode" [shape=box, fillcolor=lightblue];
+  "TorqueSineOverlayNode" [shape=box, fillcolor=lightblue];
+  "JointSineOverlayNode" [shape=box, fillcolor=lightblue];
+}

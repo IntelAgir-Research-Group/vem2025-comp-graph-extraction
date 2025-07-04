@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "https://github.com/qaz9517532846/zm_robot",
+    "topics": {
+      "amcl_pose": {
+        "subscribers": [
+          "BasicNavigator"
+        ]
+      },
+      "initialpose": {
+        "publishers": [
+          "BasicNavigator"
+        ]
+      },
+      "cmd_vel": {
+        "publishers": [
+          "zm_robot_teleop_key"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "https://github.com/suchetanrs/ORB-SLAM3-ROS2-Docker",
+    "topics": {
+      "/pose_array_topic": {
+        "publishers": [
+          "MapServiceClient"
+        ]
+      },
+      "/pose_topic": {
+        "subscribers": [
+          "PoseSubscriberNode"
+        ]
+      }
+    }
+  }
+]

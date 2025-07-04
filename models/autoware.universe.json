@@ -1,0 +1,270 @@
+[
+  {
+    "repository": "https://github.com/autowarefoundation/autoware.universe",
+    "topics": {
+      "/vehicle/status/actuation_status": {
+        "publishers": [
+          "ActuationStatusPublisher"
+        ]
+      },
+      "/vehicle/status/velocity_status": {
+        "subscribers": [
+          "ActuationStatusPublisher"
+        ]
+      },
+      "/vehicle/tester/accel": {
+        "publishers": [
+          "AccelTester"
+        ],
+        "subscribers": [
+          "ActuationCmdPublisher"
+        ]
+      },
+      "/vehicle/tester/brake": {
+        "publishers": [
+          "BrakeTester"
+        ],
+        "subscribers": [
+          "ActuationCmdPublisher"
+        ]
+      },
+      "/control/command/actuation_cmd": {
+        "publishers": [
+          "ActuationCmdPublisher"
+        ]
+      },
+      "/control/command/gear_cmd": {
+        "publishers": [
+          "ActuationCmdPublisher"
+        ]
+      },
+      "/planning/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/debug/intersection/ego_ttc": {
+        "subscribers": [
+          "TTCVisualizer"
+        ]
+      },
+      "/planning/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/debug/intersection/object_ttc": {
+        "subscribers": [
+          "TTCVisualizer"
+        ]
+      },
+      "/planning/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/debug/collision_info": {
+        "subscribers": [
+          "TimeToCollisionPlotter"
+        ]
+      },
+      "/planning/scenario_planning/lane_driving/motion_planning/elastic_band_smoother/debug/calculation_time": {
+        "subscribers": [
+          "CalculationCostAnalyzer"
+        ]
+      },
+      "/planning/scenario_planning/lane_driving/motion_planning/path_optimizer/debug/calculation_time": {
+        "subscribers": [
+          "CalculationCostAnalyzer"
+        ]
+      },
+      "/planning/scenario_planning/lane_driving/motion_planning/path_optimizer/trajectory": {
+        "subscribers": [
+          "TrajectoryVisualizer"
+        ]
+      },
+      "/planning/scenario_planning/lane_driving/motion_planning/obstacle_velocity_limiter/trajectory": {
+        "subscribers": [
+          "TrajectoryVisualizer"
+        ]
+      },
+      "/localization/kinematic_state": {
+        "subscribers": [
+          "PlotterNode",
+          "PyMPCTrajectoryFollower",
+          "TrajectoryVisualizer"
+        ]
+      },
+      "/diagnostics": {
+        "publishers": [
+          "DummyDiagnostics"
+        ]
+      },
+      "/visualizer/velocity_factors": {
+        "publishers": [
+          "PlanningFactorVisualizer"
+        ]
+      },
+      "/visualizer/steering_factors": {
+        "publishers": [
+          "PlanningFactorVisualizer"
+        ]
+      },
+      "/api/planning/velocity_factors": {
+        "subscribers": [
+          "PlanningFactorVisualizer"
+        ]
+      },
+      "/api/planning/steering_factors": {
+        "subscribers": [
+          "PlanningFactorVisualizer"
+        ]
+      },
+      "/planning/scenario_planning/trajectory": {
+        "subscribers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/localization/acceleration": {
+        "subscribers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/vehicle/status/steering_status": {
+        "subscribers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/system/operation_mode/state": {
+        "subscribers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/pympc_stop_mode_reset_request": {
+        "subscribers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/planning/mission_planning/echo_back_goal_pose": {
+        "subscribers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/pympc_reload_mpc_param_trigger": {
+        "subscribers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/control/command/control_cmd": {
+        "subscribers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/control/trajectory_follower/control_cmd": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/control/trajectory_follower/lateral/predicted_trajectory": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_x_current": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_x_des": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_y_des": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_v_des": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_yaw_des": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_acc_des": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_steer_des": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_X_des_converted": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_nominal_traj": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_nominal_inputs": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_X_input_list": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_Y_output_list": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_error_prediction": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_emergency_stop_mode": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_goal_stop_mode": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_max_trajectory_err": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_calc_u_opt_time": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_total_ctrl_time": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/debug_mpc_sampling_paths_marker_array": {
+        "publishers": [
+          "PyMPCTrajectoryFollower"
+        ]
+      },
+      "/control_performance/performance_vars": {
+        "subscribers": [
+          "PlotterNode"
+        ]
+      },
+      "driving_topic": {
+        "subscribers": [
+          "PlotterNode"
+        ]
+      },
+      "/make_plot": {
+        "subscribers": [
+          "PlotterNode"
+        ]
+      }
+    }
+  }
+]

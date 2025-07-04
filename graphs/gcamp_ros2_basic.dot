@@ -1,0 +1,27 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "diffbot/scan" [shape=ellipse, fillcolor=white];
+  "diffbot/scan" -> "RobotController";
+  "diffbot/odom" [shape=ellipse, fillcolor=white];
+  "diffbot/odom" -> "OdometrySubscriber";
+  "diffbot/odom" -> "RobotController";
+  "diffbot/cmd_vel" [shape=ellipse, fillcolor=white];
+  "RobotController" -> "diffbot/cmd_vel";
+  "diffbot/camera_sensor/image_raw" [shape=ellipse, fillcolor=white];
+  "diffbot/camera_sensor/image_raw" -> "ImageSubscriber";
+  "skidbot/scan" [shape=ellipse, fillcolor=white];
+  "skidbot/scan" -> "LaserSubscriber";
+  "skidbot/scan" -> "ParkingNode";
+  "skidbot/cmd_vel" [shape=ellipse, fillcolor=white];
+  "CmdVelPublisher" -> "skidbot/cmd_vel";
+  "ParkingNode" -> "skidbot/cmd_vel";
+  "RobotTurnServer" -> "skidbot/cmd_vel";
+  "CmdVelPublisher" [shape=box, fillcolor=lightblue];
+  "OdometrySubscriber" [shape=box, fillcolor=lightblue];
+  "RobotController" [shape=box, fillcolor=lightblue];
+  "RobotTurnServer" [shape=box, fillcolor=lightblue];
+  "ImageSubscriber" [shape=box, fillcolor=lightblue];
+  "LaserSubscriber" [shape=box, fillcolor=lightblue];
+  "ParkingNode" [shape=box, fillcolor=lightblue];
+}

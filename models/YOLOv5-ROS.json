@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "https://github.com/Ar-Ray-code/YOLOv5-ROS",
+    "topics": {
+      "yolov5/bounding_boxes": {
+        "publishers": [
+          "yolov5_ros"
+        ]
+      },
+      "yolov5/image_raw": {
+        "publishers": [
+          "yolov5_ros"
+        ]
+      },
+      "image_raw": {
+        "subscribers": [
+          "yolov5_ros"
+        ]
+      }
+    }
+  }
+]

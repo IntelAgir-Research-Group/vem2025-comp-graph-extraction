@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "https://github.com/CL2-UWaterloo/f1tenth_ws",
+    "topics": {
+      "scan": {
+        "subscribers": [
+          "SafetyNode"
+        ]
+      },
+      "/odom": {
+        "subscribers": [
+          "SafetyNode"
+        ]
+      },
+      "drive": {
+        "publishers": [
+          "SafetyNode"
+        ]
+      },
+      "teleop": {
+        "publishers": [
+          "SafetyNode"
+        ]
+      },
+      "emergency_breaking": {
+        "publishers": [
+          "SafetyNode"
+        ]
+      }
+    }
+  }
+]

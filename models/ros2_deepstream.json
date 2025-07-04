@@ -1,0 +1,39 @@
+[
+  {
+    "repository": "https://github.com/NVIDIA-AI-IOT/ros2_deepstream",
+    "topics": {
+      "infer_detection": {
+        "publishers": [
+          "InferencePublisher"
+        ],
+        "subscribers": [
+          "MinimalSubscriber"
+        ]
+      },
+      "infer_classification": {
+        "publishers": [
+          "InferencePublisher"
+        ],
+        "subscribers": [
+          "MinimalSubscriber"
+        ]
+      },
+      "multi_detection": {
+        "publishers": [
+          "InferencePublisher"
+        ],
+        "subscribers": [
+          "MinimalSubscriber"
+        ]
+      },
+      "multi_classification": {
+        "publishers": [
+          "InferencePublisher"
+        ],
+        "subscribers": [
+          "MinimalSubscriber"
+        ]
+      }
+    }
+  }
+]

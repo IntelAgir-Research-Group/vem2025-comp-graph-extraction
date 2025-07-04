@@ -1,0 +1,23 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "vision/path_img" [shape=ellipse, fillcolor=white];
+  "VisionNode" -> "vision/path_img";
+  "vision/birdeye_img" [shape=ellipse, fillcolor=white];
+  "VisionNode" -> "vision/birdeye_img";
+  "segmentation/scan" [shape=ellipse, fillcolor=white];
+  "VisionNode" -> "segmentation/scan";
+  "global_plan" [shape=ellipse, fillcolor=white];
+  "VisionNode" -> "global_plan";
+  "cmd_vel" [shape=ellipse, fillcolor=white];
+  "VisionNode" -> "cmd_vel";
+  "costmap" [shape=ellipse, fillcolor=white];
+  "VisionNode" -> "costmap";
+  "vision/segmented_img" [shape=ellipse, fillcolor=white];
+  "VisionNode" -> "vision/segmented_img";
+  "camera/image_raw" [shape=ellipse, fillcolor=white];
+  "camera/image_raw" -> "VisionNode";
+  "odom" [shape=ellipse, fillcolor=white];
+  "odom" -> "VisionNode";
+  "VisionNode" [shape=box, fillcolor=lightblue];
+}

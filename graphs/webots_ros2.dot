@@ -1,0 +1,29 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "cmd_ackermann" [shape=ellipse, fillcolor=white];
+  "LaneFollower" -> "cmd_ackermann";
+  "vehicle/camera/image_color" [shape=ellipse, fillcolor=white];
+  "vehicle/camera/image_color" -> "LaneFollower";
+  "/odom" [shape=ellipse, fillcolor=white];
+  "/odom" -> "EPuckDriveCalibrator";
+  "/odom" -> "EPuckNode";
+  "/cmd_vel" [shape=ellipse, fillcolor=white];
+  "EPuckDriveCalibrator" -> "/cmd_vel";
+  "/map" [shape=ellipse, fillcolor=white];
+  "SimpleMapper" -> "/map";
+  "/scan" [shape=ellipse, fillcolor=white];
+  "EPuckNode" -> "/scan";
+  "/scan" -> "SimpleMapper";
+  "/tof" [shape=ellipse, fillcolor=white];
+  "/tof" -> "EPuckNode";
+  "clock" [shape=ellipse, fillcolor=white];
+  "Ros2Supervisor" -> "clock";
+  "remove_node" [shape=ellipse, fillcolor=white];
+  "remove_node" -> "Ros2Supervisor";
+  "EPuckDriveCalibrator" [shape=box, fillcolor=lightblue];
+  "Ros2Supervisor" [shape=box, fillcolor=lightblue];
+  "LaneFollower" [shape=box, fillcolor=lightblue];
+  "SimpleMapper" [shape=box, fillcolor=lightblue];
+  "EPuckNode" [shape=box, fillcolor=lightblue];
+}

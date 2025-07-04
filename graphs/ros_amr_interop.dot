@@ -1,0 +1,21 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/troubleshooting/errorcodes" [shape=ellipse, fillcolor=white];
+  "SampleDataNode" -> "/troubleshooting/errorcodes";
+  "/mode" [shape=ellipse, fillcolor=white];
+  "SampleDataNode" -> "/mode";
+  "/battery" [shape=ellipse, fillcolor=white];
+  "SampleDataNode" -> "/battery";
+  "/battery_runtime" [shape=ellipse, fillcolor=white];
+  "SampleDataNode" -> "/battery_runtime";
+  "/load_perc_available" [shape=ellipse, fillcolor=white];
+  "SampleDataNode" -> "/load_perc_available";
+  "/odom" [shape=ellipse, fillcolor=white];
+  "/odom" -> "SampleDataNode";
+  "/location" [shape=ellipse, fillcolor=white];
+  "SampleDataNode" -> "/location";
+  "/velocity" [shape=ellipse, fillcolor=white];
+  "SampleDataNode" -> "/velocity";
+  "SampleDataNode" [shape=box, fillcolor=lightblue];
+}

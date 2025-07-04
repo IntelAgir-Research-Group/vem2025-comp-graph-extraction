@@ -1,0 +1,11 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "yolov5/bounding_boxes" [shape=ellipse, fillcolor=white];
+  "yolov5_ros" -> "yolov5/bounding_boxes";
+  "yolov5/image_raw" [shape=ellipse, fillcolor=white];
+  "yolov5_ros" -> "yolov5/image_raw";
+  "image_raw" [shape=ellipse, fillcolor=white];
+  "image_raw" -> "yolov5_ros";
+  "yolov5_ros" [shape=box, fillcolor=lightblue];
+}

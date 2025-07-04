@@ -1,0 +1,85 @@
+[
+  {
+    "repository": "https://github.com/jkaniuka/magician_ros2",
+    "topics": {
+      "/diagnostics": {
+        "publishers": [
+          "DiagnosticTalker"
+        ]
+      },
+      "dobot_alarms": {
+        "publishers": [
+          "DobotPublisher"
+        ],
+        "subscribers": [
+          "DiagnosticTalker",
+          "DobotPTPServer",
+          "SlidingRailPTPServer"
+        ]
+      },
+      "reachability_range": {
+        "publishers": [
+          "DobotRange"
+        ]
+      },
+      "TCP_trajectory": {
+        "publishers": [
+          "TrajectoryPublisher"
+        ]
+      },
+      "realsense_FOV": {
+        "publishers": [
+          "FOVPublisher"
+        ]
+      },
+      "dobot_joint_states": {
+        "publishers": [
+          "DobotPublisher"
+        ],
+        "subscribers": [
+          "DobotControlPanel",
+          "DobotPTPServer",
+          "SlidingRailPTPServer"
+        ]
+      },
+      "joint_states": {
+        "publishers": [
+          "DobotPublisher"
+        ]
+      },
+      "dobot_TCP": {
+        "publishers": [
+          "DobotPublisher"
+        ]
+      },
+      "dobot_pose_raw": {
+        "publishers": [
+          "DobotPublisher"
+        ],
+        "subscribers": [
+          "DobotControlPanel",
+          "DobotPTPServer",
+          "PoseValidatorService"
+        ]
+      },
+      "gripper_status_rviz": {
+        "publishers": [
+          "DobotControlPanel",
+          "GripperService"
+        ],
+        "subscribers": [
+          "DobotPublisher"
+        ]
+      },
+      "dobot_rail_pose": {
+        "publishers": [
+          "DobotPublisher"
+        ],
+        "subscribers": [
+          "DobotControlPanel",
+          "SlidingRailPTPServer"
+        ]
+      }
+    }
+  }
+]

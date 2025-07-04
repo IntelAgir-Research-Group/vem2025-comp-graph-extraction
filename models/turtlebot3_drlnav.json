@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "https://github.com/tomasvr/turtlebot3_drlnav",
+    "topics": {
+      "/clock": {
+        "subscribers": [
+          "DRLEnvironment"
+        ]
+      },
+      "obstacle/odom": {
+        "subscribers": [
+          "DRLEnvironment"
+        ]
+      },
+      "goal_pose": {
+        "publishers": [
+          "DRLGazebo"
+        ]
+      }
+    }
+  }
+]

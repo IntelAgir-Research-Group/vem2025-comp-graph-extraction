@@ -1,0 +1,62 @@
+[
+  {
+    "repository": "https://github.com/bdaiinstitute/spot_ros2",
+    "topics": {
+      "status/metrics": {
+        "publishers": [
+          "SpotROS"
+        ]
+      },
+      "status/feedback": {
+        "publishers": [
+          "SpotROS"
+        ]
+      },
+      "status/mobility_params": {
+        "publishers": [
+          "SpotROS"
+        ]
+      },
+      "cmd_vel": {
+        "subscribers": [
+          "SpotROS"
+        ]
+      },
+      "body_pose": {
+        "subscribers": [
+          "SpotROS"
+        ]
+      },
+      "velodyne/points": {
+        "publishers": [
+          "SpotROS"
+        ]
+      },
+      "status/leases": {
+        "publishers": [
+          "SpotROS"
+        ]
+      },
+      "graph_nav/body_pose": {
+        "publishers": [
+          "SpotROS"
+        ]
+      },
+      "arm_joint_commands": {
+        "subscribers": [
+          "SpotROS"
+        ]
+      },
+      "arm_pose_commands": {
+        "subscribers": [
+          "SpotROS"
+        ]
+      },
+      "status/battery_states": {
+        "subscribers": [
+          "SpotAlerts"
+        ]
+      }
+    }
+  }
+]

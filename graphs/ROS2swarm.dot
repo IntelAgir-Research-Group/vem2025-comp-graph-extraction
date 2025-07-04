@@ -1,0 +1,23 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/ground_truth" [shape=ellipse, fillcolor=white];
+  "GroundTruthPublisher" -> "/ground_truth";
+  "/gazebo/model_states" [shape=ellipse, fillcolor=white];
+  "/gazebo/model_states" -> "GroundTruthPublisher";
+  "/swarm_command" [shape=ellipse, fillcolor=white];
+  "/swarm_command" -> "AbstractPattern";
+  "/voting_broadcast" [shape=ellipse, fillcolor=white];
+  "VoterModelPattern" -> "/voting_broadcast";
+  "VoterModelWithLimiterPattern" -> "/voting_broadcast";
+  "/voting_broadcast" -> "VoterModelPattern";
+  "/voting_broadcast" -> "VoterModelWithLimiterPattern";
+  "/majority_broadcast" [shape=ellipse, fillcolor=white];
+  "MajorityRulePattern" -> "/majority_broadcast";
+  "/majority_broadcast" -> "MajorityRulePattern";
+  "AbstractPattern" [shape=box, fillcolor=lightblue];
+  "VoterModelPattern" [shape=box, fillcolor=lightblue];
+  "GroundTruthPublisher" [shape=box, fillcolor=lightblue];
+  "VoterModelWithLimiterPattern" [shape=box, fillcolor=lightblue];
+  "MajorityRulePattern" [shape=box, fillcolor=lightblue];
+}

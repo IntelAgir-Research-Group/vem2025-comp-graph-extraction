@@ -1,0 +1,18 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "infer_detection" [shape=ellipse, fillcolor=white];
+  "InferencePublisher" -> "infer_detection";
+  "infer_detection" -> "MinimalSubscriber";
+  "infer_classification" [shape=ellipse, fillcolor=white];
+  "InferencePublisher" -> "infer_classification";
+  "infer_classification" -> "MinimalSubscriber";
+  "multi_detection" [shape=ellipse, fillcolor=white];
+  "InferencePublisher" -> "multi_detection";
+  "multi_detection" -> "MinimalSubscriber";
+  "multi_classification" [shape=ellipse, fillcolor=white];
+  "InferencePublisher" -> "multi_classification";
+  "multi_classification" -> "MinimalSubscriber";
+  "MinimalSubscriber" [shape=box, fillcolor=lightblue];
+  "InferencePublisher" [shape=box, fillcolor=lightblue];
+}

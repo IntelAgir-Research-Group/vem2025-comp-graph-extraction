@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "https://github.com/blackcoffeerobotics/bcr_bot",
+    "topics": {
+      "cmd_vel": {
+        "subscribers": [
+          "CmdVelRemapper"
+        ]
+      },
+      "bcr_bot/cmd_vel": {
+        "publishers": [
+          "CmdVelRemapper"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/pose_array_topic" [shape=ellipse, fillcolor=white];
+  "MapServiceClient" -> "/pose_array_topic";
+  "/pose_topic" [shape=ellipse, fillcolor=white];
+  "/pose_topic" -> "PoseSubscriberNode";
+  "MapServiceClient" [shape=box, fillcolor=lightblue];
+  "PoseSubscriberNode" [shape=box, fillcolor=lightblue];
+}

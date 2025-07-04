@@ -1,0 +1,41 @@
+[
+  {
+    "repository": "https://github.com/Road-Balance/gcamp_ros2_basic",
+    "topics": {
+      "diffbot/scan": {
+        "subscribers": [
+          "RobotController"
+        ]
+      },
+      "diffbot/odom": {
+        "subscribers": [
+          "OdometrySubscriber",
+          "RobotController"
+        ]
+      },
+      "diffbot/cmd_vel": {
+        "publishers": [
+          "RobotController"
+        ]
+      },
+      "diffbot/camera_sensor/image_raw": {
+        "subscribers": [
+          "ImageSubscriber"
+        ]
+      },
+      "skidbot/scan": {
+        "subscribers": [
+          "LaserSubscriber",
+          "ParkingNode"
+        ]
+      },
+      "skidbot/cmd_vel": {
+        "publishers": [
+          "CmdVelPublisher",
+          "ParkingNode",
+          "RobotTurnServer"
+        ]
+      }
+    }
+  }
+]

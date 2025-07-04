@@ -1,0 +1,20 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "joint_states" [shape=ellipse, fillcolor=white];
+  "joint_states" -> "PublisherJointTrajectory";
+  "/keyboard/keypress" [shape=ellipse, fillcolor=white];
+  "/keyboard/keypress" -> "KeyboardListener";
+  "/a200_0000/cmd_vel" [shape=ellipse, fillcolor=white];
+  "HuskyRobotControl" -> "/a200_0000/cmd_vel";
+  "/a200_0000/platform/odom/filtered" [shape=ellipse, fillcolor=white];
+  "/a200_0000/platform/odom/filtered" -> "HuskyRobotControl";
+  "/a200_0000/arm_0_joint_trajectory_controller/joint_trajectory" [shape=ellipse, fillcolor=white];
+  "ArmControl" -> "/a200_0000/arm_0_joint_trajectory_controller/joint_trajectory";
+  "/a200_0000/arm_0_joint_trajectory_controller/state" [shape=ellipse, fillcolor=white];
+  "/a200_0000/arm_0_joint_trajectory_controller/state" -> "ArmControl";
+  "ArmControl" [shape=box, fillcolor=lightblue];
+  "PublisherJointTrajectory" [shape=box, fillcolor=lightblue];
+  "KeyboardListener" [shape=box, fillcolor=lightblue];
+  "HuskyRobotControl" [shape=box, fillcolor=lightblue];
+}

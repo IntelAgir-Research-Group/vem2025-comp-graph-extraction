@@ -1,0 +1,12 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "amcl_pose" [shape=ellipse, fillcolor=white];
+  "amcl_pose" -> "BasicNavigator";
+  "initialpose" [shape=ellipse, fillcolor=white];
+  "BasicNavigator" -> "initialpose";
+  "cmd_vel" [shape=ellipse, fillcolor=white];
+  "zm_robot_teleop_key" -> "cmd_vel";
+  "BasicNavigator" [shape=box, fillcolor=lightblue];
+  "zm_robot_teleop_key" [shape=box, fillcolor=lightblue];
+}

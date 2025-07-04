@@ -1,0 +1,23 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "best_effort" [shape=ellipse, fillcolor=white];
+  "best_effort" -> "ReliableOdomNode";
+  "reliable" [shape=ellipse, fillcolor=white];
+  "ReliableOdomNode" -> "reliable";
+  "seafloor_marker" [shape=ellipse, fillcolor=white];
+  "SeafloorMarkerNode" -> "seafloor_marker";
+  "/thrust" [shape=ellipse, fillcolor=white];
+  "DanceNode" -> "/thrust";
+  "ThrustCurveNode" -> "/thrust";
+  "/status" [shape=ellipse, fillcolor=white];
+  "FakeDriver" -> "/status";
+  "/barometer" [shape=ellipse, fillcolor=white];
+  "FakeBarometer" -> "/barometer";
+  "FakeBarometer" [shape=box, fillcolor=lightblue];
+  "SeafloorMarkerNode" [shape=box, fillcolor=lightblue];
+  "ReliableOdomNode" [shape=box, fillcolor=lightblue];
+  "DanceNode" [shape=box, fillcolor=lightblue];
+  "FakeDriver" [shape=box, fillcolor=lightblue];
+  "ThrustCurveNode" [shape=box, fillcolor=lightblue];
+}

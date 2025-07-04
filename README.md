@@ -22,12 +22,12 @@ pip install -r requirements.txt
 ## Clone Repositories and JSON Generation
 
 ```bash
-python3 src/ExtractorPython.py
+python3 src/extractpr_python.py
 ```
 
 ## Generate Computation Graphs
 
 ```bash
-
+python3 src/gen_graph.py
 ```
 

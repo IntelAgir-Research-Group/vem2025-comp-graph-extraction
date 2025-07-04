@@ -1,0 +1,56 @@
+[
+  {
+    "repository": "https://github.com/cyberbotics/webots_ros2",
+    "topics": {
+      "cmd_ackermann": {
+        "publishers": [
+          "LaneFollower"
+        ]
+      },
+      "vehicle/camera/image_color": {
+        "subscribers": [
+          "LaneFollower"
+        ]
+      },
+      "/odom": {
+        "subscribers": [
+          "EPuckDriveCalibrator",
+          "EPuckNode"
+        ]
+      },
+      "/cmd_vel": {
+        "publishers": [
+          "EPuckDriveCalibrator"
+        ]
+      },
+      "/map": {
+        "publishers": [
+          "SimpleMapper"
+        ]
+      },
+      "/scan": {
+        "publishers": [
+          "EPuckNode"
+        ],
+        "subscribers": [
+          "SimpleMapper"
+        ]
+      },
+      "/tof": {
+        "subscribers": [
+          "EPuckNode"
+        ]
+      },
+      "clock": {
+        "publishers": [
+          "Ros2Supervisor"
+        ]
+      },
+      "remove_node": {
+        "subscribers": [
+          "Ros2Supervisor"
+        ]
+      }
+    }
+  }
+]

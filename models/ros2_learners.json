@@ -1,0 +1,28 @@
+[
+  {
+    "repository": "https://github.com/noshluk2/ros2_learners",
+    "topics": {
+      "/turtle1/cmd_vel": {
+        "publishers": [
+          "Driver_node",
+          "Turtle_GTG"
+        ]
+      },
+      "/turtle1/pose": {
+        "subscribers": [
+          "Turtle_GTG"
+        ]
+      },
+      "/scan": {
+        "subscribers": [
+          "ObstacleAvoidanceNode"
+        ]
+      },
+      "cmd_vel": {
+        "publishers": [
+          "ObstacleAvoidanceNode"
+        ]
+      }
+    }
+  }
+]

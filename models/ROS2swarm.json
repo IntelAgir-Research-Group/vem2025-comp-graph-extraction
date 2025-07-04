@@ -1,0 +1,40 @@
+[
+  {
+    "repository": "https://github.com/ROS2swarm/ROS2swarm",
+    "topics": {
+      "/ground_truth": {
+        "publishers": [
+          "GroundTruthPublisher"
+        ]
+      },
+      "/gazebo/model_states": {
+        "subscribers": [
+          "GroundTruthPublisher"
+        ]
+      },
+      "/swarm_command": {
+        "subscribers": [
+          "AbstractPattern"
+        ]
+      },
+      "/voting_broadcast": {
+        "publishers": [
+          "VoterModelPattern",
+          "VoterModelWithLimiterPattern"
+        ],
+        "subscribers": [
+          "VoterModelPattern",
+          "VoterModelWithLimiterPattern"
+        ]
+      },
+      "/majority_broadcast": {
+        "publishers": [
+          "MajorityRulePattern"
+        ],
+        "subscribers": [
+          "MajorityRulePattern"
+        ]
+      }
+    }
+  }
+]

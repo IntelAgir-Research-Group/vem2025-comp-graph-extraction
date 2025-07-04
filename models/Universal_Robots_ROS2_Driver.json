@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver",
+    "topics": {
+      "/urscript_interface/script_command": {
+        "publishers": [
+          "URScriptInterfaceTest"
+        ]
+      },
+      "/io_and_status_controller/io_states": {
+        "subscribers": [
+          "URScriptInterfaceTest"
+        ]
+      },
+      "direction": {
+        "publishers": [
+          "ForceModeExample"
+        ]
+      }
+    }
+  }
+]

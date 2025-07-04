@@ -1,0 +1,38 @@
+[
+  {
+    "repository": "https://github.com/clydemcqueen/orca3",
+    "topics": {
+      "best_effort": {
+        "subscribers": [
+          "ReliableOdomNode"
+        ]
+      },
+      "reliable": {
+        "publishers": [
+          "ReliableOdomNode"
+        ]
+      },
+      "seafloor_marker": {
+        "publishers": [
+          "SeafloorMarkerNode"
+        ]
+      },
+      "/thrust": {
+        "publishers": [
+          "DanceNode",
+          "ThrustCurveNode"
+        ]
+      },
+      "/status": {
+        "publishers": [
+          "FakeDriver"
+        ]
+      },
+      "/barometer": {
+        "publishers": [
+          "FakeBarometer"
+        ]
+      }
+    }
+  }
+]

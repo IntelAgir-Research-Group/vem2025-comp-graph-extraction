@@ -1,0 +1,75 @@
+[
+  {
+    "repository": "https://github.com/winstxnhdw/AutoCarROS2",
+    "topics": {
+      "/autocar/path": {
+        "publishers": [
+          "ClickPlanner",
+          "LocalPathPlanner"
+        ],
+        "subscribers": [
+          "PathTracker"
+        ]
+      },
+      "/autocar/viz_path": {
+        "publishers": [
+          "ClickPlanner",
+          "LocalPathPlanner"
+        ]
+      },
+      "/autocar/viz_goals": {
+        "publishers": [
+          "ClickPlanner",
+          "GlobalPathPlanner"
+        ]
+      },
+      "/autocar/target_velocity": {
+        "publishers": [
+          "ClickPlanner",
+          "LocalPathPlanner"
+        ],
+        "subscribers": [
+          "PathTracker"
+        ]
+      },
+      "/goal_pose": {
+        "subscribers": [
+          "ClickPlanner"
+        ]
+      },
+      "/autocar/goals": {
+        "publishers": [
+          "GlobalPathPlanner"
+        ],
+        "subscribers": [
+          "LocalPathPlanner"
+        ]
+      },
+      "/autocar/state2D": {
+        "publishers": [
+          "Localisation"
+        ],
+        "subscribers": [
+          "GlobalPathPlanner",
+          "LocalPathPlanner",
+          "PathTracker"
+        ]
+      },
+      "/autocar/odom": {
+        "subscribers": [
+          "Localisation"
+        ]
+      },
+      "/autocar/cmd_vel": {
+        "publishers": [
+          "PathTracker"
+        ]
+      },
+      "/autocar/lateral_ref": {
+        "publishers": [
+          "PathTracker"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,31 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/cctv_GUI/control_state" [shape=ellipse, fillcolor=white];
+  "/cctv_GUI/control_state" -> "controller_irb_cctv_line_follower";
+  "/cctv_GUI/control_state" -> "controller_pure_pursuit";
+  "writing_dc_motor_vel" [shape=ellipse, fillcolor=white];
+  "writing_dc_motor_vel" -> "MotorControl";
+  "writing_dc_cmd_vel" [shape=ellipse, fillcolor=white];
+  "writing_dc_cmd_vel" -> "MotorControl";
+  "reading_spi_adc" [shape=ellipse, fillcolor=white];
+  "SMARTMobile_ADC_SPI_Reader" -> "reading_spi_adc";
+  "writing_ws2813_rgb_strip" [shape=ellipse, fillcolor=white];
+  "writing_ws2813_rgb_strip" -> "WS2813_RGB_LED";
+  "reading_tof_array" [shape=ellipse, fillcolor=white];
+  "I2C_VL53L0X_ToF" -> "reading_tof_array";
+  "writing_gpio_smd5050_led" [shape=ellipse, fillcolor=white];
+  "writing_gpio_smd5050_led" -> "GPIO_SMD5050_RGB_LED";
+  "/opencv_tests/images" [shape=ellipse, fillcolor=white];
+  "Source" -> "/opencv_tests/images";
+  "/opencv_tests/images/compressed" [shape=ellipse, fillcolor=white];
+  "Source" -> "/opencv_tests/images/compressed";
+  "I2C_VL53L0X_ToF" [shape=box, fillcolor=lightblue];
+  "controller_pure_pursuit" [shape=box, fillcolor=lightblue];
+  "WS2813_RGB_LED" [shape=box, fillcolor=lightblue];
+  "SMARTMobile_ADC_SPI_Reader" [shape=box, fillcolor=lightblue];
+  "GPIO_SMD5050_RGB_LED" [shape=box, fillcolor=lightblue];
+  "MotorControl" [shape=box, fillcolor=lightblue];
+  "controller_irb_cctv_line_follower" [shape=box, fillcolor=lightblue];
+  "Source" [shape=box, fillcolor=lightblue];
+}

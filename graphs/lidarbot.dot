@@ -1,0 +1,9 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/trajectory_path" [shape=ellipse, fillcolor=white];
+  "TrajectoryVisualizer" -> "/trajectory_path";
+  "/transformed_global_plan" [shape=ellipse, fillcolor=white];
+  "/transformed_global_plan" -> "TrajectoryVisualizer";
+  "TrajectoryVisualizer" [shape=box, fillcolor=lightblue];
+}

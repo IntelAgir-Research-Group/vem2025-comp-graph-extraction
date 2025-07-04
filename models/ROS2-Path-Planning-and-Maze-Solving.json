@@ -1,0 +1,27 @@
+[
+  {
+    "repository": "https://github.com/HaiderAbasi/ROS2-Path-Planning-and-Maze-Solving",
+    "topics": {
+      "/cmd_vel": {
+        "publishers": [
+          "maze_solver"
+        ]
+      },
+      "/upper_camera/image_raw": {
+        "subscribers": [
+          "maze_solver"
+        ]
+      },
+      "/Botcamera/image_raw": {
+        "subscribers": [
+          "maze_solver"
+        ]
+      },
+      "/odom": {
+        "subscribers": [
+          "maze_solver"
+        ]
+      }
+    }
+  }
+]

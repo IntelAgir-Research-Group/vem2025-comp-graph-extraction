@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "https://github.com/jdgalviss/jetbot-ros2",
+    "topics": {
+      "cmd_vel": {
+        "publishers": [
+          "WSServerNode"
+        ],
+        "subscribers": [
+          "SpeedController"
+        ]
+      },
+      "rs_t265/odom": {
+        "subscribers": [
+          "SpeedController"
+        ]
+      }
+    }
+  }
+]

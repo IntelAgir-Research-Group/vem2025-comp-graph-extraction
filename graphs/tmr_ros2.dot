@@ -1,0 +1,7 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "techman_image" [shape=ellipse, fillcolor=white];
+  "ImagePub" -> "techman_image";
+  "ImagePub" [shape=box, fillcolor=lightblue];
+}

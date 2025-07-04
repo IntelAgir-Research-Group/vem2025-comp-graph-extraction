@@ -1,0 +1,13 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "chatter" [shape=ellipse, fillcolor=white];
+  "MyNodePublisher" -> "chatter";
+  "simple_node_pub" -> "chatter";
+  "chatter" -> "MyNodeSubscriber";
+  "chatter" -> "simple_node_sub";
+  "MyNodePublisher" [shape=box, fillcolor=lightblue];
+  "MyNodeSubscriber" [shape=box, fillcolor=lightblue];
+  "simple_node_pub" [shape=box, fillcolor=lightblue];
+  "simple_node_sub" [shape=box, fillcolor=lightblue];
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "repository": "https://github.com/SMARTlab-Purdue/SMARTmBOT",
+    "topics": {
+      "/cctv_GUI/control_state": {
+        "subscribers": [
+          "controller_irb_cctv_line_follower",
+          "controller_pure_pursuit"
+        ]
+      },
+      "writing_dc_motor_vel": {
+        "subscribers": [
+          "MotorControl"
+        ]
+      },
+      "writing_dc_cmd_vel": {
+        "subscribers": [
+          "MotorControl"
+        ]
+      },
+      "reading_spi_adc": {
+        "publishers": [
+          "SMARTMobile_ADC_SPI_Reader"
+        ]
+      },
+      "writing_ws2813_rgb_strip": {
+        "subscribers": [
+          "WS2813_RGB_LED"
+        ]
+      },
+      "reading_tof_array": {
+        "publishers": [
+          "I2C_VL53L0X_ToF"
+        ]
+      },
+      "writing_gpio_smd5050_led": {
+        "subscribers": [
+          "GPIO_SMD5050_RGB_LED"
+        ]
+      },
+      "/opencv_tests/images": {
+        "publishers": [
+          "Source"
+        ]
+      },
+      "/opencv_tests/images/compressed": {
+        "publishers": [
+          "Source"
+        ]
+      }
+    }
+  }
+]

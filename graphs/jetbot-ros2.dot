@@ -1,0 +1,11 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "cmd_vel" [shape=ellipse, fillcolor=white];
+  "WSServerNode" -> "cmd_vel";
+  "cmd_vel" -> "SpeedController";
+  "rs_t265/odom" [shape=ellipse, fillcolor=white];
+  "rs_t265/odom" -> "SpeedController";
+  "SpeedController" [shape=box, fillcolor=lightblue];
+  "WSServerNode" [shape=box, fillcolor=lightblue];
+}

@@ -1,0 +1,15 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "scan" [shape=ellipse, fillcolor=white];
+  "scan" -> "SafetyNode";
+  "/odom" [shape=ellipse, fillcolor=white];
+  "/odom" -> "SafetyNode";
+  "drive" [shape=ellipse, fillcolor=white];
+  "SafetyNode" -> "drive";
+  "teleop" [shape=ellipse, fillcolor=white];
+  "SafetyNode" -> "teleop";
+  "emergency_breaking" [shape=ellipse, fillcolor=white];
+  "SafetyNode" -> "emergency_breaking";
+  "SafetyNode" [shape=box, fillcolor=lightblue];
+}

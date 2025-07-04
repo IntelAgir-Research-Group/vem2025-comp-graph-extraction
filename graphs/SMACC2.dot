@@ -1,0 +1,15 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/scan_input" [shape=ellipse, fillcolor=white];
+  "/scan_input" -> "LidarProcessor";
+  "/scan_output" [shape=ellipse, fillcolor=white];
+  "LidarProcessor" -> "/scan_output";
+  "keyboard_unicode" [shape=ellipse, fillcolor=white];
+  "KeyboardPublisher" -> "keyboard_unicode";
+  "temperature" [shape=ellipse, fillcolor=white];
+  "TemperatureSensorNode" -> "temperature";
+  "KeyboardPublisher" [shape=box, fillcolor=lightblue];
+  "TemperatureSensorNode" [shape=box, fillcolor=lightblue];
+  "LidarProcessor" [shape=box, fillcolor=lightblue];
+}

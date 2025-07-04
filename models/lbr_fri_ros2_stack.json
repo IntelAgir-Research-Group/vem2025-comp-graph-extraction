@@ -1,0 +1,46 @@
+[
+  {
+    "repository": "https://github.com/lbr-stack/lbr_fri_ros2_stack",
+    "topics": {
+      "servo_node/delta_joint_cmds": {
+        "publishers": [
+          "ForwardKeyboardNode"
+        ]
+      },
+      "servo_node/delta_twist_cmds": {
+        "publishers": [
+          "ForwardKeyboardNode"
+        ]
+      },
+      "joint_states": {
+        "subscribers": [
+          "ForwardKeyboardNode"
+        ]
+      },
+      "command/torque": {
+        "publishers": [
+          "TorqueSineOverlayNode"
+        ]
+      },
+      "state": {
+        "subscribers": [
+          "JointSineOverlayNode",
+          "LBRBasePositionCommandNode",
+          "TorqueSineOverlayNode",
+          "WrenchSineOverlayNode"
+        ]
+      },
+      "command/joint_position": {
+        "publishers": [
+          "JointSineOverlayNode",
+          "LBRBasePositionCommandNode"
+        ]
+      },
+      "command/wrench": {
+        "publishers": [
+          "WrenchSineOverlayNode"
+        ]
+      }
+    }
+  }
+]

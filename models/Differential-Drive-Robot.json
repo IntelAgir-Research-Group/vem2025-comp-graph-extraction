@@ -1,0 +1,70 @@
+[
+  {
+    "repository": "https://github.com/giulioturrisi/Differential-Drive-Robot",
+    "topics": {
+      "joint_states": {
+        "publishers": [
+          "StatePublisher"
+        ]
+      },
+      "wheel_odometry": {
+        "subscribers": [
+          "StatePublisher"
+        ]
+      },
+      "odometry": {
+        "subscribers": [
+          "StatePublisher"
+        ]
+      },
+      "path": {
+        "publishers": [
+          "Planners"
+        ],
+        "subscribers": [
+          "Base_Controller"
+        ]
+      },
+      "map_filtered": {
+        "publishers": [
+          "Planners"
+        ]
+      },
+      "goal_pose": {
+        "subscribers": [
+          "Planners"
+        ]
+      },
+      "map": {
+        "subscribers": [
+          "Planners"
+        ]
+      },
+      "cmd_vel": {
+        "subscribers": [
+          "Base_Controller"
+        ]
+      },
+      "control_vel": {
+        "publishers": [
+          "Base_Controller"
+        ]
+      },
+      "enableSyncMode": {
+        "publishers": [
+          "Base_Controller"
+        ]
+      },
+      "triggerNextStep": {
+        "publishers": [
+          "Base_Controller"
+        ]
+      },
+      "simulationStepDone": {
+        "subscribers": [
+          "Base_Controller"
+        ]
+      }
+    }
+  }
+]

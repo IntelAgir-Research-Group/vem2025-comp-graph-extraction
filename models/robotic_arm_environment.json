@@ -1,0 +1,33 @@
+[
+  {
+    "repository": "https://github.com/dvalenciar/robotic_arm_environment",
+    "topics": {
+      "/joint_trajectory_controller/joint_trajectory": {
+        "publishers": [
+          "TrajectoryPublisher"
+        ]
+      },
+      "marker_position": {
+        "publishers": [
+          "MyNode"
+        ]
+      },
+      "/gazebo/model_states": {
+        "subscribers": [
+          "MyEnvironmentNode",
+          "MyNode"
+        ]
+      },
+      "/joint_states": {
+        "subscribers": [
+          "MyEnvironmentNode"
+        ]
+      },
+      "/contact_sensor/bumper_link6": {
+        "subscribers": [
+          "MyEnvironmentNode"
+        ]
+      }
+    }
+  }
+]

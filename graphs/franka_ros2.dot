@@ -1,0 +1,7 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "~/joint_states" [shape=ellipse, fillcolor=white];
+  "FakeGripperStatePublisher" -> "~/joint_states";
+  "FakeGripperStatePublisher" [shape=box, fillcolor=lightblue];
+}

@@ -1,0 +1,9 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "hyperdog_geometry" [shape=ellipse, fillcolor=white];
+  "hyperdog_geometry" -> "InvKin_Node";
+  "hyperdog_jointController/commands" [shape=ellipse, fillcolor=white];
+  "InvKin_Node" -> "hyperdog_jointController/commands";
+  "InvKin_Node" [shape=box, fillcolor=lightblue];
+}

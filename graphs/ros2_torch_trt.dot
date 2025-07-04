@@ -1,0 +1,25 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "image" [shape=ellipse, fillcolor=white];
+  "image" -> "DetectionNode";
+  "image" -> "TRTDetectionNode";
+  "image" -> "TRTWebcamClassifier";
+  "image" -> "WebcamClassifier";
+  "trt_classification" [shape=ellipse, fillcolor=white];
+  "TRTWebcamClassifier" -> "trt_classification";
+  "classification" [shape=ellipse, fillcolor=white];
+  "WebcamClassifier" -> "classification";
+  "detection" [shape=ellipse, fillcolor=white];
+  "DetectionNode" -> "detection";
+  "detection_image" [shape=ellipse, fillcolor=white];
+  "DetectionNode" -> "detection_image";
+  "trt_detection" [shape=ellipse, fillcolor=white];
+  "TRTDetectionNode" -> "trt_detection";
+  "trt_detection_image" [shape=ellipse, fillcolor=white];
+  "TRTDetectionNode" -> "trt_detection_image";
+  "TRTWebcamClassifier" [shape=box, fillcolor=lightblue];
+  "DetectionNode" [shape=box, fillcolor=lightblue];
+  "TRTDetectionNode" [shape=box, fillcolor=lightblue];
+  "WebcamClassifier" [shape=box, fillcolor=lightblue];
+}

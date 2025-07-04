@@ -1,0 +1,45 @@
+[
+  {
+    "repository": "https://github.com/NVIDIA-AI-IOT/ros2_torch_trt",
+    "topics": {
+      "image": {
+        "subscribers": [
+          "DetectionNode",
+          "TRTDetectionNode",
+          "TRTWebcamClassifier",
+          "WebcamClassifier"
+        ]
+      },
+      "trt_classification": {
+        "publishers": [
+          "TRTWebcamClassifier"
+        ]
+      },
+      "classification": {
+        "publishers": [
+          "WebcamClassifier"
+        ]
+      },
+      "detection": {
+        "publishers": [
+          "DetectionNode"
+        ]
+      },
+      "detection_image": {
+        "publishers": [
+          "DetectionNode"
+        ]
+      },
+      "trt_detection": {
+        "publishers": [
+          "TRTDetectionNode"
+        ]
+      },
+      "trt_detection_image": {
+        "publishers": [
+          "TRTDetectionNode"
+        ]
+      }
+    }
+  }
+]

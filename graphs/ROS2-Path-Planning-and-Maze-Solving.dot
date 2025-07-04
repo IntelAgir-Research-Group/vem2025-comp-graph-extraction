@@ -1,0 +1,13 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/cmd_vel" [shape=ellipse, fillcolor=white];
+  "maze_solver" -> "/cmd_vel";
+  "/upper_camera/image_raw" [shape=ellipse, fillcolor=white];
+  "/upper_camera/image_raw" -> "maze_solver";
+  "/Botcamera/image_raw" [shape=ellipse, fillcolor=white];
+  "/Botcamera/image_raw" -> "maze_solver";
+  "/odom" [shape=ellipse, fillcolor=white];
+  "/odom" -> "maze_solver";
+  "maze_solver" [shape=box, fillcolor=lightblue];
+}

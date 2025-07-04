@@ -1,0 +1,12 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/clock" [shape=ellipse, fillcolor=white];
+  "/clock" -> "DRLEnvironment";
+  "obstacle/odom" [shape=ellipse, fillcolor=white];
+  "obstacle/odom" -> "DRLEnvironment";
+  "goal_pose" [shape=ellipse, fillcolor=white];
+  "DRLGazebo" -> "goal_pose";
+  "DRLEnvironment" [shape=box, fillcolor=lightblue];
+  "DRLGazebo" [shape=box, fillcolor=lightblue];
+}

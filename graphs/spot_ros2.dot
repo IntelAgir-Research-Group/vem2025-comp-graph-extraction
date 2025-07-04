@@ -1,0 +1,28 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "status/metrics" [shape=ellipse, fillcolor=white];
+  "SpotROS" -> "status/metrics";
+  "status/feedback" [shape=ellipse, fillcolor=white];
+  "SpotROS" -> "status/feedback";
+  "status/mobility_params" [shape=ellipse, fillcolor=white];
+  "SpotROS" -> "status/mobility_params";
+  "cmd_vel" [shape=ellipse, fillcolor=white];
+  "cmd_vel" -> "SpotROS";
+  "body_pose" [shape=ellipse, fillcolor=white];
+  "body_pose" -> "SpotROS";
+  "velodyne/points" [shape=ellipse, fillcolor=white];
+  "SpotROS" -> "velodyne/points";
+  "status/leases" [shape=ellipse, fillcolor=white];
+  "SpotROS" -> "status/leases";
+  "graph_nav/body_pose" [shape=ellipse, fillcolor=white];
+  "SpotROS" -> "graph_nav/body_pose";
+  "arm_joint_commands" [shape=ellipse, fillcolor=white];
+  "arm_joint_commands" -> "SpotROS";
+  "arm_pose_commands" [shape=ellipse, fillcolor=white];
+  "arm_pose_commands" -> "SpotROS";
+  "status/battery_states" [shape=ellipse, fillcolor=white];
+  "status/battery_states" -> "SpotAlerts";
+  "SpotROS" [shape=box, fillcolor=lightblue];
+  "SpotAlerts" [shape=box, fillcolor=lightblue];
+}

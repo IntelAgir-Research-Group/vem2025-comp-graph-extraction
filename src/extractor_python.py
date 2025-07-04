@@ -5,9 +5,9 @@ import json
 from collections import defaultdict
 
 PROJECTS_FILE = r"./crawling/links.csv"
-RESULTS_FILE = r"./crawling/scripts/topicpubsubpycaminho.txt"
+RESULTS_FILE = r"./extractor_python.log"
 CLONE_DIR = "repos/"
-JSON_DIR = r"./crawling/scripts/models"
+JSON_DIR = r"./models"
 
 os.makedirs(CLONE_DIR, exist_ok=True)
 os.makedirs(JSON_DIR, exist_ok=True)

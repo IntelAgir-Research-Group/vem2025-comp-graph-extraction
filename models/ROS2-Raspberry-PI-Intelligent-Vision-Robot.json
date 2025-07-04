@@ -1,0 +1,43 @@
+[
+  {
+    "repository": "https://github.com/noshluk2/ROS2-Raspberry-PI-Intelligent-Vision-Robot",
+    "topics": {
+      "/vision_rpi_bot_camera/image_raw": {
+        "subscribers": [
+          "camera_sub",
+          "lidar_camera_sub"
+        ]
+      },
+      "/cmd_vel": {
+        "publishers": [
+          "camera_sub"
+        ]
+      },
+      "/rpi_video_feed": {
+        "subscribers": [
+          "camera_sub"
+        ]
+      },
+      "pub_topic": {
+        "subscribers": [
+          "MinimalSubscriber"
+        ]
+      },
+      "/line_following_error": {
+        "publishers": [
+          "camera_sub"
+        ]
+      },
+      "/pub_topic": {
+        "publishers": [
+          "MinimalPublisher"
+        ]
+      },
+      "/scan": {
+        "subscribers": [
+          "lidar_camera_sub"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "repository": "https://github.com/robosoft-ai/SMACC2",
+    "topics": {
+      "/scan_input": {
+        "subscribers": [
+          "LidarProcessor"
+        ]
+      },
+      "/scan_output": {
+        "publishers": [
+          "LidarProcessor"
+        ]
+      },
+      "keyboard_unicode": {
+        "publishers": [
+          "KeyboardPublisher"
+        ]
+      },
+      "temperature": {
+        "publishers": [
+          "TemperatureSensorNode"
+        ]
+      }
+    }
+  }
+]

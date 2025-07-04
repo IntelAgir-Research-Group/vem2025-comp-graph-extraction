@@ -1,0 +1,32 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "joint_states" [shape=ellipse, fillcolor=white];
+  "StatePublisher" -> "joint_states";
+  "wheel_odometry" [shape=ellipse, fillcolor=white];
+  "wheel_odometry" -> "StatePublisher";
+  "odometry" [shape=ellipse, fillcolor=white];
+  "odometry" -> "StatePublisher";
+  "path" [shape=ellipse, fillcolor=white];
+  "Planners" -> "path";
+  "path" -> "Base_Controller";
+  "map_filtered" [shape=ellipse, fillcolor=white];
+  "Planners" -> "map_filtered";
+  "goal_pose" [shape=ellipse, fillcolor=white];
+  "goal_pose" -> "Planners";
+  "map" [shape=ellipse, fillcolor=white];
+  "map" -> "Planners";
+  "cmd_vel" [shape=ellipse, fillcolor=white];
+  "cmd_vel" -> "Base_Controller";
+  "control_vel" [shape=ellipse, fillcolor=white];
+  "Base_Controller" -> "control_vel";
+  "enableSyncMode" [shape=ellipse, fillcolor=white];
+  "Base_Controller" -> "enableSyncMode";
+  "triggerNextStep" [shape=ellipse, fillcolor=white];
+  "Base_Controller" -> "triggerNextStep";
+  "simulationStepDone" [shape=ellipse, fillcolor=white];
+  "simulationStepDone" -> "Base_Controller";
+  "Planners" [shape=box, fillcolor=lightblue];
+  "Base_Controller" [shape=box, fillcolor=lightblue];
+  "StatePublisher" [shape=box, fillcolor=lightblue];
+}

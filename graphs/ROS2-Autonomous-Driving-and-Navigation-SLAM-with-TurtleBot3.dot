@@ -1,0 +1,7 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "map" [shape=ellipse, fillcolor=white];
+  "Occupancy_grid_pub" -> "map";
+  "Occupancy_grid_pub" [shape=box, fillcolor=lightblue];
+}

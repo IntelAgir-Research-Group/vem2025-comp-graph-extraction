@@ -1,0 +1,25 @@
+[
+  {
+    "repository": "https://github.com/Walid-khaled/autonomous_mobile_robots",
+    "topics": {
+      "/hagen/cmd_vel": {
+        "publishers": [
+          "MinimalPublisher"
+        ],
+        "subscribers": [
+          "MinimalPublisher"
+        ]
+      },
+      "/hagen/odom": {
+        "subscribers": [
+          "MinimalPublisher"
+        ]
+      },
+      "/hagen/q": {
+        "publishers": [
+          "MinimalPublisher"
+        ]
+      }
+    }
+  }
+]

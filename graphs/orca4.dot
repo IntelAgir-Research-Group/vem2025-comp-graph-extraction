@@ -1,0 +1,7 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/cmd_vel" [shape=ellipse, fillcolor=white];
+  "TestBase" -> "/cmd_vel";
+  "TestBase" [shape=box, fillcolor=lightblue];
+}

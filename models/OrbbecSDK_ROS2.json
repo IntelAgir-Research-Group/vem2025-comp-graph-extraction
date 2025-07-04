@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "https://github.com/orbbec/OrbbecSDK_ROS2",
+    "topics": {
+      "/camera/depth/points": {
+        "subscribers": [
+          "TestNode"
+        ]
+      }
+    }
+  }
+]

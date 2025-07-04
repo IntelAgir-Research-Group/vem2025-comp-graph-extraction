@@ -1,0 +1,198 @@
+[
+  {
+    "repository": "https://github.com/Liquid-ai/Plankton",
+    "topics": {
+      "joy": {
+        "subscribers": [
+          "FinnedUUVControllerNode",
+          "VehicleTeleop"
+        ]
+      },
+      "output": {
+        "publishers": [
+          "KeyBoardVehicleTeleop",
+          "VehicleTeleop"
+        ]
+      },
+      "home_pressed": {
+        "publishers": [
+          "VehicleTeleop"
+        ]
+      },
+      "trajectory": {
+        "publishers": [
+          "DPControllerLocalPlanner"
+        ],
+        "subscribers": [
+          "TrajectoryMarkerPublisher"
+        ]
+      },
+      "waypoints": {
+        "publishers": [
+          "DPControllerLocalPlanner"
+        ],
+        "subscribers": [
+          "TrajectoryMarkerPublisher"
+        ]
+      },
+      "automatic_on": {
+        "publishers": [
+          "DPControllerLocalPlanner"
+        ],
+        "subscribers": [
+          "TrajectoryMarkerPublisher"
+        ]
+      },
+      "trajectory_tracking_on": {
+        "publishers": [
+          "DPControllerLocalPlanner"
+        ],
+        "subscribers": [
+          "TrajectoryMarkerPublisher"
+        ]
+      },
+      "station_keeping_on": {
+        "publishers": [
+          "DPControllerLocalPlanner"
+        ],
+        "subscribers": [
+          "TrajectoryMarkerPublisher"
+        ]
+      },
+      "reference": {
+        "publishers": [
+          "AUVGeometricTrackingController",
+          "DPControllerBase"
+        ],
+        "subscribers": [
+          "TrajectoryMarkerPublisher"
+        ]
+      },
+      "trajectory_marker": {
+        "publishers": [
+          "TrajectoryMarkerPublisher"
+        ]
+      },
+      "waypoint_markers": {
+        "publishers": [
+          "TrajectoryMarkerPublisher"
+        ]
+      },
+      "waypoint_path_marker": {
+        "publishers": [
+          "TrajectoryMarkerPublisher"
+        ]
+      },
+      "reference_marker": {
+        "publishers": [
+          "TrajectoryMarkerPublisher"
+        ]
+      },
+      "wrench_perturbation": {
+        "publishers": [
+          "DisturbanceManager"
+        ]
+      },
+      "odom": {
+        "subscribers": [
+          "AUVGeometricTrackingController",
+          "DPControllerBase",
+          "PositionControllerNode",
+          "VehicleFootprint",
+          "VelocityControllerNode"
+        ]
+      },
+      "error": {
+        "publishers": [
+          "AUVGeometricTrackingController",
+          "DPControllerBase"
+        ]
+      },
+      "thruster_output": {
+        "publishers": [
+          "DPControllerBase"
+        ]
+      },
+      "auv_command_output": {
+        "publishers": [
+          "DPControllerBase"
+        ]
+      },
+      "interpolator_visual_markers": {
+        "publishers": [
+          "DPControllerLocalPlanner"
+        ]
+      },
+      "cmd_vel": {
+        "publishers": [
+          "PositionControllerNode"
+        ],
+        "subscribers": [
+          "DPControllerLocalPlanner",
+          "VelocityControllerNode"
+        ]
+      },
+      "input_trajectory": {
+        "subscribers": [
+          "DPControllerLocalPlanner"
+        ]
+      },
+      "time_to_target": {
+        "publishers": [
+          "DPControllerLocalPlanner"
+        ]
+      },
+      "thruster_manager/input": {
+        "publishers": [
+          "AccelerationControllerNode"
+        ],
+        "subscribers": [
+          "ThrusterAllocatorNode"
+        ]
+      },
+      "thruster_manager/input_stamped": {
+        "subscribers": [
+          "ThrusterAllocatorNode"
+        ]
+      },
+      "robot_description": {
+        "subscribers": [
+          "ThrusterManager"
+        ]
+      },
+      "cmd_accel": {
+        "publishers": [
+          "VelocityControllerNode"
+        ],
+        "subscribers": [
+          "AccelerationControllerNode"
+        ]
+      },
+      "cmd_pose": {
+        "subscribers": [
+          "PositionControllerNode"
+        ]
+      },
+      "cmd_force": {
+        "subscribers": [
+          "AccelerationControllerNode"
+        ]
+      },
+      "/world_models": {
+        "publishers": [
+          "WorldPublisher"
+        ]
+      },
+      "footprint": {
+        "publishers": [
+          "VehicleFootprint"
+        ]
+      },
+      "label": {
+        "publishers": [
+          "VehicleFootprint"
+        ]
+      }
+    }
+  }
+]

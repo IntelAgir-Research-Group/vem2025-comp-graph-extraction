@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "https://github.com/TheNoobInventor/lidarbot",
+    "topics": {
+      "/trajectory_path": {
+        "publishers": [
+          "TrajectoryVisualizer"
+        ]
+      },
+      "/transformed_global_plan": {
+        "subscribers": [
+          "TrajectoryVisualizer"
+        ]
+      }
+    }
+  }
+]

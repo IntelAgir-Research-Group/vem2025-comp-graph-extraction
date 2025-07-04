@@ -1,0 +1,17 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "joint_states" [shape=ellipse, fillcolor=white];
+  "MyCobotDriver" -> "joint_states";
+  "joint_states" -> "Slider_Subscriber";
+  "/joint_states" [shape=ellipse, fillcolor=white];
+  "JointStatePublisher" -> "/joint_states";
+  "myarm_m/joint_states" [shape=ellipse, fillcolor=white];
+  "CombinedControl" -> "myarm_m/joint_states";
+  "myarm_c650/joint_states" [shape=ellipse, fillcolor=white];
+  "CombinedControl" -> "myarm_c650/joint_states";
+  "JointStatePublisher" [shape=box, fillcolor=lightblue];
+  "MyCobotDriver" [shape=box, fillcolor=lightblue];
+  "Slider_Subscriber" [shape=box, fillcolor=lightblue];
+  "CombinedControl" [shape=box, fillcolor=lightblue];
+}

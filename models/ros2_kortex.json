@@ -1,0 +1,37 @@
+[
+  {
+    "repository": "https://github.com/Kinovarobotics/ros2_kortex",
+    "topics": {
+      "joint_states": {
+        "subscribers": [
+          "PublisherJointTrajectory"
+        ]
+      },
+      "/keyboard/keypress": {
+        "subscribers": [
+          "KeyboardListener"
+        ]
+      },
+      "/a200_0000/cmd_vel": {
+        "publishers": [
+          "HuskyRobotControl"
+        ]
+      },
+      "/a200_0000/platform/odom/filtered": {
+        "subscribers": [
+          "HuskyRobotControl"
+        ]
+      },
+      "/a200_0000/arm_0_joint_trajectory_controller/joint_trajectory": {
+        "publishers": [
+          "ArmControl"
+        ]
+      },
+      "/a200_0000/arm_0_joint_trajectory_controller/state": {
+        "subscribers": [
+          "ArmControl"
+        ]
+      }
+    }
+  }
+]

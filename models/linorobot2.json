@@ -1,0 +1,15 @@
+[
+  {
+    "repository": "https://github.com/linorobot/linorobot2",
+    "topics": {
+      "cmd_vel": {
+        "publishers": [
+          "CommandTimeout"
+        ],
+        "subscribers": [
+          "CommandTimeout"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,9 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "topic" [shape=ellipse, fillcolor=white];
+  "minimal_publisher" -> "topic";
+  "topic" -> "MinimalSubscriber";
+  "MinimalSubscriber" [shape=box, fillcolor=lightblue];
+  "minimal_publisher" [shape=box, fillcolor=lightblue];
+}

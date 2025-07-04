@@ -1,0 +1,19 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "platform/info" [shape=ellipse, fillcolor=white];
+  "platform/info" -> "DroneInterfaceBase";
+  "self_localization/pose" [shape=ellipse, fillcolor=white];
+  "self_localization/pose" -> "DroneInterfaceBase";
+  "self_localization/twist" [shape=ellipse, fillcolor=white];
+  "self_localization/twist" -> "DroneInterfaceBase";
+  "alert_event" [shape=ellipse, fillcolor=white];
+  "DroneInterfaceBase" -> "alert_event";
+  "sensor_measurements/gps" [shape=ellipse, fillcolor=white];
+  "sensor_measurements/gps" -> "GpsModule";
+  "visualization_marker" [shape=ellipse, fillcolor=white];
+  "GatePublisherNode" -> "visualization_marker";
+  "GpsModule" [shape=box, fillcolor=lightblue];
+  "DroneInterfaceBase" [shape=box, fillcolor=lightblue];
+  "GatePublisherNode" [shape=box, fillcolor=lightblue];
+}

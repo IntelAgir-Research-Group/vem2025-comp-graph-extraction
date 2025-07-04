@@ -1,0 +1,15 @@
+[
+  {
+    "repository": "https://github.com/BerkeleyAutomation/FogROS2",
+    "topics": {
+      "topic": {
+        "publishers": [
+          "minimal_publisher"
+        ],
+        "subscribers": [
+          "MinimalSubscriber"
+        ]
+      }
+    }
+  }
+]

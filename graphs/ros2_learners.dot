@@ -1,0 +1,16 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/turtle1/cmd_vel" [shape=ellipse, fillcolor=white];
+  "Driver_node" -> "/turtle1/cmd_vel";
+  "Turtle_GTG" -> "/turtle1/cmd_vel";
+  "/turtle1/pose" [shape=ellipse, fillcolor=white];
+  "/turtle1/pose" -> "Turtle_GTG";
+  "/scan" [shape=ellipse, fillcolor=white];
+  "/scan" -> "ObstacleAvoidanceNode";
+  "cmd_vel" [shape=ellipse, fillcolor=white];
+  "ObstacleAvoidanceNode" -> "cmd_vel";
+  "Driver_node" [shape=box, fillcolor=lightblue];
+  "Turtle_GTG" [shape=box, fillcolor=lightblue];
+  "ObstacleAvoidanceNode" [shape=box, fillcolor=lightblue];
+}

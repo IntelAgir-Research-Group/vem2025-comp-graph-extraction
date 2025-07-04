@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "https://github.com/clydemcqueen/orca4",
+    "topics": {
+      "/cmd_vel": {
+        "publishers": [
+          "TestBase"
+        ]
+      }
+    }
+  }
+]

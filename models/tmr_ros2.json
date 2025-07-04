@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "https://github.com/TechmanRobotInc/tmr_ros2",
+    "topics": {
+      "techman_image": {
+        "publishers": [
+          "ImagePub"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "repository": "https://github.com/aerostack2/aerostack2",
+    "topics": {
+      "platform/info": {
+        "subscribers": [
+          "DroneInterfaceBase"
+        ]
+      },
+      "self_localization/pose": {
+        "subscribers": [
+          "DroneInterfaceBase"
+        ]
+      },
+      "self_localization/twist": {
+        "subscribers": [
+          "DroneInterfaceBase"
+        ]
+      },
+      "alert_event": {
+        "publishers": [
+          "DroneInterfaceBase"
+        ]
+      },
+      "sensor_measurements/gps": {
+        "subscribers": [
+          "GpsModule"
+        ]
+      },
+      "visualization_marker": {
+        "publishers": [
+          "GatePublisherNode"
+        ]
+      }
+    }
+  }
+]

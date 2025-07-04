@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "https://github.com/NDHANA94/hyperdog_ros2",
+    "topics": {
+      "hyperdog_geometry": {
+        "subscribers": [
+          "InvKin_Node"
+        ]
+      },
+      "hyperdog_jointController/commands": {
+        "publishers": [
+          "InvKin_Node"
+        ]
+      }
+    }
+  }
+]

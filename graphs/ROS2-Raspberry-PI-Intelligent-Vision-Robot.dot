@@ -1,0 +1,23 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/vision_rpi_bot_camera/image_raw" [shape=ellipse, fillcolor=white];
+  "/vision_rpi_bot_camera/image_raw" -> "camera_sub";
+  "/vision_rpi_bot_camera/image_raw" -> "lidar_camera_sub";
+  "/cmd_vel" [shape=ellipse, fillcolor=white];
+  "camera_sub" -> "/cmd_vel";
+  "/rpi_video_feed" [shape=ellipse, fillcolor=white];
+  "/rpi_video_feed" -> "camera_sub";
+  "pub_topic" [shape=ellipse, fillcolor=white];
+  "pub_topic" -> "MinimalSubscriber";
+  "/line_following_error" [shape=ellipse, fillcolor=white];
+  "camera_sub" -> "/line_following_error";
+  "/pub_topic" [shape=ellipse, fillcolor=white];
+  "MinimalPublisher" -> "/pub_topic";
+  "/scan" [shape=ellipse, fillcolor=white];
+  "/scan" -> "lidar_camera_sub";
+  "camera_sub" [shape=box, fillcolor=lightblue];
+  "MinimalSubscriber" [shape=box, fillcolor=lightblue];
+  "MinimalPublisher" [shape=box, fillcolor=lightblue];
+  "lidar_camera_sub" [shape=box, fillcolor=lightblue];
+}

@@ -1,0 +1,9 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "ros2_Detach" [shape=ellipse, fillcolor=white];
+  "DetacherPUB" -> "ros2_Detach";
+  "ros2_Detach" -> "Detach";
+  "DetacherPUB" [shape=box, fillcolor=lightblue];
+  "Detach" [shape=box, fillcolor=lightblue];
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "repository": "https://github.com/ouspg/SOP-Robot",
+    "topics": {
+      "/arms/arm_action": {
+        "publishers": [
+          "FullDemoNode",
+          "UnifiedClientTester"
+        ],
+        "subscribers": [
+          "UnifiedArms"
+        ]
+      },
+      "/face_tracker_movement/head_gesture_topic": {
+        "publishers": [
+          "HeadGestureClient"
+        ],
+        "subscribers": [
+          "FaceTrackerMovementNode"
+        ]
+      },
+      "/l_hand/l_hand_topic": {
+        "publishers": [
+          "UnifiedArms"
+        ],
+        "subscribers": [
+          "HandGestureNode"
+        ]
+      },
+      "/r_hand/r_hand_topic": {
+        "publishers": [
+          "UnifiedArms"
+        ],
+        "subscribers": [
+          "HandGestureNode"
+        ]
+      },
+      "chatbot_response": {
+        "publishers": [
+          "ChatBotClientNode",
+          "FullDemoNode",
+          "QaBotClientNode"
+        ],
+        "subscribers": [
+          "TTSService"
+        ]
+      },
+      "can_listen": {
+        "publishers": [
+          "TTSService"
+        ],
+        "subscribers": [
+          "FullDemoNode",
+          "SpeechRecognizerNode"
+        ]
+      },
+      "jaw_topic": {
+        "publishers": [
+          "TTSService"
+        ],
+        "subscribers": [
+          "JawMoverNode"
+        ]
+      },
+      "response": {
+        "publishers": [
+          "ttsClientAsync"
+        ]
+      },
+      "recognized_speech": {
+        "publishers": [
+          "SpeechRecognizerNode"
+        ],
+        "subscribers": [
+          "ChatBotClientNode",
+          "QaBotClientNode"
+        ]
+      },
+      "speech_recognizer/can_listen": {
+        "publishers": [
+          "FullDemoNode"
+        ]
+      },
+      "speech_recognizer/recognized_speech": {
+        "subscribers": [
+          "FullDemoNode"
+        ]
+      },
+      "chatbot/recognized_speech": {
+        "publishers": [
+          "FullDemoNode"
+        ]
+      },
+      "chatbot/chatbot_response": {
+        "subscribers": [
+          "FullDemoNode"
+        ]
+      },
+      "/face_tracker/face_topic": {
+        "subscribers": [
+          "FullDemoNode"
+        ]
+      },
+      "/face_tracker_movement/focused_face": {
+        "publishers": [
+          "FaceTrackerMovementNode"
+        ],
+        "subscribers": [
+          "FullDemoNode"
+        ]
+      },
+      "face_tracker/face_location_topic": {
+        "publishers": [
+          "FaceTracker"
+        ]
+      },
+      "/face_tracker/faces": {
+        "subscribers": [
+          "FaceTrackerMovementNode"
+        ]
+      },
+      "/head_controller/controller_state": {
+        "subscribers": [
+          "FaceTrackerMovementNode"
+        ]
+      },
+      "/eyes_controller/controller_state": {
+        "subscribers": [
+          "FaceTrackerMovementNode"
+        ]
+      }
+    }
+  }
+]

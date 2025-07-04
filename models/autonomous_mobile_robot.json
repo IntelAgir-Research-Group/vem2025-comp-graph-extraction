@@ -1,0 +1,52 @@
+[
+  {
+    "repository": "https://github.com/jdgalviss/autonomous_mobile_robot",
+    "topics": {
+      "vision/path_img": {
+        "publishers": [
+          "VisionNode"
+        ]
+      },
+      "vision/birdeye_img": {
+        "publishers": [
+          "VisionNode"
+        ]
+      },
+      "segmentation/scan": {
+        "publishers": [
+          "VisionNode"
+        ]
+      },
+      "global_plan": {
+        "publishers": [
+          "VisionNode"
+        ]
+      },
+      "cmd_vel": {
+        "publishers": [
+          "VisionNode"
+        ]
+      },
+      "costmap": {
+        "publishers": [
+          "VisionNode"
+        ]
+      },
+      "vision/segmented_img": {
+        "publishers": [
+          "VisionNode"
+        ]
+      },
+      "camera/image_raw": {
+        "subscribers": [
+          "VisionNode"
+        ]
+      },
+      "odom": {
+        "subscribers": [
+          "VisionNode"
+        ]
+      }
+    }
+  }
+]

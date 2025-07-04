@@ -1,0 +1,7 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/camera/depth/points" [shape=ellipse, fillcolor=white];
+  "/camera/depth/points" -> "TestNode";
+  "TestNode" [shape=box, fillcolor=lightblue];
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "repository": "https://github.com/elephantrobotics/mycobot_ros2",
+    "topics": {
+      "joint_states": {
+        "publishers": [
+          "MyCobotDriver"
+        ],
+        "subscribers": [
+          "Slider_Subscriber"
+        ]
+      },
+      "/joint_states": {
+        "publishers": [
+          "JointStatePublisher"
+        ]
+      },
+      "myarm_m/joint_states": {
+        "publishers": [
+          "CombinedControl"
+        ]
+      },
+      "myarm_c650/joint_states": {
+        "publishers": [
+          "CombinedControl"
+        ]
+      }
+    }
+  }
+]

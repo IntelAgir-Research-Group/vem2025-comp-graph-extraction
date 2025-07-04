@@ -710,3 +710,673 @@ Repository: https://github.com/inorbit-ai/ros_amr_interop
   Topic: /battery
     [Publisher] Node: SampleDataNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_amr_interop/massrobotics_amr_sender_py/sample/synthetic/node.py | Line: 51
   Topic: /battery_runtime
+    [Publisher] Node: SampleDataNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_amr_interop/massrobotics_amr_sender_py/sample/synthetic/node.py | Line: 52
+  Topic: /load_perc_available
+    [Publisher] Node: SampleDataNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_amr_interop/massrobotics_amr_sender_py/sample/synthetic/node.py | Line: 55
+  Topic: /odom
+    [Subscriber] Node: SampleDataNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_amr_interop/massrobotics_amr_sender_py/sample/synthetic/node.py | Line: 70
+  Topic: /location
+    [Publisher] Node: SampleDataNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_amr_interop/massrobotics_amr_sender_py/sample/synthetic/node.py | Line: 73
+  Topic: /velocity
+    [Publisher] Node: SampleDataNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_amr_interop/massrobotics_amr_sender_py/sample/synthetic/node.py | Line: 74
+
+Repository: https://github.com/jdgalviss/autonomous_mobile_robot
+  Topic: vision/path_img
+    [Publisher] Node: VisionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robot/semantic_nav/dev_ws/src/vision/vision/vision_node.py | Line: 30
+  Topic: vision/birdeye_img
+    [Publisher] Node: VisionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robot/semantic_nav/dev_ws/src/vision/vision/vision_node.py | Line: 31
+  Topic: segmentation/scan
+    [Publisher] Node: VisionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robot/semantic_nav/dev_ws/src/vision/vision/vision_node.py | Line: 32
+  Topic: global_plan
+    [Publisher] Node: VisionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robot/semantic_nav/dev_ws/src/vision/vision/vision_node.py | Line: 33
+  Topic: cmd_vel
+    [Publisher] Node: VisionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robot/semantic_nav/dev_ws/src/vision/vision/vision_node.py | Line: 34
+  Topic: costmap
+    [Publisher] Node: VisionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robot/semantic_nav/dev_ws/src/vision/vision/vision_node.py | Line: 35
+  Topic: vision/segmented_img
+    [Publisher] Node: VisionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robot/semantic_nav/dev_ws/src/vision/vision/vision_node.py | Line: 36
+  Topic: camera/image_raw
+    [Subscriber] Node: VisionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robot/semantic_nav/dev_ws/src/vision/vision/vision_node.py | Line: 49
+  Topic: odom
+    [Subscriber] Node: VisionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robot/semantic_nav/dev_ws/src/vision/vision/vision_node.py | Line: 50
+
+Repository: https://github.com/NVIDIA-AI-IOT/ros2_torch_trt
+  Topic: image
+    [Subscriber] Node: TRTWebcamClassifier (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_torch_trt/trt_live_classifier/trt_live_classifier/trt_classifier_helper.py | Line: 43
+    [Subscriber] Node: WebcamClassifier (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_torch_trt/live_classifier/live_classifier/live_classifier_helper.py | Line: 42
+    [Subscriber] Node: DetectionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_torch_trt/live_detection/live_detection/live_detection_helper.py | Line: 34
+    [Subscriber] Node: TRTDetectionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_torch_trt/trt_live_detector/trt_live_detector/trt_detection_helper.py | Line: 37
+  Topic: trt_classification
+    [Publisher] Node: TRTWebcamClassifier (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_torch_trt/trt_live_classifier/trt_live_classifier/trt_classifier_helper.py | Line: 47
+  Topic: classification
+    [Publisher] Node: WebcamClassifier (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_torch_trt/live_classifier/live_classifier/live_classifier_helper.py | Line: 46
+  Topic: detection
+    [Publisher] Node: DetectionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_torch_trt/live_detection/live_detection/live_detection_helper.py | Line: 39
+  Topic: detection_image
+    [Publisher] Node: DetectionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_torch_trt/live_detection/live_detection/live_detection_helper.py | Line: 42
+  Topic: trt_detection
+    [Publisher] Node: TRTDetectionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_torch_trt/trt_live_detector/trt_live_detector/trt_detection_helper.py | Line: 42
+  Topic: trt_detection_image
+    [Publisher] Node: TRTDetectionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_torch_trt/trt_live_detector/trt_live_detector/trt_detection_helper.py | Line: 45
+
+Repository: https://github.com/jkaniuka/magician_ros2
+  Topic: /diagnostics
+    [Publisher] Node: DiagnosticTalker (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_diagnostics/dobot_diagnostics/alarms_parser.py | Line: 23
+  Topic: dobot_alarms
+    [Publisher] Node: DobotPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_state_updater/dobot_state_updater/dobot_state_publ.py | Line: 24
+    [Subscriber] Node: DiagnosticTalker (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_diagnostics/dobot_diagnostics/alarms_parser.py | Line: 26
+    [Subscriber] Node: SlidingRailPTPServer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_motion/dobot_motion/sliding_rail_server.py | Line: 36
+    [Subscriber] Node: DobotPTPServer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_motion/dobot_motion/PTP_server.py | Line: 46
+  Topic: reachability_range
+    [Publisher] Node: DobotRange (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_visualization_tools/dobot_visualization_tools/dobot_range.py | Line: 16
+  Topic: TCP_trajectory
+    [Publisher] Node: TrajectoryPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_visualization_tools/dobot_visualization_tools/trajectory_markers.py | Line: 18
+  Topic: realsense_FOV
+    [Publisher] Node: FOVPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_visualization_tools/dobot_visualization_tools/camera_range.py | Line: 16
+  Topic: dobot_joint_states
+    [Publisher] Node: DobotPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_state_updater/dobot_state_updater/dobot_state_publ.py | Line: 20
+    [Subscriber] Node: SlidingRailPTPServer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_motion/dobot_motion/sliding_rail_server.py | Line: 30
+    [Subscriber] Node: DobotPTPServer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_motion/dobot_motion/PTP_server.py | Line: 34
+    [Subscriber] Node: DobotControlPanel (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_control_panel/dobot_control_panel/dobot_control_panel_widget.py | Line: 60
+  Topic: joint_states
+    [Publisher] Node: DobotPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_state_updater/dobot_state_updater/dobot_state_publ.py | Line: 21
+  Topic: dobot_TCP
+    [Publisher] Node: DobotPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_state_updater/dobot_state_updater/dobot_state_publ.py | Line: 22
+  Topic: dobot_pose_raw
+    [Publisher] Node: DobotPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_state_updater/dobot_state_updater/dobot_state_publ.py | Line: 23
+    [Subscriber] Node: PoseValidatorService (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_kinematics/dobot_kinematics/trajectory_validator_server.py | Line: 24
+    [Subscriber] Node: DobotPTPServer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_motion/dobot_motion/PTP_server.py | Line: 40
+    [Subscriber] Node: DobotControlPanel (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_control_panel/dobot_control_panel/dobot_control_panel_widget.py | Line: 54
+  Topic: gripper_status_rviz
+    [Publisher] Node: GripperService (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_end_effector/dobot_end_effector/gripper_server.py | Line: 14
+    [Publisher] Node: DobotControlPanel (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_control_panel/dobot_control_panel/dobot_control_panel_widget.py | Line: 66
+    [Subscriber] Node: DobotPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_state_updater/dobot_state_updater/dobot_state_publ.py | Line: 25
+  Topic: dobot_rail_pose
+    [Publisher] Node: DobotPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_state_updater/dobot_state_updater/dobot_state_publ.py | Line: 36
+    [Subscriber] Node: SlidingRailPTPServer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_motion/dobot_motion/sliding_rail_server.py | Line: 42
+    [Subscriber] Node: DobotControlPanel (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/magician_ros2/dobot_control_panel/dobot_control_panel/dobot_control_panel_widget.py | Line: 75
+
+Repository: https://github.com/clydemcqueen/orca3
+  Topic: best_effort
+    [Subscriber] Node: ReliableOdomNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/orca3/orca_gazebo/scripts/reliable_odom.py | Line: 41
+  Topic: reliable
+    [Publisher] Node: ReliableOdomNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/orca3/orca_gazebo/scripts/reliable_odom.py | Line: 46
+  Topic: seafloor_marker
+    [Publisher] Node: SeafloorMarkerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/orca3/orca_gazebo/scripts/seafloor_marker.py | Line: 37
+  Topic: /thrust
+    [Publisher] Node: DanceNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/orca3/orca_driver/scripts/dance_node.py | Line: 52
+    [Publisher] Node: ThrustCurveNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/orca3/orca_driver/scripts/thrust_curve_node.py | Line: 72
+  Topic: /status
+    [Publisher] Node: FakeDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/orca3/orca_base/scripts/fake_driver.py | Line: 45
+  Topic: /barometer
+    [Publisher] Node: FakeBarometer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/orca3/orca_base/scripts/fake_barometer.py | Line: 47
+
+Repository: https://github.com/lbr-stack/lbr_fri_ros2_stack
+  Topic: servo_node/delta_joint_cmds
+    [Publisher] Node: ForwardKeyboardNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/lbr_fri_ros2_stack/lbr_demos/lbr_moveit/lbr_moveit/forward_keyboard_node.py | Line: 84
+  Topic: servo_node/delta_twist_cmds
+    [Publisher] Node: ForwardKeyboardNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/lbr_fri_ros2_stack/lbr_demos/lbr_moveit/lbr_moveit/forward_keyboard_node.py | Line: 87
+  Topic: joint_states
+    [Subscriber] Node: ForwardKeyboardNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/lbr_fri_ros2_stack/lbr_demos/lbr_moveit/lbr_moveit/forward_keyboard_node.py | Line: 90
+  Topic: command/torque
+    [Publisher] Node: TorqueSineOverlayNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/lbr_fri_ros2_stack/lbr_demos/lbr_demos_py/lbr_demos_py/torque_sine_overlay.py | Line: 22
+  Topic: state
+    [Subscriber] Node: TorqueSineOverlayNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/lbr_fri_ros2_stack/lbr_demos/lbr_demos_py/lbr_demos_py/torque_sine_overlay.py | Line: 28
+    [Subscriber] Node: JointSineOverlayNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/lbr_fri_ros2_stack/lbr_demos/lbr_demos_py/lbr_demos_py/joint_sine_overlay.py | Line: 30
+    [Subscriber] Node: WrenchSineOverlayNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/lbr_fri_ros2_stack/lbr_demos/lbr_demos_py/lbr_demos_py/wrench_sine_overlay.py | Line: 28
+    [Subscriber] Node: LBRBasePositionCommandNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/lbr_fri_ros2_stack/lbr_demos/lbr_demos_advanced_py/lbr_demos_advanced_py/lbr_base_position_command_node.py | Line: 32
+  Topic: command/joint_position
+    [Publisher] Node: JointSineOverlayNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/lbr_fri_ros2_stack/lbr_demos/lbr_demos_py/lbr_demos_py/joint_sine_overlay.py | Line: 22
+    [Publisher] Node: LBRBasePositionCommandNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/lbr_fri_ros2_stack/lbr_demos/lbr_demos_advanced_py/lbr_demos_advanced_py/lbr_base_position_command_node.py | Line: 35
+  Topic: command/wrench
+    [Publisher] Node: WrenchSineOverlayNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/lbr_fri_ros2_stack/lbr_demos/lbr_demos_py/lbr_demos_py/wrench_sine_overlay.py | Line: 22
+
+Repository: https://github.com/knmcguire/crazyflie_ros2_experimental
+  Topic: /odom
+    [Subscriber] Node: RangeToLidar (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/crazyflie_ros2_experimental/crazyflie_ros2_scan/crazyflie_ros2_scan/range_to_lidar.py | Line: 40
+    [Subscriber] Node: SimpleMapper (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper/simple_mapper.py | Line: 29
+  Topic: /multiranger_scan
+    [Subscriber] Node: RangeToLidar (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/crazyflie_ros2_experimental/crazyflie_ros2_scan/crazyflie_ros2_scan/range_to_lidar.py | Line: 41
+  Topic: /cmd_vel
+    [Publisher] Node: RangeToLidar (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/crazyflie_ros2_experimental/crazyflie_ros2_scan/crazyflie_ros2_scan/range_to_lidar.py | Line: 43
+  Topic: /scan
+    [Publisher] Node: RangeToLidar (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/crazyflie_ros2_experimental/crazyflie_ros2_scan/crazyflie_ros2_scan/range_to_lidar.py | Line: 44
+    [Subscriber] Node: SimpleMapper (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper/simple_mapper.py | Line: 30
+  Topic: /map
+    [Publisher] Node: SimpleMapper (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper/simple_mapper.py | Line: 49
+  Topic: zrange
+    [Publisher] Node: CrazyfliePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/crazyflie_ros2_experimental/crazyflie_ros2/crazyflie_ros2/crazyflie_publisher.py | Line: 36
+  Topic: scan
+    [Publisher] Node: CrazyfliePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/crazyflie_ros2_experimental/crazyflie_ros2/crazyflie_ros2/crazyflie_publisher.py | Line: 37
+  Topic: odom
+    [Publisher] Node: CrazyfliePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/crazyflie_ros2_experimental/crazyflie_ros2/crazyflie_ros2/crazyflie_publisher.py | Line: 38
+  Topic: cmd_vel
+    [Subscriber] Node: CrazyfliePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/crazyflie_ros2_experimental/crazyflie_ros2/crazyflie_ros2/crazyflie_publisher.py | Line: 40
+
+Repository: https://github.com/bdaiinstitute/spot_ros2
+  Topic: status/metrics
+    [Publisher] Node: SpotROS (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/spot_ros2/spot_driver/spot_driver/spot_ros2.py | Line: 583
+  Topic: status/feedback
+    [Publisher] Node: SpotROS (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/spot_ros2/spot_driver/spot_driver/spot_ros2.py | Line: 584
+  Topic: status/mobility_params
+    [Publisher] Node: SpotROS (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/spot_ros2/spot_driver/spot_driver/spot_ros2.py | Line: 585
+  Topic: cmd_vel
+    [Subscriber] Node: SpotROS (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/spot_ros2/spot_driver/spot_driver/spot_ros2.py | Line: 587
+  Topic: body_pose
+    [Subscriber] Node: SpotROS (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/spot_ros2/spot_driver/spot_driver/spot_ros2.py | Line: 588
+  Topic: velodyne/points
+    [Publisher] Node: SpotROS (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/spot_ros2/spot_driver/spot_driver/spot_ros2.py | Line: 432
+  Topic: status/leases
+    [Publisher] Node: SpotROS (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/spot_ros2/spot_driver/spot_driver/spot_ros2.py | Line: 501
+  Topic: graph_nav/body_pose
+    [Publisher] Node: SpotROS (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/spot_ros2/spot_driver/spot_driver/spot_ros2.py | Line: 570
+  Topic: arm_joint_commands
+    [Subscriber] Node: SpotROS (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/spot_ros2/spot_driver/spot_driver/spot_ros2.py | Line: 593
+  Topic: arm_pose_commands
+    [Subscriber] Node: SpotROS (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/spot_ros2/spot_driver/spot_driver/spot_ros2.py | Line: 596
+  Topic: status/battery_states
+    [Subscriber] Node: SpotAlerts (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/spot_ros2/spot_driver/spot_driver/spot_alerts.py | Line: 21
+
+Repository: https://github.com/giulioturrisi/Differential-Drive-Robot
+  Topic: joint_states
+    [Publisher] Node: StatePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Differential-Drive-Robot/ros2_ws/src/state_estimation/state_estimation/state_publisher.py | Line: 26
+  Topic: wheel_odometry
+    [Subscriber] Node: StatePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Differential-Drive-Robot/ros2_ws/src/state_estimation/state_estimation/state_publisher.py | Line: 31
+  Topic: odometry
+    [Subscriber] Node: StatePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Differential-Drive-Robot/ros2_ws/src/state_estimation/state_estimation/state_publisher.py | Line: 32
+  Topic: path
+    [Publisher] Node: Planners (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Differential-Drive-Robot/ros2_ws/src/planners/planners/run_planners.py | Line: 48
+    [Subscriber] Node: Base_Controller (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Differential-Drive-Robot/ros2_ws/src/controllers/controllers/base_controller.py | Line: 44
+  Topic: map_filtered
+    [Publisher] Node: Planners (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Differential-Drive-Robot/ros2_ws/src/planners/planners/run_planners.py | Line: 49
+  Topic: goal_pose
+    [Subscriber] Node: Planners (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Differential-Drive-Robot/ros2_ws/src/planners/planners/run_planners.py | Line: 51
+  Topic: map
+    [Subscriber] Node: Planners (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Differential-Drive-Robot/ros2_ws/src/planners/planners/run_planners.py | Line: 53
+  Topic: cmd_vel
+    [Subscriber] Node: Base_Controller (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Differential-Drive-Robot/ros2_ws/src/controllers/controllers/base_controller.py | Line: 45
+  Topic: control_vel
+    [Publisher] Node: Base_Controller (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Differential-Drive-Robot/ros2_ws/src/controllers/controllers/base_controller.py | Line: 47
+  Topic: enableSyncMode
+    [Publisher] Node: Base_Controller (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Differential-Drive-Robot/ros2_ws/src/controllers/controllers/base_controller.py | Line: 53
+  Topic: triggerNextStep
+    [Publisher] Node: Base_Controller (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Differential-Drive-Robot/ros2_ws/src/controllers/controllers/base_controller.py | Line: 61
+  Topic: simulationStepDone
+    [Subscriber] Node: Base_Controller (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Differential-Drive-Robot/ros2_ws/src/controllers/controllers/base_controller.py | Line: 65
+
+Repository: https://github.com/SMARTlab-Purdue/SMARTmBOT
+  Topic: /cctv_GUI/control_state
+    [Subscriber] Node: controller_irb_cctv_line_follower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SMARTmBOT/smartmbot_controller_pkg/smartmbot_controller_pkg/smartmbot_line_tracer.py | Line: 54
+    [Subscriber] Node: controller_pure_pursuit (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SMARTmBOT/smartmbot_controller_pkg/smartmbot_controller_pkg/smartmbot_pure_pursuit.py | Line: 200
+  Topic: writing_dc_motor_vel
+    [Subscriber] Node: MotorControl (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SMARTmBOT/ROS2_package/src/smart_mbot_pkg/smart_mbot_pkg/ros2_dc_motor_control.py | Line: 89
+  Topic: writing_dc_cmd_vel
+    [Subscriber] Node: MotorControl (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SMARTmBOT/ROS2_package/src/smart_mbot_pkg/smart_mbot_pkg/ros2_dc_motor_control.py | Line: 90
+  Topic: reading_spi_adc
+    [Publisher] Node: SMARTMobile_ADC_SPI_Reader (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SMARTmBOT/ROS2_package/src/smart_mbot_pkg/smart_mbot_pkg/ros2_spi_adc_reading.py | Line: 38
+  Topic: writing_ws2813_rgb_strip
+    [Subscriber] Node: WS2813_RGB_LED (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SMARTmBOT/ROS2_package/src/smart_mbot_pkg/smart_mbot_pkg/ros2_rgb_strip_ws2812b.py | Line: 58
+  Topic: reading_tof_array
+    [Publisher] Node: I2C_VL53L0X_ToF (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SMARTmBOT/ROS2_package/src/smart_mbot_pkg/smart_mbot_pkg/ros2_i2c_tof_reading.py | Line: 22
+  Topic: writing_gpio_smd5050_led
+    [Subscriber] Node: GPIO_SMD5050_RGB_LED (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SMARTmBOT/ROS2_package/src/smart_mbot_pkg/smart_mbot_pkg/ros2_gpio_rgb_led.py | Line: 56
+  Topic: /opencv_tests/images
+    [Publisher] Node: Source (via rclpy.create_node) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SMARTmBOT/ROS2_package/src/vision_opencv/opencv_tests/nodes/source.py | Line: 55
+  Topic: /opencv_tests/images/compressed
+    [Publisher] Node: Source (via rclpy.create_node) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SMARTmBOT/ROS2_package/src/vision_opencv/opencv_tests/nodes/source.py | Line: 56
+
+Repository: https://github.com/cyberbotics/webots_ros2
+  Topic: cmd_ackermann
+    [Publisher] Node: LaneFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/webots_ros2/webots_ros2_tesla/webots_ros2_tesla/lane_follower.py | Line: 34
+  Topic: vehicle/camera/image_color
+    [Subscriber] Node: LaneFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/webots_ros2/webots_ros2_tesla/webots_ros2_tesla/lane_follower.py | Line: 38
+  Topic: /odom
+    [Subscriber] Node: EPuckDriveCalibrator (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/webots_ros2/webots_ros2_epuck/webots_ros2_epuck/drive_calibrator.py | Line: 43
+    [Subscriber] Node: EPuckNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/webots_ros2/webots_ros2_epuck/webots_ros2_epuck/epuck_node.py | Line: 89
+  Topic: /cmd_vel
+    [Publisher] Node: EPuckDriveCalibrator (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/webots_ros2/webots_ros2_epuck/webots_ros2_epuck/drive_calibrator.py | Line: 44
+  Topic: /map
+    [Publisher] Node: SimpleMapper (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/webots_ros2/webots_ros2_epuck/webots_ros2_epuck/simple_mapper.py | Line: 45
+  Topic: /scan
+    [Publisher] Node: EPuckNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/webots_ros2/webots_ros2_epuck/webots_ros2_epuck/epuck_node.py | Line: 68
+    [Subscriber] Node: SimpleMapper (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/webots_ros2/webots_ros2_epuck/webots_ros2_epuck/simple_mapper.py | Line: 68
+  Topic: /tof
+    [Subscriber] Node: EPuckNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/webots_ros2/webots_ros2_epuck/webots_ros2_epuck/epuck_node.py | Line: 66
+  Topic: clock
+    [Publisher] Node: Ros2Supervisor (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/webots_ros2/webots_ros2_driver/webots_ros2_driver/ros2_supervisor.py | Line: 58
+  Topic: remove_node
+    [Subscriber] Node: Ros2Supervisor (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/webots_ros2/webots_ros2_driver/webots_ros2_driver/ros2_supervisor.py | Line: 72
+
+Repository: https://github.com/winstxnhdw/AutoCarROS2
+  Topic: /autocar/path
+    [Publisher] Node: ClickPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/clickplanner.py | Line: 22
+    [Publisher] Node: LocalPathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/localplanner.py | Line: 24
+    [Subscriber] Node: PathTracker (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/tracker.py | Line: 27
+  Topic: /autocar/viz_path
+    [Publisher] Node: ClickPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/clickplanner.py | Line: 23
+    [Publisher] Node: LocalPathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/localplanner.py | Line: 25
+  Topic: /autocar/viz_goals
+    [Publisher] Node: ClickPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/clickplanner.py | Line: 24
+    [Publisher] Node: GlobalPathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/globalplanner.py | Line: 25
+  Topic: /autocar/target_velocity
+    [Publisher] Node: ClickPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/clickplanner.py | Line: 25
+    [Publisher] Node: LocalPathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/localplanner.py | Line: 26
+    [Subscriber] Node: PathTracker (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/tracker.py | Line: 28
+  Topic: /goal_pose
+    [Subscriber] Node: ClickPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/clickplanner.py | Line: 28
+  Topic: /autocar/goals
+    [Publisher] Node: GlobalPathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/globalplanner.py | Line: 24
+    [Subscriber] Node: LocalPathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/localplanner.py | Line: 29
+  Topic: /autocar/state2D
+    [Publisher] Node: Localisation (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/localisation.py | Line: 18
+    [Subscriber] Node: LocalPathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/localplanner.py | Line: 30
+    [Subscriber] Node: GlobalPathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/globalplanner.py | Line: 28
+    [Subscriber] Node: PathTracker (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/tracker.py | Line: 26
+  Topic: /autocar/odom
+    [Subscriber] Node: Localisation (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/localisation.py | Line: 21
+  Topic: /autocar/cmd_vel
+    [Publisher] Node: PathTracker (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/tracker.py | Line: 22
+  Topic: /autocar/lateral_ref
+    [Publisher] Node: PathTracker (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/AutoCarROS2/autocar_nav/nodes/tracker.py | Line: 23
+
+Repository: https://github.com/ouspg/SOP-Robot
+  Topic: /arms/arm_action
+    [Publisher] Node: UnifiedClientTester (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/client/hand_client_tester.py | Line: 11
+    [Publisher] Node: FullDemoNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/full_demo/full_demo/full_demo_node.py | Line: 33
+    [Subscriber] Node: UnifiedArms (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/client/unified_arms_client.py | Line: 41
+  Topic: /face_tracker_movement/head_gesture_topic
+    [Publisher] Node: HeadGestureClient (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/client/head_gesture_client.py | Line: 10
+    [Subscriber] Node: FaceTrackerMovementNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/face_tracker_movement/face_tracker_movement/face_tracker_movement_node.py | Line: 46
+  Topic: /l_hand/l_hand_topic
+    [Publisher] Node: UnifiedArms (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/client/unified_arms_client.py | Line: 34
+    [Subscriber] Node: HandGestureNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/hand_gestures/hand_gestures/hand_gestures_node.py | Line: 15
+  Topic: /r_hand/r_hand_topic
+    [Publisher] Node: UnifiedArms (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/client/unified_arms_client.py | Line: 35
+    [Subscriber] Node: HandGestureNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/hand_gestures/hand_gestures/hand_gestures_node.py | Line: 14
+  Topic: chatbot_response
+    [Publisher] Node: QaBotClientNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/qabot/qabot/qabot.py | Line: 28
+    [Publisher] Node: ChatBotClientNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/chatbot/chatbot/chatbot.py | Line: 38
+    [Publisher] Node: FullDemoNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/full_demo/full_demo/full_demo_node.py | Line: 22
+    [Subscriber] Node: TTSService (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/tts_package/tts_package/tts_node.py | Line: 14
+  Topic: can_listen
+    [Publisher] Node: TTSService (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/tts_package/tts_package/tts_node.py | Line: 15
+    [Subscriber] Node: SpeechRecognizerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/speech_recognizer/speech_recognizer/speech_recognizer.py | Line: 15
+    [Subscriber] Node: FullDemoNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/full_demo/full_demo/full_demo_node.py | Line: 23
+  Topic: jaw_topic
+    [Publisher] Node: TTSService (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/tts_package/tts_package/tts_node.py | Line: 16
+    [Subscriber] Node: JawMoverNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/jaw_movement/jaw_movement/jaw_movement_node.py | Line: 26
+  Topic: response
+    [Publisher] Node: ttsClientAsync (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/tts_package/tts_package/tts_member_function.py | Line: 12
+  Topic: recognized_speech
+    [Publisher] Node: SpeechRecognizerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/speech_recognizer/speech_recognizer/speech_recognizer.py | Line: 14
+    [Subscriber] Node: QaBotClientNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/qabot/qabot/qabot.py | Line: 32
+    [Subscriber] Node: ChatBotClientNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/chatbot/chatbot/chatbot.py | Line: 39
+  Topic: speech_recognizer/can_listen
+    [Publisher] Node: FullDemoNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/full_demo/full_demo/full_demo_node.py | Line: 25
+  Topic: speech_recognizer/recognized_speech
+    [Subscriber] Node: FullDemoNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/full_demo/full_demo/full_demo_node.py | Line: 26
+  Topic: chatbot/recognized_speech
+    [Publisher] Node: FullDemoNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/full_demo/full_demo/full_demo_node.py | Line: 28
+  Topic: chatbot/chatbot_response
+    [Subscriber] Node: FullDemoNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/full_demo/full_demo/full_demo_node.py | Line: 29
+  Topic: /face_tracker/face_topic
+    [Subscriber] Node: FullDemoNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/full_demo/full_demo/full_demo_node.py | Line: 31
+  Topic: /face_tracker_movement/focused_face
+    [Publisher] Node: FaceTrackerMovementNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/face_tracker_movement/face_tracker_movement/face_tracker_movement_node.py | Line: 48
+    [Subscriber] Node: FullDemoNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/full_demo/full_demo/full_demo_node.py | Line: 36
+  Topic: face_tracker/face_location_topic
+    [Publisher] Node: FaceTracker (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/face_tracker/face_tracker/mock_face_tracker_node.py | Line: 14
+  Topic: /face_tracker/faces
+    [Subscriber] Node: FaceTrackerMovementNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/face_tracker_movement/face_tracker_movement/face_tracker_movement_node.py | Line: 42
+  Topic: /head_controller/controller_state
+    [Subscriber] Node: FaceTrackerMovementNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/face_tracker_movement/face_tracker_movement/face_tracker_movement_node.py | Line: 43
+  Topic: /eyes_controller/controller_state
+    [Subscriber] Node: FaceTrackerMovementNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SOP-Robot/src/face_tracker_movement/face_tracker_movement/face_tracker_movement_node.py | Line: 44
+
+Repository: https://github.com/elephantrobotics/mycobot_ros2
+  Topic: joint_states
+    [Publisher] Node: MyCobotDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_280/mycobot_280_riscv/mycobot_280_riscv/listen_real_service.py | Line: 62
+    [Publisher] Node: MyCobotDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_280/mycobot_280/mycobot_280/listen_real_service.py | Line: 63
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/ultraArm/ultraarm/ultraarm/slider_control.py | Line: 23
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mypalletizer_260/mypalletizer_260/mypalletizer_260/slider_control.py | Line: 24
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mypalletizer_260/mypalletizer_260_pi/mypalletizer_260_pi/slider_control.py | Line: 24
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_320/mycobot_320_riscv/mycobot_320_riscv/slider_control.py | Line: 23
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_320/mycobot_320pi/mycobot_320pi/slider_control.py | Line: 23
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_320/mycobot_320/mycobot_320/slider_control.py | Line: 24
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/myArm/myarm_c650/myarm_c650/slider_control.py | Line: 13
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/myArm/myarm_300/myarm_300/slider_control.py | Line: 24
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/myArm/myarm_m750/myarm_m750/slider_control.py | Line: 13
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_pro/mycobot_600/mycobot_600/slider_control.py | Line: 12
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_pro/mycobot_630/mycobot_630/slider_control.py | Line: 12
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_280/mycobot_280pi/mycobot_280pi/slider_control.py | Line: 24
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_280/mycobot_280_riscv/mycobot_280_riscv/slider_control.py | Line: 24
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_280/mycobot_280_moveit2_control/mycobot_280_moveit2_control/sync_plan.py | Line: 24
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_280/mycobot_280_moveit2_control/mycobot_280_moveit2_control/sync_plan_arduino.py | Line: 24
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_280/mycobot_280_moveit2_control/mycobot_280_moveit2_control/sync_plan_rdkx5.py | Line: 24
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_280/mycobot_280_x3pi/mycobot_280_x3pi/slider_control.py | Line: 24
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_280/mycobot_280/mycobot_280/slider_control.py | Line: 25
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_280/mycobot_280jn/mycobot_280jn/slider_control.py | Line: 24
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_280/mycobot_280_rdkx5/mycobot_280_rdkx5/slider_control.py | Line: 24
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mycobot_280/mycobot_280_arduino/mycobot_280_arduino/slider_control.py | Line: 26
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mecharm/mecharm_pi/mecharm_pi/slider_control.py | Line: 24
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/mecharm/mecharm/mecharm/slider_control.py | Line: 24
+    [Subscriber] Node: Slider_Subscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/Mybuddy/mybuddy/mybuddy/slider_control.py | Line: 12
+  Topic: /joint_states
+    [Publisher] Node: JointStatePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/myArm/myarm_c650/myarm_c650/test.py | Line: 43
+    [Publisher] Node: JointStatePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/myArm/myarm_c650/myarm_c650/debug.py | Line: 78
+    [Publisher] Node: JointStatePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/myArm/myarm_m750/myarm_m750/read_control.py | Line: 17
+  Topic: myarm_m/joint_states
+    [Publisher] Node: CombinedControl (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/myArm/myarm_m750/myarm_m750/combined_control.py | Line: 37
+  Topic: myarm_c650/joint_states
+    [Publisher] Node: CombinedControl (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/mycobot_ros2/myArm/myarm_m750/myarm_m750/combined_control.py | Line: 38
+
+Repository: https://github.com/robosoft-ai/SMACC2
+  Topic: /scan_input
+    [Subscriber] Node: LidarProcessor (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SMACC2/smacc2_client_library/nav2z_client/nav2z_client/scripts/lidar_completion.py | Line: 32
+  Topic: /scan_output
+    [Publisher] Node: LidarProcessor (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SMACC2/smacc2_client_library/nav2z_client/nav2z_client/scripts/lidar_completion.py | Line: 41
+  Topic: keyboard_unicode
+    [Publisher] Node: KeyboardPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SMACC2/smacc2_client_library/keyboard_client/servers/keyboard_server_node.py | Line: 48
+  Topic: temperature
+    [Publisher] Node: TemperatureSensorNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/SMACC2/smacc2_performance_tools/performance_tests/sm_atomic_subscribers_performance_test/servers/basic_publisher.py | Line: 26
+
+Repository: https://github.com/CL2-UWaterloo/f1tenth_ws
+  Topic: scan
+    [Subscriber] Node: SafetyNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/f1tenth_ws/src/safety_node/scripts/safety_node.py | Line: 32
+  Topic: /odom
+    [Subscriber] Node: SafetyNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/f1tenth_ws/src/safety_node/scripts/safety_node.py | Line: 39
+  Topic: drive
+    [Publisher] Node: SafetyNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/f1tenth_ws/src/safety_node/scripts/safety_node.py | Line: 47
+  Topic: teleop
+    [Publisher] Node: SafetyNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/f1tenth_ws/src/safety_node/scripts/safety_node.py | Line: 48
+  Topic: emergency_breaking
+    [Publisher] Node: SafetyNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/f1tenth_ws/src/safety_node/scripts/safety_node.py | Line: 49
+
+Repository: https://github.com/noshluk2/ROS2-Raspberry-PI-Intelligent-Vision-Robot
+  Topic: /vision_rpi_bot_camera/image_raw
+    [Subscriber] Node: camera_sub (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Raspberry-PI-Intelligent-Vision-Robot/vision_rpi_bot/vision_rpi_bot/line_following_sim.py | Line: 12
+    [Subscriber] Node: lidar_camera_sub (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Raspberry-PI-Intelligent-Vision-Robot/vision_rpi_bot/vision_rpi_bot/qr_maze_drive.py | Line: 12
+  Topic: /cmd_vel
+    [Publisher] Node: camera_sub (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Raspberry-PI-Intelligent-Vision-Robot/vision_rpi_bot/vision_rpi_bot/line_following_sim.py | Line: 13
+  Topic: /rpi_video_feed
+    [Subscriber] Node: camera_sub (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Raspberry-PI-Intelligent-Vision-Robot/vision_rpi_bot/vision_rpi_bot/surveillance_bot.py | Line: 15
+    [Subscriber] Node: camera_sub (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Raspberry-PI-Intelligent-Vision-Robot/vision_rpi_bot/vision_rpi_bot/line_following_real.py | Line: 12
+  Topic: pub_topic
+    [Subscriber] Node: MinimalSubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Raspberry-PI-Intelligent-Vision-Robot/vision_rpi_bot/vision_rpi_bot/subscriber.py | Line: 11
+  Topic: /line_following_error
+    [Publisher] Node: camera_sub (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Raspberry-PI-Intelligent-Vision-Robot/vision_rpi_bot/vision_rpi_bot/line_following_real.py | Line: 13
+  Topic: /pub_topic
+    [Publisher] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Raspberry-PI-Intelligent-Vision-Robot/vision_rpi_bot/vision_rpi_bot/publisher.py | Line: 11
+  Topic: /scan
+    [Subscriber] Node: lidar_camera_sub (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Raspberry-PI-Intelligent-Vision-Robot/vision_rpi_bot/vision_rpi_bot/qr_maze_drive.py | Line: 13
+
+Repository: https://github.com/qaz9517532846/zm_robot
+  Topic: amcl_pose
+    [Subscriber] Node: BasicNavigator (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/zm_robot/zm_robot_programing/zm_robot_programing/zm_robot_navigator.py | Line: 54
+  Topic: initialpose
+    [Publisher] Node: BasicNavigator (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/zm_robot/zm_robot_programing/zm_robot_programing/zm_robot_navigator.py | Line: 58
+  Topic: cmd_vel
+    [Publisher] Node: zm_robot_teleop_key (via rclpy.create_node) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/zm_robot/zm_robot_teleop/zm_robot_teleop/zm_robot_teleop_key.py | Line: 99
+
+Repository: https://github.com/Ar-Ray-code/YOLOv5-ROS
+  Topic: yolov5/bounding_boxes
+    [Publisher] Node: yolov5_ros (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/YOLOv5-ROS/yolov5_ros/yolov5_ros/main.py | Line: 188
+  Topic: yolov5/image_raw
+    [Publisher] Node: yolov5_ros (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/YOLOv5-ROS/yolov5_ros/yolov5_ros/main.py | Line: 189
+  Topic: image_raw
+    [Subscriber] Node: yolov5_ros (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/YOLOv5-ROS/yolov5_ros/yolov5_ros/main.py | Line: 191
+
+Repository: https://github.com/noshluk2/ros2_learners
+  Topic: /turtle1/cmd_vel
+    [Publisher] Node: Driver_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_learners/robot_math/robot_math/andular_velocity.py | Line: 9
+    [Publisher] Node: Turtle_GTG (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_learners/robot_math/robot_math/gtg.py | Line: 11
+  Topic: /turtle1/pose
+    [Subscriber] Node: Turtle_GTG (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_learners/robot_math/robot_math/gtg.py | Line: 12
+  Topic: /scan
+    [Subscriber] Node: ObstacleAvoidanceNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_learners/ai_assitance/ai_assitance/obstacle_avoidence.py | Line: 10
+  Topic: cmd_vel
+    [Publisher] Node: ObstacleAvoidanceNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_learners/ai_assitance/ai_assitance/obstacle_avoidence.py | Line: 11
+
+Repository: https://github.com/dvalenciar/robotic_arm_environment
+  Topic: /joint_trajectory_controller/joint_trajectory
+    [Publisher] Node: TrajectoryPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/robotic_arm_environment/my_doosan_pkg/my_doosan_pkg/joint_points_topic.py | Line: 31
+  Topic: marker_position
+    [Publisher] Node: MyNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/robotic_arm_environment/my_sphere_pkg/my_sphere_pkg/coordinate_node.py | Line: 33
+  Topic: /gazebo/model_states
+    [Subscriber] Node: MyNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/robotic_arm_environment/my_sphere_pkg/my_sphere_pkg/coordinate_node.py | Line: 34
+    [Subscriber] Node: MyEnvironmentNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/robotic_arm_environment/my_environment_pkg/my_environment_pkg/main_environment.py | Line: 71
+  Topic: /joint_states
+    [Subscriber] Node: MyEnvironmentNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/robotic_arm_environment/my_environment_pkg/my_environment_pkg/main_environment.py | Line: 74
+  Topic: /contact_sensor/bumper_link6
+    [Subscriber] Node: MyEnvironmentNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/robotic_arm_environment/my_environment_pkg/my_environment_pkg/main_environment.py | Line: 87
+
+Repository: https://github.com/Road-Balance/gcamp_ros2_basic
+  Topic: diffbot/scan
+    [Subscriber] Node: RobotController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gcamp_ros2_basic/py_action_pkg/py_action_pkg/robot_controller.py | Line: 65
+  Topic: diffbot/odom
+    [Subscriber] Node: RobotController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gcamp_ros2_basic/py_action_pkg/py_action_pkg/robot_controller.py | Line: 70
+    [Subscriber] Node: OdometrySubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gcamp_ros2_basic/py_action_pkg/py_action_pkg/odom_sub.py | Line: 63
+  Topic: diffbot/cmd_vel
+    [Publisher] Node: RobotController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gcamp_ros2_basic/py_action_pkg/py_action_pkg/robot_controller.py | Line: 79
+  Topic: diffbot/camera_sensor/image_raw
+    [Subscriber] Node: ImageSubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gcamp_ros2_basic/py_action_pkg/py_action_pkg/image_sub.py | Line: 32
+  Topic: skidbot/scan
+    [Subscriber] Node: LaserSubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gcamp_ros2_basic/py_topic_pkg/py_topic_pkg/laser_sub.py | Line: 27
+    [Subscriber] Node: ParkingNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gcamp_ros2_basic/py_topic_pkg/py_topic_pkg/parking.py | Line: 32
+    [Subscriber] Node: LaserSubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gcamp_ros2_basic/py_topic_pkg/py_topic_pkg/laser_raw.py | Line: 27
+  Topic: skidbot/cmd_vel
+    [Publisher] Node: CmdVelPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gcamp_ros2_basic/py_topic_pkg/py_topic_pkg/endless_cmd_vel_pub.py | Line: 29
+    [Publisher] Node: ParkingNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gcamp_ros2_basic/py_topic_pkg/py_topic_pkg/parking.py | Line: 30
+    [Publisher] Node: CmdVelPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gcamp_ros2_basic/py_topic_pkg/py_topic_pkg/cmd_vel_pub.py | Line: 28
+    [Publisher] Node: RobotTurnServer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gcamp_ros2_basic/py_service_pkg/py_service_pkg/robot_turning_srv.py | Line: 34
+
+Repository: https://github.com/Kinovarobotics/ros2_kortex
+  Topic: joint_states
+    [Subscriber] Node: PublisherJointTrajectory (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_kortex/kortex_bringup/scripts/test_huge_joint_space_jump.py | Line: 70
+  Topic: /keyboard/keypress
+    [Subscriber] Node: KeyboardListener (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_kortex/3rdParty/Mobile_platform_integration/clearpath/commanding_script.py | Line: 31
+  Topic: /a200_0000/cmd_vel
+    [Publisher] Node: HuskyRobotControl (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_kortex/3rdParty/Mobile_platform_integration/clearpath/commanding_script.py | Line: 95
+  Topic: /a200_0000/platform/odom/filtered
+    [Subscriber] Node: HuskyRobotControl (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_kortex/3rdParty/Mobile_platform_integration/clearpath/commanding_script.py | Line: 96
+  Topic: /a200_0000/arm_0_joint_trajectory_controller/joint_trajectory
+    [Publisher] Node: ArmControl (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_kortex/3rdParty/Mobile_platform_integration/clearpath/commanding_script.py | Line: 215
+  Topic: /a200_0000/arm_0_joint_trajectory_controller/state
+    [Subscriber] Node: ArmControl (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_kortex/3rdParty/Mobile_platform_integration/clearpath/commanding_script.py | Line: 219
+
+Repository: https://github.com/aerostack2/aerostack2
+  Topic: platform/info
+    [Subscriber] Node: DroneInterfaceBase (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/aerostack2/as2_python_api/as2_python_api/drone_interface_base.py | Line: 99
+  Topic: self_localization/pose
+    [Subscriber] Node: DroneInterfaceBase (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/aerostack2/as2_python_api/as2_python_api/drone_interface_base.py | Line: 103
+  Topic: self_localization/twist
+    [Subscriber] Node: DroneInterfaceBase (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/aerostack2/as2_python_api/as2_python_api/drone_interface_base.py | Line: 106
+  Topic: alert_event
+    [Publisher] Node: DroneInterfaceBase (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/aerostack2/as2_python_api/as2_python_api/drone_interface_base.py | Line: 110
+  Topic: sensor_measurements/gps
+    [Subscriber] Node: GpsModule (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/aerostack2/as2_python_api/as2_python_api/modules/gps_module.py | Line: 70
+  Topic: visualization_marker
+    [Publisher] Node: GatePublisherNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization/as2_visualization/gate_publisher.py | Line: 59
+
+Repository: https://github.com/TechmanRobotInc/tmr_ros2
+  Topic: techman_image
+    [Publisher] Node: ImagePub (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/tmr_ros2/techman_robot_get_status/tm_get_status/image_pub.py | Line: 22
+
+Repository: https://github.com/frankaemika/franka_ros2
+  Topic: ~/joint_states
+    [Publisher] Node: FakeGripperStatePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/franka_ros2/franka_gripper/scripts/fake_gripper_state_publisher.py | Line: 26
+
+Repository: https://github.com/noshluk2/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3
+  Topic: map
+    [Publisher] Node: Occupancy_grid_pub (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/autonomous_tb3/autonomous_tb3/occupancy_grid_pub.py | Line: 19
+
+Repository: https://github.com/clydemcqueen/orca4
+  Topic: /cmd_vel
+    [Publisher] Node: TestBase (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/orca4/orca_base/scripts/test_base.py | Line: 43
+
+Repository: https://github.com/suchetanrs/ORB-SLAM3-ROS2-Docker
+  Topic: /pose_array_topic
+    [Publisher] Node: MapServiceClient (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ORB-SLAM3-ROS2-Docker/orb_slam3_ros2_wrapper/scripts/viz_keyframes.py | Line: 11
+  Topic: /pose_topic
+    [Subscriber] Node: PoseSubscriberNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ORB-SLAM3-ROS2-Docker/orb_slam3_ros2_wrapper/scripts/get_landmarks_for_pose.py | Line: 14
+
+Repository: https://github.com/NDHANA94/hyperdog_ros2
+  Topic: hyperdog_geometry
+    [Subscriber] Node: InvKin_Node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/hyperdog_ros2/hyperdog_ctrl/IK/inverse_kinematic_node.py | Line: 45
+  Topic: hyperdog_jointController/commands
+    [Publisher] Node: InvKin_Node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/hyperdog_ros2/hyperdog_ctrl/IK/inverse_kinematic_node.py | Line: 46
+
+Repository: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver
+  Topic: /urscript_interface/script_command
+    [Publisher] Node: URScriptInterfaceTest (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Universal_Robots_ROS2_Driver/ur_robot_driver/test/urscript_interface.py | Line: 75
+  Topic: /io_and_status_controller/io_states
+    [Subscriber] Node: URScriptInterfaceTest (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Universal_Robots_ROS2_Driver/ur_robot_driver/test/urscript_interface.py | Line: 88
+    [Subscriber] Node: URScriptInterfaceTest (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Universal_Robots_ROS2_Driver/ur_robot_driver/test/urscript_interface.py | Line: 100
+  Topic: direction
+    [Publisher] Node: ForceModeExample (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Universal_Robots_ROS2_Driver/ur_robot_driver/examples/force_mode.py | Line: 74
+
+Repository: https://github.com/TheNoobInventor/lidarbot
+  Topic: /trajectory_path
+    [Publisher] Node: TrajectoryVisualizer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/lidarbot/lidarbot_navigation/scripts/trajectory_visualizer.py | Line: 32
+  Topic: /transformed_global_plan
+    [Subscriber] Node: TrajectoryVisualizer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/lidarbot/lidarbot_navigation/scripts/trajectory_visualizer.py | Line: 35
+
+Repository: https://github.com/blackcoffeerobotics/bcr_bot
+  Topic: cmd_vel
+    [Subscriber] Node: CmdVelRemapper (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/bcr_bot/scripts/remapper.py | Line: 18
+  Topic: bcr_bot/cmd_vel
+    [Publisher] Node: CmdVelRemapper (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/bcr_bot/scripts/remapper.py | Line: 27
+
+Repository: https://github.com/uleroboticsgroup/yasmin
+  Topic: test
+    [Publisher] Node: AuxNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/yasmin/yasmin_ros/tests/python/test_yasmin_ros.py | Line: 55
+  Topic: /fsm_viewer
+    [Publisher] Node: YasminViewerPub (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/yasmin/yasmin_viewer/yasmin_viewer/yasmin_viewer_pub.py | Line: 81
+    [Subscriber] Node: YasminFsmViewerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/yasmin/yasmin_viewer/yasmin_viewer/yasmin_viewer_node.py | Line: 136
+
+Repository: https://github.com/tomasvr/turtlebot3_drlnav
+  Topic: /clock
+    [Subscriber] Node: DRLEnvironment (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/turtlebot3_drlnav/src/turtlebot3_drl/turtlebot3_drl/drl_environment/drl_environment.py | Line: 98
+  Topic: obstacle/odom
+    [Subscriber] Node: DRLEnvironment (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/turtlebot3_drlnav/src/turtlebot3_drl/turtlebot3_drl/drl_environment/drl_environment.py | Line: 99
+  Topic: goal_pose
+    [Publisher] Node: DRLGazebo (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/turtlebot3_drlnav/src/turtlebot3_drl/turtlebot3_drl/drl_gazebo/drl_gazebo.py | Line: 65
+
+Repository: https://github.com/Walid-khaled/autonomous_mobile_robots
+  Topic: /hagen/cmd_vel
+    [Publisher] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robots/Homeworks/HW2/hw02.py | Line: 11
+    [Publisher] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robots/Homeworks/HW1/hw01.py | Line: 18
+    [Publisher] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robots/hagen_control/hagen_control/diff_drive_LQR.py | Line: 11
+    [Publisher] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robots/hagen_control/hagen_control/hagen_control_strategy.py | Line: 11
+    [Publisher] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robots/hagen_control/hagen_control/diff_drive_PID_control.py | Line: 11
+    [Publisher] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robots/hagen_control/hagen_control/diff_drive_MPC.py | Line: 11
+    [Subscriber] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robots/Homeworks/HW1/hw01.py | Line: 19
+  Topic: /hagen/odom
+    [Subscriber] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robots/Homeworks/HW2/hw02.py | Line: 12
+    [Subscriber] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robots/Homeworks/HW1/hw01.py | Line: 20
+    [Subscriber] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robots/hagen_control/hagen_control/diff_drive_LQR.py | Line: 12
+    [Subscriber] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robots/hagen_control/hagen_control/hagen_control_strategy.py | Line: 12
+    [Subscriber] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robots/hagen_control/hagen_control/diff_drive_PID_control.py | Line: 12
+    [Subscriber] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robots/hagen_control/hagen_control/diff_drive_MPC.py | Line: 12
+  Topic: /hagen/q
+    [Publisher] Node: MinimalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autonomous_mobile_robots/Homeworks/HW1/hw01.py | Line: 21
+
+Repository: https://github.com/HaiderAbasi/ROS2-Path-Planning-and-Maze-Solving
+  Topic: /cmd_vel
+    [Publisher] Node: maze_solver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Path-Planning-and-Maze-Solving/path_planning_ws/src/maze_bot/maze_bot/maze_solver.py | Line: 53
+  Topic: /upper_camera/image_raw
+    [Subscriber] Node: maze_solver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Path-Planning-and-Maze-Solving/path_planning_ws/src/maze_bot/maze_bot/maze_solver.py | Line: 54
+  Topic: /Botcamera/image_raw
+    [Subscriber] Node: maze_solver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Path-Planning-and-Maze-Solving/path_planning_ws/src/maze_bot/maze_bot/maze_solver.py | Line: 57
+  Topic: /odom
+    [Subscriber] Node: maze_solver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Path-Planning-and-Maze-Solving/path_planning_ws/src/maze_bot/maze_bot/maze_solver.py | Line: 70
+    [Subscriber] Node: maze_solver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2-Path-Planning-and-Maze-Solving/path_planning_ws/src/maze_bot/maze_bot/maze_solver.py | Line: 71
+
+Repository: https://github.com/ROS2swarm/ROS2swarm
+  Topic: /ground_truth
+    [Publisher] Node: GroundTruthPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2swarm/src/launch_gazebo/launch_gazebo/ground_truth_publisher.py | Line: 40
+  Topic: /gazebo/model_states
+    [Subscriber] Node: GroundTruthPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2swarm/src/launch_gazebo/launch_gazebo/ground_truth_publisher.py | Line: 33
+  Topic: /swarm_command
+    [Subscriber] Node: AbstractPattern (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2swarm/src/ros2swarm/ros2swarm/abstract_pattern.py | Line: 29
+  Topic: /voting_broadcast
+    [Publisher] Node: VoterModelPattern (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2swarm/src/ros2swarm/ros2swarm/voting_pattern/basic/voter_model_pattern.py | Line: 81
+    [Publisher] Node: VoterModelWithLimiterPattern (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2swarm/src/ros2swarm/ros2swarm/voting_pattern/basic/voter_model_with_limiter_pattern.py | Line: 98
+    [Subscriber] Node: VoterModelPattern (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2swarm/src/ros2swarm/ros2swarm/voting_pattern/basic/voter_model_pattern.py | Line: 85
+    [Subscriber] Node: VoterModelWithLimiterPattern (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2swarm/src/ros2swarm/ros2swarm/voting_pattern/basic/voter_model_with_limiter_pattern.py | Line: 102
+  Topic: /majority_broadcast
+    [Publisher] Node: MajorityRulePattern (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2swarm/src/ros2swarm/ros2swarm/voting_pattern/basic/majority_rule_pattern.py | Line: 85
+    [Subscriber] Node: MajorityRulePattern (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ROS2swarm/src/ros2swarm/ros2swarm/voting_pattern/basic/majority_rule_pattern.py | Line: 93
+
+Repository: https://github.com/mikeferguson/ubr_reloaded
+  Topic: local_plan
+    [Subscriber] Node: NavHeadController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ubr_reloaded/ubr1_navigation/scripts/tilt_head.py | Line: 84
+  Topic: joy
+    [Subscriber] Node: ControllerResetTeleop (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ubr_reloaded/ubr1_bringup/scripts/controller_reset.py | Line: 79
+  Topic: base_controller/command
+    [Publisher] Node: BaseTest (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ubr_reloaded/ubr1_bringup/scripts/profile_base.py | Line: 62
+  Topic: base_controller/odom
+    [Subscriber] Node: BaseTest (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ubr_reloaded/ubr1_bringup/scripts/profile_base.py | Line: 80
+  Topic: joint_states
+    [Subscriber] Node: BaseTest (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ubr_reloaded/ubr1_bringup/scripts/profile_base.py | Line: 89
+
+Repository: https://github.com/fmrico/ros_to_ros2_talk_examples
+  Topic: chatter
+    [Publisher] Node: simple_node_pub (via rclpy.create_node) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_to_ros2_talk_examples/intro_py_ros2/intro_py_ros2/simple_node_pub.py | Line: 24
+    [Publisher] Node: MyNodePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_to_ros2_talk_examples/intro_py_ros2/intro_py_ros2/composable_node_pub.py | Line: 24
+    [Publisher] Node: simple_node_pub (via rclpy.create_node) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_to_ros2_talk_examples/intro_py_ros2/intro_py_ros2/simple_node_pub_qos.py | Line: 25
+    [Publisher] Node: MyNodePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_to_ros2_talk_examples/intro_py_ros2/intro_py_ros2/composable_node_pub_timer.py | Line: 25
+    [Subscriber] Node: simple_node_sub (via rclpy.create_node) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_to_ros2_talk_examples/intro_py_ros2/intro_py_ros2/simple_node_sub_qos.py | Line: 33
+    [Subscriber] Node: MyNodeSubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_to_ros2_talk_examples/intro_py_ros2/intro_py_ros2/composable_node_sub.py | Line: 25
+    [Subscriber] Node: simple_node_sub (via rclpy.create_node) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_to_ros2_talk_examples/intro_py_ros2/intro_py_ros2/simple_node_sub.py | Line: 32
+
+Repository: https://github.com/orbbec/OrbbecSDK_ROS2
+  Topic: /camera/depth/points
+    [Subscriber] Node: TestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/OrbbecSDK_ROS2/orbbec_camera/scripts/receive_pc.py | Line: 11
+
+Repository: https://github.com/linorobot/linorobot2
+  Topic: cmd_vel
+    [Publisher] Node: CommandTimeout (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/linorobot2/linorobot2_gazebo/linorobot2_gazebo/command_timeout.py | Line: 26
+    [Subscriber] Node: CommandTimeout (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/linorobot2/linorobot2_gazebo/linorobot2_gazebo/command_timeout.py | Line: 30
+
+Repository: https://github.com/IFRA-Cranfield/ros2_RobotSimulation
+  Topic: ros2_Detach
+    [Publisher] Node: DetacherPUB (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_RobotSimulation/ros2_execution/scripts/ros2_execution.py | Line: 562
+    [Subscriber] Node: Detach (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_RobotSimulation/ros2_grasping/scripts/attacher_action.py | Line: 115
+
+Repository: https://github.com/BerkeleyAutomation/FogROS2
+  Topic: topic
+    [Publisher] Node: minimal_publisher (via rclpy.create_node) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/FogROS2/fogros2_examples/fogros2_examples/talker.py | Line: 44
+    [Subscriber] Node: MinimalSubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/FogROS2/fogros2_examples/fogros2_examples/listener.py | Line: 47
+
+Repository: https://github.com/jdgalviss/jetbot-ros2
+  Topic: cmd_vel
+    [Publisher] Node: WSServerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/jetbot-ros2/dev_ws/src/ws_server/ws_server/ws_server_node.py | Line: 19
+    [Subscriber] Node: SpeedController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/jetbot-ros2/dev_ws/src/motion_control/motion_control/speed_control_node.py | Line: 24
+  Topic: rs_t265/odom
+    [Subscriber] Node: SpeedController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/jetbot-ros2/dev_ws/src/motion_control/motion_control/speed_control_node.py | Line: 25
+
+Repository: https://github.com/NVIDIA-AI-IOT/ros2_deepstream
+  Topic: infer_detection
+    [Publisher] Node: InferencePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_deepstream/single_stream_pkg/single_stream_pkg/single_stream_class.py | Line: 217
+    [Subscriber] Node: MinimalSubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_deepstream/subscriber_pkg/subscriber_pkg/sub_detection.py | Line: 37
+  Topic: infer_classification
+    [Publisher] Node: InferencePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_deepstream/single_stream_pkg/single_stream_pkg/single_stream_class.py | Line: 218
+    [Subscriber] Node: MinimalSubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_deepstream/subscriber_pkg/subscriber_pkg/sub_classification.py | Line: 37
+  Topic: multi_detection
+    [Publisher] Node: InferencePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_deepstream/multi_stream_pkg/multi_stream_pkg/multi_stream_class.py | Line: 318
+    [Subscriber] Node: MinimalSubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_deepstream/subscriber_pkg/subscriber_pkg/sub_multi_detection.py | Line: 37
+  Topic: multi_classification
+    [Publisher] Node: InferencePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_deepstream/multi_stream_pkg/multi_stream_pkg/multi_stream_class.py | Line: 320
+    [Subscriber] Node: MinimalSubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros2_deepstream/subscriber_pkg/subscriber_pkg/sub_multi_classification.py | Line: 37
+
+Repository: https://github.com/hmakelin/gisnav
+  Topic: /fmu/in/sensor_gps
+    [Subscriber] Node: SensorGpsListenerContext (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gisnav/ros/gisnav/test/sitl/sitl_px4.py | Line: 227
+  Topic: /fmu/out/vehicle_global_position
+    [Subscriber] Node: SensorGpsListenerContext (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gisnav/ros/gisnav/test/sitl/sitl_px4.py | Line: 233
+  Topic: /gisnav/nmea_node/sentence
+    [Subscriber] Node: NMEAPublisherNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gisnav/docker/nmea/opt/colcon_ws/src/nmea_publisher/nmea_publisher/nmea_publisher_node.py | Line: 23
+  Topic: /gisnav/ublox_node/navpvt
+    [Subscriber] Node: UBXPublisherNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/gisnav/docker/ubx/opt/colcon_ws/src/ubx_publisher/ubx_publisher/ubx_publisher_node.py | Line: 22
+

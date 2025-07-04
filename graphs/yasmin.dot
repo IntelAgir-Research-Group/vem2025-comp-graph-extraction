@@ -1,0 +1,12 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "test" [shape=ellipse, fillcolor=white];
+  "AuxNode" -> "test";
+  "/fsm_viewer" [shape=ellipse, fillcolor=white];
+  "YasminViewerPub" -> "/fsm_viewer";
+  "/fsm_viewer" -> "YasminFsmViewerNode";
+  "YasminViewerPub" [shape=box, fillcolor=lightblue];
+  "AuxNode" [shape=box, fillcolor=lightblue];
+  "YasminFsmViewerNode" [shape=box, fillcolor=lightblue];
+}

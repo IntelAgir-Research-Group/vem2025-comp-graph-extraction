@@ -1,0 +1,8 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "cmd_vel" [shape=ellipse, fillcolor=white];
+  "CommandTimeout" -> "cmd_vel";
+  "cmd_vel" -> "CommandTimeout";
+  "CommandTimeout" [shape=box, fillcolor=lightblue];
+}

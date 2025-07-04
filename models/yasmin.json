@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "https://github.com/uleroboticsgroup/yasmin",
+    "topics": {
+      "test": {
+        "publishers": [
+          "AuxNode"
+        ]
+      },
+      "/fsm_viewer": {
+        "publishers": [
+          "YasminViewerPub"
+        ],
+        "subscribers": [
+          "YasminFsmViewerNode"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,15 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/fmu/in/sensor_gps" [shape=ellipse, fillcolor=white];
+  "/fmu/in/sensor_gps" -> "SensorGpsListenerContext";
+  "/fmu/out/vehicle_global_position" [shape=ellipse, fillcolor=white];
+  "/fmu/out/vehicle_global_position" -> "SensorGpsListenerContext";
+  "/gisnav/nmea_node/sentence" [shape=ellipse, fillcolor=white];
+  "/gisnav/nmea_node/sentence" -> "NMEAPublisherNode";
+  "/gisnav/ublox_node/navpvt" [shape=ellipse, fillcolor=white];
+  "/gisnav/ublox_node/navpvt" -> "UBXPublisherNode";
+  "UBXPublisherNode" [shape=box, fillcolor=lightblue];
+  "SensorGpsListenerContext" [shape=box, fillcolor=lightblue];
+  "NMEAPublisherNode" [shape=box, fillcolor=lightblue];
+}

@@ -1,0 +1,12 @@
+digraph ROS2_Computation_Graph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightgray];
+  "/hagen/cmd_vel" [shape=ellipse, fillcolor=white];
+  "MinimalPublisher" -> "/hagen/cmd_vel";
+  "/hagen/cmd_vel" -> "MinimalPublisher";
+  "/hagen/odom" [shape=ellipse, fillcolor=white];
+  "/hagen/odom" -> "MinimalPublisher";
+  "/hagen/q" [shape=ellipse, fillcolor=white];
+  "MinimalPublisher" -> "/hagen/q";
+  "MinimalPublisher" [shape=box, fillcolor=lightblue];
+}
