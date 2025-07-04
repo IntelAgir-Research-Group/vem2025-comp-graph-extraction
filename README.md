@@ -5,10 +5,11 @@
 ## Repository Organization
 
 ```
-crawling/   - Folder with files used for crawling the repositories.
-graphs/     - Folder with computation graphs (PNG).
-models/     - Folder with JSON files.
-src/        - Folder with Extractor.
+crawling/               - Folder with files used for crawling the repositories.
+graphs/                 - Folder with computation graphs (PNG).
+models/                 - Folder with JSON files.
+src/                    - Folder with Extractor.
+.extractor_python.log   - Log of Python extraction.
 ```
 
 ## Create a Virtual Environment for Python
