@@ -1,0 +1,92 @@
+[
+  {
+    "repository": "https://github.com/NovoG93/sjtu_drone",
+    "topics": {
+      "joy": {
+        "subscribers": [
+          "TeleopNode"
+        ]
+      },
+      "cmd_vel": {
+        "publishers": [
+          "TeleopNode"
+        ]
+      },
+      "takeoff": {
+        "publishers": [
+          "TeleopNode"
+        ]
+      },
+      "land": {
+        "publishers": [
+          "TeleopNode"
+        ]
+      },
+      "~/takeoff": {
+        "publishers": [
+          "DroneObject"
+        ]
+      },
+      "~/land": {
+        "publishers": [
+          "DroneObject"
+        ]
+      },
+      "~/reset": {
+        "publishers": [
+          "DroneObject"
+        ]
+      },
+      "~/posctrl": {
+        "publishers": [
+          "DroneObject"
+        ]
+      },
+      "~/cmd_vel": {
+        "publishers": [
+          "DroneObject"
+        ]
+      },
+      "~/dronevel_mode": {
+        "publishers": [
+          "DroneObject"
+        ]
+      },
+      "~/sonar": {
+        "subscribers": [
+          "DroneObject"
+        ]
+      },
+      "~/imu": {
+        "subscribers": [
+          "DroneObject"
+        ]
+      },
+      "~/front/image_raw": {
+        "subscribers": [
+          "DroneObject"
+        ]
+      },
+      "~/bottom/image_raw": {
+        "subscribers": [
+          "DroneObject"
+        ]
+      },
+      "~/gt_pose": {
+        "subscribers": [
+          "DroneObject"
+        ]
+      },
+      "~/state": {
+        "subscribers": [
+          "DroneObject"
+        ]
+      },
+      "~/cmd_mode": {
+        "subscribers": [
+          "DroneObject"
+        ]
+      }
+    }
+  }
+]

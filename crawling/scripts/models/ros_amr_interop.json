@@ -1,0 +1,47 @@
+[
+  {
+    "repository": "https://github.com/inorbit-ai/ros_amr_interop",
+    "topics": {
+      "/troubleshooting/errorcodes": {
+        "publishers": [
+          "SampleDataNode"
+        ]
+      },
+      "/mode": {
+        "publishers": [
+          "SampleDataNode"
+        ]
+      },
+      "/battery": {
+        "publishers": [
+          "SampleDataNode"
+        ]
+      },
+      "/battery_runtime": {
+        "publishers": [
+          "SampleDataNode"
+        ]
+      },
+      "/load_perc_available": {
+        "publishers": [
+          "SampleDataNode"
+        ]
+      },
+      "/odom": {
+        "subscribers": [
+          "SampleDataNode"
+        ]
+      },
+      "/location": {
+        "publishers": [
+          "SampleDataNode"
+        ]
+      },
+      "/velocity": {
+        "publishers": [
+          "SampleDataNode"
+        ]
+      }
+    }
+  }
+]

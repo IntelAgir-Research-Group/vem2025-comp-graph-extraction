@@ -1,0 +1,598 @@
+[
+  {
+    "repository": "https://github.com/Nova-UTD/navigator",
+    "topics": {
+      "/joy": {
+        "subscribers": [
+          "JunctionManager",
+          "joy_translation_node"
+        ]
+      },
+      "/clock": {
+        "publishers": [
+          "clock_node",
+          "player"
+        ],
+        "subscribers": [
+          "AirbagNode",
+          "DriveableAreaNode",
+          "GnssAveragingNode",
+          "GridSummationNode",
+          "ImageSegmentationNode",
+          "JunctionManager",
+          "LidarDetectionNode",
+          "MCLNode",
+          "Nav2PathPlanner",
+          "PathPlannerNode",
+          "PredNetNode",
+          "PursePursuitController",
+          "RecursiveTreePlanner",
+          "RouteCostmapNode",
+          "RoutingHardCoded",
+          "RoutingMonitor",
+          "costmap_recorder",
+          "guardian_node",
+          "joy_translation_node",
+          "recorder"
+        ]
+      },
+      "/vehicle/control": {
+        "publishers": [
+          "AirbagNode",
+          "KeyboardController",
+          "Nav2PathPlanner",
+          "ParadeController",
+          "PursePursuitController",
+          "joy_translation_node"
+        ]
+      },
+      "/requested_mode": {
+        "publishers": [
+          "joy_translation_node"
+        ],
+        "subscribers": [
+          "guardian_node"
+        ]
+      },
+      "/speed": {
+        "publishers": [
+          "odom2tf"
+        ],
+        "subscribers": [
+          "FixToGeoJSONNode",
+          "IntersectionManager",
+          "Nav2PathPlanner",
+          "PursePursuitController",
+          "RecursiveTreePlanner",
+          "joy_translation_node"
+        ]
+      },
+      "/node_statuses": {
+        "publishers": [
+          "GnssAveragingNode",
+          "JunctionManager",
+          "RecursiveTreePlanner",
+          "costmap_recorder",
+          "joy_translation_node",
+          "player",
+          "recorder"
+        ],
+        "subscribers": [
+          "guardian_node"
+        ]
+      },
+      "/guardian/mode": {
+        "publishers": [
+          "guardian_node"
+        ],
+        "subscribers": [
+          "RecursiveTreePlanner",
+          "joy_translation_node",
+          "sound_node"
+        ]
+      },
+      "/gnss/odometry": {
+        "publishers": [
+          "player"
+        ],
+        "subscribers": [
+          "PursePursuitController",
+          "RecursiveTreePlanner",
+          "RouteRecorder",
+          "costmap_recorder",
+          "odom2tf",
+          "recorder"
+        ]
+      },
+      "/grid/steering_cost": {
+        "publishers": [
+          "GridSummationNode"
+        ],
+        "subscribers": [
+          "Nav2PathPlanner",
+          "PathPlannerNode",
+          "RecursiveTreePlanner",
+          "costmap_recorder"
+        ]
+      },
+      "/grid/occupancy/current": {
+        "publishers": [
+          "player"
+        ],
+        "subscribers": [
+          "GridSummationNode",
+          "IntersectionManager",
+          "JunctionManager",
+          "recorder"
+        ]
+      },
+      "/cameras/camera0": {
+        "subscribers": [
+          "DriveableAreaNode",
+          "LaneTypeDetector",
+          "PedestrianIntentToEnterRoad",
+          "RoadSignsClassifier",
+          "TrafficLightDetectionNode",
+          "recorder"
+        ]
+      },
+      "/cameras/stitched": {
+        "publishers": [
+          "player"
+        ]
+      },
+      "/gnss_gt/odometry": {
+        "subscribers": [
+          "FixToGeoJSONNode"
+        ]
+      },
+      "/command/steering_position": {
+        "publishers": [
+          "ManualControlNode",
+          "UnifiedController"
+        ]
+      },
+      "/command/throttle_position": {
+        "publishers": [
+          "ManualControlNode",
+          "UnifiedController"
+        ]
+      },
+      "/command/brake_position": {
+        "publishers": [
+          "ManualControlNode",
+          "UnifiedController"
+        ]
+      },
+      "/command/reverse": {
+        "publishers": [
+          "ManualControlNode"
+        ]
+      },
+      "/planning/outgoing_trajectory": {
+        "subscribers": [
+          "UnifiedController",
+          "VizSubscriber"
+        ]
+      },
+      "/planning/zones": {
+        "subscribers": [
+          "VizSubscriber"
+        ]
+      },
+      "/viz/zones": {
+        "publishers": [
+          "VizSubscriber"
+        ]
+      },
+      "/viz/trajectory": {
+        "publishers": [
+          "VizSubscriber"
+        ]
+      },
+      "/a_topic": {
+        "publishers": [
+          "TestBestEffortPublisher",
+          "TestMultipleSubscribers",
+          "TestTransientLocalPublisher"
+        ]
+      },
+      "client_count": {
+        "publishers": [
+          "ClientManager",
+          "RosbridgeWebsocketNode"
+        ]
+      },
+      "connected_clients": {
+        "publishers": [
+          "ClientManager"
+        ]
+      },
+      "/planning/rough_route": {
+        "subscribers": [
+          "RoutingMonitor"
+        ]
+      },
+      "/planning/smoothed_route": {
+        "subscribers": [
+          "RoutingMonitor"
+        ]
+      },
+      "/planning/route": {
+        "publishers": [
+          "RoutingHardCoded",
+          "RoutingMonitor"
+        ],
+        "subscribers": [
+          "RouteCostmapNode"
+        ]
+      },
+      "/clicked_point": {
+        "subscribers": [
+          "routing_listener_node"
+        ]
+      },
+      "/grid/junction": {
+        "subscribers": [
+          "JunctionManager"
+        ]
+      },
+      "/carla/hero/speedometer": {
+        "subscribers": [
+          "AirbagNode",
+          "GnssAveragingNode",
+          "JunctionManager",
+          "MCLNode"
+        ]
+      },
+      "/grid/stateful_junction": {
+        "publishers": [
+          "JunctionManager"
+        ],
+        "subscribers": [
+          "GridSummationNode"
+        ]
+      },
+      "/planning/target_speed": {
+        "publishers": [
+          "RecursiveTreePlanner"
+        ],
+        "subscribers": [
+          "JunctionManager"
+        ]
+      },
+      "/planning/is_waiting": {
+        "publishers": [
+          "JunctionManager"
+        ],
+        "subscribers": [
+          "sound_node"
+        ]
+      },
+      "/grid/route_distance": {
+        "publishers": [
+          "RouteCostmapNode"
+        ],
+        "subscribers": [
+          "GridSummationNode"
+        ]
+      },
+      "/planning/path_goal": {
+        "publishers": [
+          "RouteCostmapNode"
+        ],
+        "subscribers": [
+          "Nav2PathPlanner",
+          "PathPlannerNode"
+        ]
+      },
+      "/planning/goal_marker": {
+        "publishers": [
+          "RouteCostmapNode"
+        ]
+      },
+      "/grid/predictions_combined": {
+        "publishers": [
+          "PredNetNode"
+        ],
+        "subscribers": [
+          "GridSummationNode"
+        ]
+      },
+      "/grid/drivable": {
+        "subscribers": [
+          "GridSummationNode",
+          "MCLNode"
+        ]
+      },
+      "/grid/junction_occupancy": {
+        "publishers": [
+          "GridSummationNode"
+        ]
+      },
+      "/grid/speed_cost": {
+        "publishers": [
+          "GridSummationNode"
+        ],
+        "subscribers": [
+          "RecursiveTreePlanner"
+        ]
+      },
+      "/egma/cost": {
+        "publishers": [
+          "GridSummationNode"
+        ]
+      },
+      "/node_status": {
+        "publishers": [
+          "GridSummationNode"
+        ]
+      },
+      "/traffic_lights/detections": {
+        "publishers": [
+          "TrafficLightDetectionNode"
+        ],
+        "subscribers": [
+          "IntersectionManager"
+        ]
+      },
+      "/road_signs/detections": {
+        "publishers": [
+          "RoadSignsClassifier"
+        ],
+        "subscribers": [
+          "IntersectionManager"
+        ]
+      },
+      "/planning/path": {
+        "publishers": [
+          "Nav2PathPlanner",
+          "PathPlannerNode",
+          "RecursiveTreePlanner"
+        ],
+        "subscribers": [
+          "IntersectionManager",
+          "PursePursuitController",
+          "guardian_node"
+        ]
+      },
+      "/lane_types/detections": {
+        "publishers": [
+          "LaneTypeDetector"
+        ],
+        "subscribers": [
+          "IntersectionManager"
+        ]
+      },
+      "/intersection": {
+        "publishers": [
+          "IntersectionManager"
+        ]
+      },
+      "/planning/barrier_marker": {
+        "publishers": [
+          "PursePursuitController",
+          "RecursiveTreePlanner"
+        ]
+      },
+      "/planning/debug_markers": {
+        "publishers": [
+          "PathPlannerNode"
+        ]
+      },
+      "/planning/look_ahead_marker": {
+        "publishers": [
+          "Nav2PathPlanner"
+        ]
+      },
+      "/lidar/filtered": {
+        "subscribers": [
+          "AirbagNode"
+        ]
+      },
+      "/status/airbags": {
+        "publishers": [
+          "AirbagNode"
+        ]
+      },
+      "/visuals/airbags": {
+        "publishers": [
+          "AirbagNode"
+        ]
+      },
+      "/planning/current_airbag": {
+        "publishers": [
+          "AirbagNode"
+        ]
+      },
+      "/status": {
+        "publishers": [
+          "guardian_node"
+        ]
+      },
+      "/grid/masses": {
+        "subscribers": [
+          "PredNetNode"
+        ]
+      },
+      "/grid/predictions": {
+        "publishers": [
+          "PredNetNode"
+        ]
+      },
+      "/lidar/fused": {
+        "subscribers": [
+          "ImageProjectioNode"
+        ]
+      },
+      "/lidar/semantic": {
+        "publishers": [
+          "ImageProjectioNode"
+        ],
+        "subscribers": [
+          "MCLNode"
+        ]
+      },
+      "/carla/hero/rgb_left/camera_info": {
+        "subscribers": [
+          "ImageProjectioNode"
+        ]
+      },
+      "/semantic/left": {
+        "publishers": [
+          "ImageSegmentationNode"
+        ],
+        "subscribers": [
+          "ImageProjectioNode"
+        ]
+      },
+      "/semantic/right": {
+        "publishers": [
+          "ImageSegmentationNode"
+        ],
+        "subscribers": [
+          "ImageProjectioNode"
+        ]
+      },
+      "/carla/hero/rgb_right/camera_info": {
+        "subscribers": [
+          "ImageProjectioNode"
+        ]
+      },
+      "/carla/hero/rgb_left/image": {
+        "subscribers": [
+          "ImageSegmentationNode"
+        ]
+      },
+      "/carla/hero/rgb_right/image": {
+        "subscribers": [
+          "ImageSegmentationNode"
+        ]
+      },
+      "cameras/camera0": {
+        "subscribers": [
+          "PedestrianSkeleton"
+        ]
+      },
+      "processed_image": {
+        "publishers": [
+          "PedestrianSkeleton"
+        ]
+      },
+      "detection_status": {
+        "publishers": [
+          "PedestrianSkeleton"
+        ]
+      },
+      "/gnss/odometry_processed": {
+        "subscribers": [
+          "GnssAveragingNode",
+          "MCLNode"
+        ]
+      },
+      "/carla/hero/imu": {
+        "subscribers": [
+          "GnssAveragingNode",
+          "MCLNode"
+        ]
+      },
+      "/mcl/particles": {
+        "publishers": [
+          "MCLNode"
+        ]
+      },
+      "/gnss/odometry_raw": {
+        "subscribers": [
+          "GnssAveragingNode"
+        ]
+      },
+      "/true_pose": {
+        "subscribers": [
+          "GnssAveragingNode"
+        ]
+      },
+      "/odometry/processed": {
+        "publishers": [
+          "GnssAveragingNode"
+        ]
+      },
+      "/lidar": {
+        "subscribers": [
+          "LidarDetectionNode"
+        ]
+      },
+      "detected/objects3d": {
+        "publishers": [
+          "LidarDetectionNode"
+        ]
+      },
+      "/cameras/camera0/drivable": {
+        "publishers": [
+          "DriveableAreaNode"
+        ]
+      },
+      "/segmentation_mask": {
+        "publishers": [
+          "ImageSegNode"
+        ],
+        "subscribers": [
+          "OccupancyGridNode",
+          "PedestrianIntentToEnterRoad"
+        ]
+      },
+      "/pedestrians": {
+        "publishers": [
+          "PedestrianIntentToEnterRoad"
+        ]
+      },
+      "/ouster/signal_image": {
+        "subscribers": [
+          "ImageSegNode"
+        ]
+      },
+      "/processed_depth": {
+        "publishers": [
+          "DepthProcessingNode"
+        ],
+        "subscribers": [
+          "OccupancyGridNode"
+        ]
+      },
+      "/occupancy_grid": {
+        "publishers": [
+          "OccupancyGridNode"
+        ]
+      },
+      "/ouster/range_image": {
+        "subscribers": [
+          "DepthProcessingNode"
+        ]
+      },
+      "velodyne_points": {
+        "subscribers": [
+          "ParadeController"
+        ]
+      },
+      "/lidar_tfed": {
+        "publishers": [
+          "ParadeController"
+        ]
+      },
+      "/ppc/path": {
+        "publishers": [
+          "PursePursuitController"
+        ]
+      },
+      "/carla/odom": {
+        "subscribers": [
+          "UnifiedController"
+        ]
+      },
+      "/command/viz": {
+        "publishers": [
+          "UnifiedController"
+        ]
+      }
+    }
+  }
+]

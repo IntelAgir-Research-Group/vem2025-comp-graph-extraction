@@ -1,0 +1,112 @@
+[
+  {
+    "repository": "https://github.com/abizovnuralem/go2_ros2_sdk",
+    "topics": {
+      "/tts": {
+        "subscribers": [
+          "TTSNode"
+        ]
+      },
+      "/webrtc_req": {
+        "publishers": [
+          "TTSNode"
+        ]
+      },
+      "joy": {
+        "subscribers": [
+          "RobotBaseNode"
+        ]
+      },
+      "cmd_vel_out": {
+        "subscribers": [
+          "RobotBaseNode"
+        ]
+      },
+      "webrtc_req": {
+        "subscribers": [
+          "RobotBaseNode"
+        ]
+      },
+      "lowstate": {
+        "subscribers": [
+          "RobotBaseNode"
+        ]
+      },
+      "/utlidar/robot_pose": {
+        "subscribers": [
+          "RobotBaseNode"
+        ]
+      },
+      "/utlidar/cloud": {
+        "subscribers": [
+          "RobotBaseNode"
+        ]
+      },
+      "joint_states": {
+        "publishers": [
+          "RobotBaseNode"
+        ]
+      },
+      "go2_states": {
+        "publishers": [
+          "RobotBaseNode"
+        ]
+      },
+      "point_cloud2": {
+        "publishers": [
+          "RobotBaseNode"
+        ]
+      },
+      "odom": {
+        "publishers": [
+          "RobotBaseNode"
+        ]
+      },
+      "imu": {
+        "publishers": [
+          "RobotBaseNode"
+        ]
+      },
+      "camera/image_raw": {
+        "publishers": [
+          "RobotBaseNode"
+        ]
+      },
+      "camera/camera_info": {
+        "publishers": [
+          "RobotBaseNode"
+        ]
+      },
+      "/utlidar/voxel_map_compressed": {
+        "publishers": [
+          "RobotBaseNode"
+        ]
+      },
+      "/pointcloud/deque": {
+        "publishers": [
+          "LidarToPointCloud"
+        ]
+      },
+      "/robot0/point_cloud2": {
+        "subscribers": [
+          "LidarToPointCloud"
+        ]
+      },
+      "/camera/image_raw": {
+        "subscribers": [
+          "CocoDetectorNode"
+        ]
+      },
+      "detected_objects": {
+        "publishers": [
+          "CocoDetectorNode"
+        ]
+      },
+      "annotated_image": {
+        "publishers": [
+          "CocoDetectorNode"
+        ]
+      }
+    }
+  }
+]

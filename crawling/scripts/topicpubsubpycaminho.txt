@@ -1,0 +1,712 @@
+Repository: https://github.com/Nova-UTD/navigator
+  Topic: /joy
+    [Subscriber] Node: joy_translation_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/joy_translation/joy_translation/joy_translation_node.py | Line: 65
+    [Subscriber] Node: JunctionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/junction_manager.py | Line: 76
+  Topic: /clock
+    [Publisher] Node: player (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/player.py | Line: 242
+    [Publisher] Node: clock_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/clock/clock/clock_node.py | Line: 22
+    [Subscriber] Node: joy_translation_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/joy_translation/joy_translation/joy_translation_node.py | Line: 69
+    [Subscriber] Node: costmap_recorder (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/costmap_recorder.py | Line: 76
+    [Subscriber] Node: recorder (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/recorder.py | Line: 153
+    [Subscriber] Node: RoutingMonitor (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/helpers/helpers/routing_monitor.py | Line: 53
+    [Subscriber] Node: RoutingHardCoded (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/helpers/helpers/routing_hardcoded.py | Line: 48
+    [Subscriber] Node: JunctionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/junction_manager.py | Line: 73
+    [Subscriber] Node: RouteCostmapNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/route_costmap_node.py | Line: 74
+    [Subscriber] Node: GridSummationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/grid_summation_node.py | Line: 96
+    [Subscriber] Node: RecursiveTreePlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/rtp/rtp/rtp_node.py | Line: 112
+    [Subscriber] Node: PathPlannerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/path_planners/path_planners/path_planner_node.py | Line: 150
+    [Subscriber] Node: Nav2PathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/nav2_path_planner/nav2_path_planner/nav2_path_planner_node.py | Line: 67
+    [Subscriber] Node: AirbagNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/airbags/airbags/airbag_node.py | Line: 58
+    [Subscriber] Node: guardian_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/guardian/guardian/guardian_node.py | Line: 75
+    [Subscriber] Node: PredNetNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/prednet_inference/prednet_inference/prednet_inference_node.py | Line: 54
+    [Subscriber] Node: ImageSegmentationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/segmentation/segmentation/image_segmentation_node.py | Line: 122
+    [Subscriber] Node: MCLNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/mcl_node.py | Line: 58
+    [Subscriber] Node: GnssAveragingNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/gnss_averaging_node.py | Line: 47
+    [Subscriber] Node: LidarDetectionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/lidar_detection/lidar_detection/lidar_detection_node.py | Line: 83
+    [Subscriber] Node: DriveableAreaNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/driveable_area/driveable_area/driveable_area_node.py | Line: 129
+    [Subscriber] Node: PursePursuitController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/pure_pursuit_controller/pure_pursuit_controller/pure_pursuit_controller_node.py | Line: 250
+  Topic: /vehicle/control
+    [Publisher] Node: joy_translation_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/joy_translation/joy_translation/joy_translation_node.py | Line: 72
+    [Publisher] Node: KeyboardController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/keyboard_control/keyboard_control/keyboard_control.py | Line: 25
+    [Publisher] Node: Nav2PathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/nav2_path_planner/nav2_path_planner/nav2_path_planner_node.py | Line: 108
+    [Publisher] Node: AirbagNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/airbags/airbags/airbag_node.py | Line: 45
+    [Publisher] Node: ParadeController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/parade_controller/parade_controller/parade_controller_node.py | Line: 47
+    [Publisher] Node: PursePursuitController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/pure_pursuit_controller/pure_pursuit_controller/pure_pursuit_controller_node.py | Line: 254
+  Topic: /requested_mode
+    [Publisher] Node: joy_translation_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/joy_translation/joy_translation/joy_translation_node.py | Line: 75
+    [Subscriber] Node: guardian_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/guardian/guardian/guardian_node.py | Line: 60
+  Topic: /speed
+    [Publisher] Node: odom2tf (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/odom2tf.py | Line: 46
+    [Subscriber] Node: joy_translation_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/joy_translation/joy_translation/joy_translation_node.py | Line: 78
+    [Subscriber] Node: FixToGeoJSONNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/fix2geojson.py | Line: 44
+    [Subscriber] Node: IntersectionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/intersection_manager/intersection_manager/intersection_manager.py | Line: 29
+    [Subscriber] Node: RecursiveTreePlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/rtp/rtp/rtp_node.py | Line: 117
+    [Subscriber] Node: Nav2PathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/nav2_path_planner/nav2_path_planner/nav2_path_planner_node.py | Line: 111
+    [Subscriber] Node: PursePursuitController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/pure_pursuit_controller/pure_pursuit_controller/pure_pursuit_controller_node.py | Line: 247
+  Topic: /node_statuses
+    [Publisher] Node: joy_translation_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/joy_translation/joy_translation/joy_translation_node.py | Line: 82
+    [Publisher] Node: costmap_recorder (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/costmap_recorder.py | Line: 88
+    [Publisher] Node: recorder (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/recorder.py | Line: 157
+    [Publisher] Node: player (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/player.py | Line: 244
+    [Publisher] Node: JunctionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/junction_manager.py | Line: 85
+    [Publisher] Node: RecursiveTreePlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/rtp/rtp/rtp_node.py | Line: 100
+    [Publisher] Node: GnssAveragingNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/gnss_averaging_node.py | Line: 70
+    [Subscriber] Node: guardian_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/guardian/guardian/guardian_node.py | Line: 63
+  Topic: /guardian/mode
+    [Publisher] Node: guardian_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/guardian/guardian/guardian_node.py | Line: 69
+    [Subscriber] Node: joy_translation_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/joy_translation/joy_translation/joy_translation_node.py | Line: 86
+    [Subscriber] Node: RecursiveTreePlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/rtp/rtp/rtp_node.py | Line: 104
+    [Subscriber] Node: sound_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/guardian/guardian/sound_node.py | Line: 40
+  Topic: /gnss/odometry
+    [Publisher] Node: player (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/player.py | Line: 239
+    [Subscriber] Node: costmap_recorder (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/costmap_recorder.py | Line: 74
+    [Subscriber] Node: recorder (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/recorder.py | Line: 150
+    [Subscriber] Node: odom2tf (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/odom2tf.py | Line: 45
+    [Subscriber] Node: RouteRecorder (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/route_recorder/route_recorder/route_recorder_node.py | Line: 28
+    [Subscriber] Node: RecursiveTreePlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/rtp/rtp/rtp_node.py | Line: 102
+    [Subscriber] Node: PursePursuitController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/pure_pursuit_controller/pure_pursuit_controller/pure_pursuit_controller_node.py | Line: 244
+  Topic: /grid/steering_cost
+    [Publisher] Node: GridSummationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/grid_summation_node.py | Line: 80
+    [Subscriber] Node: costmap_recorder (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/costmap_recorder.py | Line: 78
+    [Subscriber] Node: RecursiveTreePlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/rtp/rtp/rtp_node.py | Line: 92
+    [Subscriber] Node: PathPlannerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/path_planners/path_planners/path_planner_node.py | Line: 155
+    [Subscriber] Node: Nav2PathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/nav2_path_planner/nav2_path_planner/nav2_path_planner_node.py | Line: 82
+  Topic: /grid/occupancy/current
+    [Publisher] Node: player (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/player.py | Line: 233
+    [Subscriber] Node: recorder (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/recorder.py | Line: 144
+    [Subscriber] Node: JunctionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/junction_manager.py | Line: 64
+    [Subscriber] Node: GridSummationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/grid_summation_node.py | Line: 57
+    [Subscriber] Node: IntersectionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/intersection_manager/intersection_manager/intersection_manager.py | Line: 30
+  Topic: /cameras/camera0
+    [Subscriber] Node: recorder (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/recorder.py | Line: 147
+    [Subscriber] Node: LaneTypeDetector (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/lane_type_detector/lane_type_detector/lane_type_detector.py | Line: 34
+    [Subscriber] Node: RoadSignsClassifier (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/road_signs_classifier/road_signs_classifier/road_signs_classifier.py | Line: 27
+    [Subscriber] Node: DriveableAreaNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/driveable_area/driveable_area/driveable_area_node.py | Line: 125
+    [Subscriber] Node: TrafficLightDetectionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/traffic_light_detector/traffic_light_detector/traffic_light_node.py | Line: 31
+    [Subscriber] Node: PedestrianIntentToEnterRoad (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/pedestrian_intent_to_enter_road/pedestrian_intent_to_enter_road/pedestrian_intent_to_enter_road.py | Line: 26
+  Topic: /cameras/stitched
+    [Publisher] Node: player (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/player.py | Line: 236
+  Topic: /gnss_gt/odometry
+    [Subscriber] Node: FixToGeoJSONNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/recording/recording/fix2geojson.py | Line: 41
+  Topic: /command/steering_position
+    [Publisher] Node: ManualControlNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/manual_control/manual_control/manual_control_node.py | Line: 164
+    [Publisher] Node: UnifiedController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/unified_controller/unified_controller/unified_controller_node.py | Line: 240
+  Topic: /command/throttle_position
+    [Publisher] Node: ManualControlNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/manual_control/manual_control/manual_control_node.py | Line: 170
+    [Publisher] Node: UnifiedController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/unified_controller/unified_controller/unified_controller_node.py | Line: 230
+  Topic: /command/brake_position
+    [Publisher] Node: ManualControlNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/manual_control/manual_control/manual_control_node.py | Line: 176
+    [Publisher] Node: UnifiedController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/unified_controller/unified_controller/unified_controller_node.py | Line: 235
+  Topic: /command/reverse
+    [Publisher] Node: ManualControlNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/manual_control/manual_control/manual_control_node.py | Line: 182
+  Topic: /planning/outgoing_trajectory
+    [Subscriber] Node: VizSubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/vt_viz/vt_viz/vt_viz_exe.py | Line: 32
+    [Subscriber] Node: UnifiedController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/unified_controller/unified_controller/unified_controller_node.py | Line: 216
+  Topic: /planning/zones
+    [Subscriber] Node: VizSubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/vt_viz/vt_viz/vt_viz_exe.py | Line: 33
+  Topic: /viz/zones
+    [Publisher] Node: VizSubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/vt_viz/vt_viz/vt_viz_exe.py | Line: 34
+  Topic: /viz/trajectory
+    [Publisher] Node: VizSubscriber (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/vt_viz/vt_viz/vt_viz_exe.py | Line: 35
+  Topic: /a_topic
+    [Publisher] Node: TestMultipleSubscribers (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/rosbridge_suite/rosbridge_server/test/websocket/multiple_subscribers_raw.test.py | Line: 42
+    [Publisher] Node: TestMultipleSubscribers (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/rosbridge_suite/rosbridge_server/test/websocket/multiple_subscribers.test.py | Line: 49
+    [Publisher] Node: TestBestEffortPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/rosbridge_suite/rosbridge_server/test/websocket/best_effort_publisher.test.py | Line: 27
+    [Publisher] Node: TestTransientLocalPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/rosbridge_suite/rosbridge_server/test/websocket/transient_local_publisher.test.py | Line: 28
+  Topic: client_count
+    [Publisher] Node: RosbridgeWebsocketNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/rosbridge_suite/rosbridge_server/scripts/rosbridge_websocket.py | Line: 209
+    [Publisher] Node: ClientManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/rosbridge_suite/rosbridge_server/src/rosbridge_server/client_mananger.py | Line: 50
+  Topic: connected_clients
+    [Publisher] Node: ClientManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/rosbridge_suite/rosbridge_server/src/rosbridge_server/client_mananger.py | Line: 54
+  Topic: /planning/rough_route
+    [Subscriber] Node: RoutingMonitor (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/helpers/helpers/routing_monitor.py | Line: 40
+  Topic: /planning/smoothed_route
+    [Subscriber] Node: RoutingMonitor (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/helpers/helpers/routing_monitor.py | Line: 45
+  Topic: /planning/route
+    [Publisher] Node: RoutingMonitor (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/helpers/helpers/routing_monitor.py | Line: 47
+    [Publisher] Node: RoutingHardCoded (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/helpers/helpers/routing_hardcoded.py | Line: 44
+    [Subscriber] Node: RouteCostmapNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/route_costmap_node.py | Line: 62
+  Topic: /clicked_point
+    [Subscriber] Node: routing_listener_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/tools/helpers/helpers/routing_listener.py | Line: 34
+  Topic: /grid/junction
+    [Subscriber] Node: JunctionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/junction_manager.py | Line: 67
+  Topic: /carla/hero/speedometer
+    [Subscriber] Node: JunctionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/junction_manager.py | Line: 70
+    [Subscriber] Node: AirbagNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/airbags/airbags/airbag_node.py | Line: 41
+    [Subscriber] Node: MCLNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/mcl_node.py | Line: 73
+    [Subscriber] Node: GnssAveragingNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/gnss_averaging_node.py | Line: 53
+  Topic: /grid/stateful_junction
+    [Publisher] Node: JunctionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/junction_manager.py | Line: 80
+    [Subscriber] Node: GridSummationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/grid_summation_node.py | Line: 69
+  Topic: /planning/target_speed
+    [Publisher] Node: RecursiveTreePlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/rtp/rtp/rtp_node.py | Line: 108
+    [Subscriber] Node: JunctionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/junction_manager.py | Line: 83
+  Topic: /planning/is_waiting
+    [Publisher] Node: JunctionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/junction_manager.py | Line: 88
+    [Subscriber] Node: sound_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/guardian/guardian/sound_node.py | Line: 44
+  Topic: /grid/route_distance
+    [Publisher] Node: RouteCostmapNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/route_costmap_node.py | Line: 53
+    [Subscriber] Node: GridSummationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/grid_summation_node.py | Line: 73
+  Topic: /planning/path_goal
+    [Publisher] Node: RouteCostmapNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/route_costmap_node.py | Line: 56
+    [Subscriber] Node: PathPlannerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/path_planners/path_planners/path_planner_node.py | Line: 160
+    [Subscriber] Node: Nav2PathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/nav2_path_planner/nav2_path_planner/nav2_path_planner_node.py | Line: 93
+  Topic: /planning/goal_marker
+    [Publisher] Node: RouteCostmapNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/route_costmap_node.py | Line: 59
+  Topic: /grid/predictions_combined
+    [Publisher] Node: PredNetNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/prednet_inference/prednet_inference/prednet_inference_node.py | Line: 62
+    [Subscriber] Node: GridSummationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/grid_summation_node.py | Line: 61
+  Topic: /grid/drivable
+    [Subscriber] Node: GridSummationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/grid_summation_node.py | Line: 65
+    [Subscriber] Node: MCLNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/mcl_node.py | Line: 70
+  Topic: /grid/junction_occupancy
+    [Publisher] Node: GridSummationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/grid_summation_node.py | Line: 77
+  Topic: /grid/speed_cost
+    [Publisher] Node: GridSummationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/grid_summation_node.py | Line: 83
+    [Subscriber] Node: RecursiveTreePlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/rtp/rtp/rtp_node.py | Line: 96
+  Topic: /egma/cost
+    [Publisher] Node: GridSummationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/grid_summation_node.py | Line: 86
+  Topic: /node_status
+    [Publisher] Node: GridSummationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/costs/costs/grid_summation_node.py | Line: 89
+  Topic: /traffic_lights/detections
+    [Publisher] Node: TrafficLightDetectionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/traffic_light_detector/traffic_light_detector/traffic_light_node.py | Line: 35
+    [Subscriber] Node: IntersectionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/intersection_manager/intersection_manager/intersection_manager.py | Line: 26
+  Topic: /road_signs/detections
+    [Publisher] Node: RoadSignsClassifier (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/road_signs_classifier/road_signs_classifier/road_signs_classifier.py | Line: 34
+    [Subscriber] Node: IntersectionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/intersection_manager/intersection_manager/intersection_manager.py | Line: 27
+  Topic: /planning/path
+    [Publisher] Node: RecursiveTreePlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/rtp/rtp/rtp_node.py | Line: 121
+    [Publisher] Node: PathPlannerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/path_planners/path_planners/path_planner_node.py | Line: 166
+    [Publisher] Node: Nav2PathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/nav2_path_planner/nav2_path_planner/nav2_path_planner_node.py | Line: 97
+    [Subscriber] Node: IntersectionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/intersection_manager/intersection_manager/intersection_manager.py | Line: 28
+    [Subscriber] Node: guardian_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/guardian/guardian/guardian_node.py | Line: 72
+    [Subscriber] Node: PursePursuitController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/pure_pursuit_controller/pure_pursuit_controller/pure_pursuit_controller_node.py | Line: 241
+  Topic: /lane_types/detections
+    [Publisher] Node: LaneTypeDetector (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/lane_type_detector/lane_type_detector/lane_type_detector.py | Line: 41
+    [Subscriber] Node: IntersectionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/intersection_manager/intersection_manager/intersection_manager.py | Line: 31
+  Topic: /intersection
+    [Publisher] Node: IntersectionManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/intersection_manager/intersection_manager/intersection_manager.py | Line: 34
+  Topic: /planning/barrier_marker
+    [Publisher] Node: RecursiveTreePlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/rtp/rtp/rtp_node.py | Line: 123
+    [Publisher] Node: PursePursuitController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/pure_pursuit_controller/pure_pursuit_controller/pure_pursuit_controller_node.py | Line: 257
+  Topic: /planning/debug_markers
+    [Publisher] Node: PathPlannerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/path_planners/path_planners/path_planner_node.py | Line: 167
+  Topic: /planning/look_ahead_marker
+    [Publisher] Node: Nav2PathPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/planning/nav2_path_planner/nav2_path_planner/nav2_path_planner_node.py | Line: 104
+  Topic: /lidar/filtered
+    [Subscriber] Node: AirbagNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/airbags/airbags/airbag_node.py | Line: 34
+  Topic: /status/airbags
+    [Publisher] Node: AirbagNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/airbags/airbags/airbag_node.py | Line: 48
+  Topic: /visuals/airbags
+    [Publisher] Node: AirbagNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/airbags/airbags/airbag_node.py | Line: 51
+  Topic: /planning/current_airbag
+    [Publisher] Node: AirbagNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/airbags/airbags/airbag_node.py | Line: 54
+  Topic: /status
+    [Publisher] Node: guardian_node (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/safety/guardian/guardian/guardian_node.py | Line: 66
+  Topic: /grid/masses
+    [Subscriber] Node: PredNetNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/prednet_inference/prednet_inference/prednet_inference_node.py | Line: 51
+  Topic: /grid/predictions
+    [Publisher] Node: PredNetNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/prednet_inference/prednet_inference/prednet_inference_node.py | Line: 60
+  Topic: /lidar/fused
+    [Subscriber] Node: ImageProjectioNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/segmentation/segmentation/image_projection_node.py | Line: 95
+  Topic: /lidar/semantic
+    [Publisher] Node: ImageProjectioNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/segmentation/segmentation/image_projection_node.py | Line: 98
+    [Subscriber] Node: MCLNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/mcl_node.py | Line: 61
+  Topic: /carla/hero/rgb_left/camera_info
+    [Subscriber] Node: ImageProjectioNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/segmentation/segmentation/image_projection_node.py | Line: 101
+  Topic: /semantic/left
+    [Publisher] Node: ImageSegmentationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/segmentation/segmentation/image_segmentation_node.py | Line: 112
+    [Subscriber] Node: ImageProjectioNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/segmentation/segmentation/image_projection_node.py | Line: 104
+  Topic: /semantic/right
+    [Publisher] Node: ImageSegmentationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/segmentation/segmentation/image_segmentation_node.py | Line: 117
+    [Subscriber] Node: ImageProjectioNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/segmentation/segmentation/image_projection_node.py | Line: 107
+  Topic: /carla/hero/rgb_right/camera_info
+    [Subscriber] Node: ImageProjectioNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/segmentation/segmentation/image_projection_node.py | Line: 110
+  Topic: /carla/hero/rgb_left/image
+    [Subscriber] Node: ImageSegmentationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/segmentation/segmentation/image_segmentation_node.py | Line: 109
+  Topic: /carla/hero/rgb_right/image
+    [Subscriber] Node: ImageSegmentationNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/segmentation/segmentation/image_segmentation_node.py | Line: 115
+  Topic: cameras/camera0
+    [Subscriber] Node: PedestrianSkeleton (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/pedestrian_skeleton/pedestrian_skeleton/pedestrian_skeleton.py | Line: 15
+  Topic: processed_image
+    [Publisher] Node: PedestrianSkeleton (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/pedestrian_skeleton/pedestrian_skeleton/pedestrian_skeleton.py | Line: 22
+  Topic: detection_status
+    [Publisher] Node: PedestrianSkeleton (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/pedestrian_skeleton/pedestrian_skeleton/pedestrian_skeleton.py | Line: 25
+  Topic: /gnss/odometry_processed
+    [Subscriber] Node: MCLNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/mcl_node.py | Line: 64
+    [Subscriber] Node: GnssAveragingNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/gnss_averaging_node.py | Line: 63
+  Topic: /carla/hero/imu
+    [Subscriber] Node: MCLNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/mcl_node.py | Line: 67
+    [Subscriber] Node: GnssAveragingNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/gnss_averaging_node.py | Line: 50
+  Topic: /mcl/particles
+    [Publisher] Node: MCLNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/mcl_node.py | Line: 76
+  Topic: /gnss/odometry_raw
+    [Subscriber] Node: GnssAveragingNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/gnss_averaging_node.py | Line: 56
+  Topic: /true_pose
+    [Subscriber] Node: GnssAveragingNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/gnss_averaging_node.py | Line: 60
+  Topic: /odometry/processed
+    [Publisher] Node: GnssAveragingNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/state_estimation/state_estimation/gnss_averaging_node.py | Line: 67
+  Topic: /lidar
+    [Subscriber] Node: LidarDetectionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/lidar_detection/lidar_detection/lidar_detection_node.py | Line: 80
+  Topic: detected/objects3d
+    [Publisher] Node: LidarDetectionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/lidar_detection/lidar_detection/lidar_detection_node.py | Line: 87
+  Topic: /cameras/camera0/drivable
+    [Publisher] Node: DriveableAreaNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/driveable_area/driveable_area/driveable_area_node.py | Line: 134
+  Topic: /segmentation_mask
+    [Publisher] Node: ImageSegNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/drivable_surface_segmentation/image_segmentation/image_segmentation/sam2/sam2/image_segmentation.py | Line: 19
+    [Subscriber] Node: PedestrianIntentToEnterRoad (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/pedestrian_intent_to_enter_road/pedestrian_intent_to_enter_road/pedestrian_intent_to_enter_road.py | Line: 27
+    [Subscriber] Node: OccupancyGridNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/drivable_surface_segmentation/occupancy_grid/occupancy_grid/occupancy_grid.py | Line: 16
+  Topic: /pedestrians
+    [Publisher] Node: PedestrianIntentToEnterRoad (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/pedestrian_intent_to_enter_road/pedestrian_intent_to_enter_road/pedestrian_intent_to_enter_road.py | Line: 28
+  Topic: /ouster/signal_image
+    [Subscriber] Node: ImageSegNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/drivable_surface_segmentation/image_segmentation/image_segmentation/sam2/sam2/image_segmentation.py | Line: 17
+  Topic: /processed_depth
+    [Publisher] Node: DepthProcessingNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/drivable_surface_segmentation/depth_processing/depth_processing/depth_processing.py | Line: 17
+    [Subscriber] Node: OccupancyGridNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/drivable_surface_segmentation/occupancy_grid/occupancy_grid/occupancy_grid.py | Line: 17
+  Topic: /occupancy_grid
+    [Publisher] Node: OccupancyGridNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/drivable_surface_segmentation/occupancy_grid/occupancy_grid/occupancy_grid.py | Line: 20
+  Topic: /ouster/range_image
+    [Subscriber] Node: DepthProcessingNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/perception/drivable_surface_segmentation/depth_processing/depth_processing/depth_processing.py | Line: 15
+  Topic: velodyne_points
+    [Subscriber] Node: ParadeController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/parade_controller/parade_controller/parade_controller_node.py | Line: 42
+  Topic: /lidar_tfed
+    [Publisher] Node: ParadeController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/parade_controller/parade_controller/parade_controller_node.py | Line: 51
+  Topic: /ppc/path
+    [Publisher] Node: PursePursuitController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/pure_pursuit_controller/pure_pursuit_controller/pure_pursuit_controller_node.py | Line: 260
+  Topic: /carla/odom
+    [Subscriber] Node: UnifiedController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/unified_controller/unified_controller/unified_controller_node.py | Line: 223
+  Topic: /command/viz
+    [Publisher] Node: UnifiedController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/navigator/src/control/unified_controller/unified_controller/unified_controller_node.py | Line: 245
+
+Repository: https://github.com/hello-robot/stretch_ros2
+  Topic: /stretch/joint_states
+    [Subscriber] Node: GraspObjectNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_demos/stretch_demos/grasp_object.py | Line: 211
+    [Subscriber] Node: HelloWorldNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_demos/stretch_demos/hello_world.py | Line: 237
+    [Subscriber] Node: CleanSurfaceNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_demos/stretch_demos/clean_surface.py | Line: 190
+    [Subscriber] Node: HandoverObjectNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_demos/stretch_demos/handover_object.py | Line: 178
+    [Subscriber] Node: OpenDrawerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_demos/stretch_demos/open_drawer.py | Line: 170
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_stretch_driver.py | Line: 167
+    [Subscriber] Node: JointPosePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/common/client_nodes/joint_pose_streaming.py | Line: 22
+    [Subscriber] Node: Client (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/common/client_nodes/stretch_driver.py | Line: 49
+    [Subscriber] Node: KeyboardTeleopNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/keyboard_teleop.py | Line: 382
+    [Subscriber] Node: FunmapNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_funmap/stretch_funmap/funmap.py | Line: 1369
+    [Subscriber] Node: HelloNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/hello_helpers/src/hello_helpers/hello_misc.py | Line: 312
+  Topic: /nearest_mouth/marker_array
+    [Subscriber] Node: HandoverObjectNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_demos/stretch_demos/handover_object.py | Line: 183
+  Topic: /scan
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_rplidar.py | Line: 98
+  Topic: /scan_filtered
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1149
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_rplidar.py | Line: 105
+    [Subscriber] Node: Avoider (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/avoider.py | Line: 30
+  Topic: /camera/accel/sample_corrected
+    [Publisher] Node: D435iAccelCorrectionNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/d435i_accel_correction.py | Line: 23
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_camera.py | Line: 110
+  Topic: /camera/color/image_raw
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_camera.py | Line: 117
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_aruco_detection.py | Line: 130
+  Topic: /camera/depth/image_rect_raw
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_camera.py | Line: 124
+  Topic: /camera/color/camera_info
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_aruco_detection.py | Line: 123
+  Topic: /camera/aligned_depth_to_color/image_raw
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_aruco_detection.py | Line: 137
+  Topic: /aruco/marker_array
+    [Publisher] Node: DetectArucoNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/detect_aruco_markers.py | Line: 659
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_aruco_detection.py | Line: 149
+  Topic: /aruco/axes
+    [Publisher] Node: DetectArucoNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/detect_aruco_markers.py | Line: 660
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_aruco_detection.py | Line: 156
+  Topic: battery
+    [Publisher] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 966
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1201
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_stretch_driver.py | Line: 153
+  Topic: mode
+    [Publisher] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 968
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1203
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_stretch_driver.py | Line: 160
+    [Subscriber] Node: KeyboardTeleopNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/keyboard_teleop.py | Line: 385
+  Topic: /is_homed
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_stretch_driver.py | Line: 174
+  Topic: /is_runstopped
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_stretch_driver.py | Line: 181
+  Topic: /odom
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_stretch_driver.py | Line: 188
+  Topic: /tool
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_stretch_driver.py | Line: 195
+    [Subscriber] Node: HelloNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/hello_helpers/src/hello_helpers/hello_misc.py | Line: 310
+  Topic: /tf
+    [Subscriber] Node: MakeTestNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/test_stretch_driver.py | Line: 202
+  Topic: joint_pose_cmd
+    [Publisher] Node: JointPosePublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/common/client_nodes/joint_pose_streaming.py | Line: 19
+    [Subscriber] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 986
+    [Subscriber] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1239
+  Topic: /mode
+    [Subscriber] Node: Client (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/test/common/client_nodes/stretch_driver.py | Line: 46
+    [Subscriber] Node: HelloNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/hello_helpers/src/hello_helpers/hello_misc.py | Line: 313
+  Topic: /aruco/point_cloud2
+    [Publisher] Node: DetectArucoNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/detect_aruco_markers.py | Line: 661
+  Topic: /aruco/wrist_top
+    [Publisher] Node: DetectArucoNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/detect_aruco_markers.py | Line: 663
+  Topic: /aruco/wrist_inside
+    [Publisher] Node: DetectArucoNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/detect_aruco_markers.py | Line: 664
+  Topic: /stretch/cmd_vel
+    [Publisher] Node: Avoider (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/avoider.py | Line: 29
+  Topic: odom
+    [Publisher] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 964
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1148
+  Topic: is_homed
+    [Publisher] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 967
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1202
+  Topic: tool
+    [Publisher] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 969
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1204
+  Topic: is_streaming_position
+    [Publisher] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 970
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1205
+  Topic: imu_mobile_base
+    [Publisher] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 972
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1209
+  Topic: magnetometer_mobile_base
+    [Publisher] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 973
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1210
+  Topic: imu_wrist
+    [Publisher] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 974
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1213
+  Topic: is_runstopped
+    [Publisher] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 975
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1214
+  Topic: is_gamepad_dongle
+    [Publisher] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 977
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1216
+  Topic: stretch_gamepad_state
+    [Publisher] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 978
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1217
+  Topic: cmd_vel
+    [Subscriber] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 982
+    [Subscriber] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1223
+  Topic: gamepad_joy
+    [Publisher] Node: StretchRemoteGamepad (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/remote_gamepad.py | Line: 17
+    [Subscriber] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 984
+    [Subscriber] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1231
+  Topic: joint_states
+    [Publisher] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 1010
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1284
+  Topic: joint_limits
+    [Publisher] Node: StretchDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/stretch_driver.py | Line: 1011
+    [Publisher] Node: StretchMujocoDriver (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_simulation/stretch_mujoco_driver/stretch_mujoco_driver.py | Line: 1285
+  Topic: /frustum_marker/depth_camera
+    [Publisher] Node: FrustumNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/d435i_frustum_visualizer.py | Line: 196
+  Topic: /frustum_marker/color_camera
+    [Publisher] Node: FrustumNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_core/stretch_core/d435i_frustum_visualizer.py | Line: 197
+  Topic: /move_base_simple/goal
+    [Subscriber] Node: FunmapNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_funmap/stretch_funmap/funmap.py | Line: 1303
+  Topic: /initialpose
+    [Subscriber] Node: FunmapNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_funmap/stretch_funmap/funmap.py | Line: 1309
+  Topic: /clicked_point
+    [Subscriber] Node: FunmapNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_funmap/stretch_funmap/funmap.py | Line: 1353
+  Topic: /funmap/point_cloud2
+    [Publisher] Node: FunmapNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_funmap/stretch_funmap/funmap.py | Line: 1358
+  Topic: /funmap/voi_marker
+    [Publisher] Node: FunmapNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_funmap/stretch_funmap/funmap.py | Line: 1360
+  Topic: /funmap/marker_array
+    [Publisher] Node: FunmapNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_funmap/stretch_funmap/funmap.py | Line: 1362
+  Topic: /funmap/navigation_plan_markers
+    [Publisher] Node: FunmapNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_funmap/stretch_funmap/funmap.py | Line: 1364
+  Topic: /funmap/obstacle_point_cloud2
+    [Publisher] Node: FunmapNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_funmap/stretch_funmap/funmap.py | Line: 1366
+  Topic: amcl_pose
+    [Subscriber] Node: BasicNavigator (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_nav2/stretch_nav2/robot_navigator.py | Line: 75
+  Topic: initialpose
+    [Publisher] Node: BasicNavigator (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_nav2/stretch_nav2/robot_navigator.py | Line: 79
+  Topic: /calibration/marker_array
+    [Publisher] Node: HeadCalibrator (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/stretch_calibration/stretch_calibration/process_head_calibration_data.py | Line: 62
+  Topic: /camera/depth/color/points
+    [Subscriber] Node: HelloNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/stretch_ros2/hello_helpers/src/hello_helpers/hello_misc.py | Line: 315
+
+Repository: https://github.com/autowarefoundation/autoware.universe
+  Topic: /vehicle/status/actuation_status
+    [Publisher] Node: ActuationStatusPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/vehicle/autoware_accel_brake_map_calibrator/test/sim_actuation_status_publisher.py | Line: 37
+  Topic: /vehicle/status/velocity_status
+    [Subscriber] Node: ActuationStatusPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/vehicle/autoware_accel_brake_map_calibrator/test/sim_actuation_status_publisher.py | Line: 40
+  Topic: /vehicle/tester/accel
+    [Publisher] Node: AccelTester (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/vehicle/autoware_accel_brake_map_calibrator/scripts/accel_tester.py | Line: 29
+    [Subscriber] Node: ActuationCmdPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/vehicle/autoware_accel_brake_map_calibrator/scripts/actuation_cmd_publisher.py | Line: 31
+  Topic: /vehicle/tester/brake
+    [Publisher] Node: BrakeTester (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/vehicle/autoware_accel_brake_map_calibrator/scripts/brake_tester.py | Line: 30
+    [Subscriber] Node: ActuationCmdPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/vehicle/autoware_accel_brake_map_calibrator/scripts/actuation_cmd_publisher.py | Line: 34
+  Topic: /control/command/actuation_cmd
+    [Publisher] Node: ActuationCmdPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/vehicle/autoware_accel_brake_map_calibrator/scripts/actuation_cmd_publisher.py | Line: 37
+  Topic: /control/command/gear_cmd
+    [Publisher] Node: ActuationCmdPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/vehicle/autoware_accel_brake_map_calibrator/scripts/actuation_cmd_publisher.py | Line: 40
+  Topic: /planning/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/debug/intersection/ego_ttc
+    [Subscriber] Node: TTCVisualizer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/planning/behavior_velocity_planner/autoware_behavior_velocity_intersection_module/scripts/ttc.py | Line: 79
+  Topic: /planning/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/debug/intersection/object_ttc
+    [Subscriber] Node: TTCVisualizer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/planning/behavior_velocity_planner/autoware_behavior_velocity_intersection_module/scripts/ttc.py | Line: 85
+  Topic: /planning/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/debug/collision_info
+    [Subscriber] Node: TimeToCollisionPlotter (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/planning/behavior_velocity_planner/autoware_behavior_velocity_crosswalk_module/scripts/time_to_collision_plotter.py | Line: 61
+  Topic: /planning/scenario_planning/lane_driving/motion_planning/elastic_band_smoother/debug/calculation_time
+    [Subscriber] Node: CalculationCostAnalyzer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/planning/autoware_path_smoother/scripts/calculation_time_plotter.py | Line: 34
+  Topic: /planning/scenario_planning/lane_driving/motion_planning/path_optimizer/debug/calculation_time
+    [Subscriber] Node: CalculationCostAnalyzer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/planning/autoware_path_optimizer/scripts/calculation_time_plotter.py | Line: 34
+  Topic: /planning/scenario_planning/lane_driving/motion_planning/path_optimizer/trajectory
+    [Subscriber] Node: TrajectoryVisualizer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/planning/motion_velocity_planner/autoware_motion_velocity_obstacle_velocity_limiter_module/script/velocity_visualizer.py | Line: 32
+  Topic: /planning/scenario_planning/lane_driving/motion_planning/obstacle_velocity_limiter/trajectory
+    [Subscriber] Node: TrajectoryVisualizer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/planning/motion_velocity_planner/autoware_motion_velocity_obstacle_velocity_limiter_module/script/velocity_visualizer.py | Line: 38
+  Topic: /localization/kinematic_state
+    [Subscriber] Node: TrajectoryVisualizer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/planning/motion_velocity_planner/autoware_motion_velocity_obstacle_velocity_limiter_module/script/velocity_visualizer.py | Line: 44
+    [Subscriber] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 88
+    [Subscriber] Node: PlotterNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_control_performance_analysis/scripts/control_performance_plot.py | Line: 45
+  Topic: /diagnostics
+    [Publisher] Node: DummyDiagnostics (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/system/autoware_diagnostic_graph_aggregator/example/dummy-diags.py | Line: 28
+  Topic: /visualizer/velocity_factors
+    [Publisher] Node: PlanningFactorVisualizer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/system/autoware_default_adapi_helpers/autoware_adapi_visualizers/autoware_adapi_visualizers/planning_factors.py | Line: 65
+  Topic: /visualizer/steering_factors
+    [Publisher] Node: PlanningFactorVisualizer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/system/autoware_default_adapi_helpers/autoware_adapi_visualizers/autoware_adapi_visualizers/planning_factors.py | Line: 66
+  Topic: /api/planning/velocity_factors
+    [Subscriber] Node: PlanningFactorVisualizer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/system/autoware_default_adapi_helpers/autoware_adapi_visualizers/autoware_adapi_visualizers/planning_factors.py | Line: 67
+  Topic: /api/planning/steering_factors
+    [Subscriber] Node: PlanningFactorVisualizer (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/system/autoware_default_adapi_helpers/autoware_adapi_visualizers/autoware_adapi_visualizers/planning_factors.py | Line: 68
+  Topic: /planning/scenario_planning/trajectory
+    [Subscriber] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 80
+  Topic: /localization/acceleration
+    [Subscriber] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 96
+  Topic: /vehicle/status/steering_status
+    [Subscriber] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 104
+  Topic: /system/operation_mode/state
+    [Subscriber] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 112
+  Topic: /pympc_stop_mode_reset_request
+    [Subscriber] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 120
+  Topic: /planning/mission_planning/echo_back_goal_pose
+    [Subscriber] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 128
+  Topic: /pympc_reload_mpc_param_trigger
+    [Subscriber] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 136
+  Topic: /control/command/control_cmd
+    [Subscriber] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 144
+  Topic: /control/trajectory_follower/control_cmd
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 152
+  Topic: /control/trajectory_follower/lateral/predicted_trajectory
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 158
+  Topic: /debug_mpc_x_current
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 168
+  Topic: /debug_mpc_x_des
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 173
+  Topic: /debug_mpc_y_des
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 178
+  Topic: /debug_mpc_v_des
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 183
+  Topic: /debug_mpc_yaw_des
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 188
+  Topic: /debug_mpc_acc_des
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 193
+  Topic: /debug_mpc_steer_des
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 198
+  Topic: /debug_mpc_X_des_converted
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 204
+  Topic: /debug_mpc_nominal_traj
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 210
+  Topic: /debug_mpc_nominal_inputs
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 216
+  Topic: /debug_mpc_X_input_list
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 222
+  Topic: /debug_mpc_Y_output_list
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 228
+  Topic: /debug_mpc_error_prediction
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 234
+  Topic: /debug_mpc_emergency_stop_mode
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 240
+  Topic: /debug_mpc_goal_stop_mode
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 246
+  Topic: /debug_mpc_max_trajectory_err
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 252
+  Topic: /debug_mpc_calc_u_opt_time
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 258
+  Topic: /debug_mpc_total_ctrl_time
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 264
+  Topic: /debug_mpc_sampling_paths_marker_array
+    [Publisher] Node: PyMPCTrajectoryFollower (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_smart_mpc_trajectory_follower/scripts/pympc_trajectory_follower.py | Line: 270
+  Topic: /control_performance/performance_vars
+    [Subscriber] Node: PlotterNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_control_performance_analysis/scripts/control_performance_plot.py | Line: 39
+  Topic: driving_topic
+    [Subscriber] Node: PlotterNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_control_performance_analysis/scripts/control_performance_plot.py | Line: 42
+  Topic: /make_plot
+    [Subscriber] Node: PlotterNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/autoware.universe/control/autoware_control_performance_analysis/scripts/control_performance_plot.py | Line: 48
+
+Repository: https://github.com/Liquid-ai/Plankton
+  Topic: joy
+    [Subscriber] Node: FinnedUUVControllerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_teleop/scripts/finned_uuv_teleop.py | Line: 111
+    [Subscriber] Node: VehicleTeleop (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_teleop/scripts/vehicle_teleop.py | Line: 125
+  Topic: output
+    [Publisher] Node: KeyBoardVehicleTeleop (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_teleop/scripts/vehicle_keyboard_teleop.py | Line: 80
+    [Publisher] Node: KeyBoardVehicleTeleop (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_teleop/scripts/vehicle_keyboard_teleop.py | Line: 82
+    [Publisher] Node: VehicleTeleop (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_teleop/scripts/vehicle_teleop.py | Line: 118
+    [Publisher] Node: VehicleTeleop (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_teleop/scripts/vehicle_teleop.py | Line: 120
+  Topic: home_pressed
+    [Publisher] Node: VehicleTeleop (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_teleop/scripts/vehicle_teleop.py | Line: 122
+  Topic: trajectory
+    [Publisher] Node: DPControllerLocalPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/src/uuv_control_interfaces/dp_controller_local_planner.py | Line: 233
+    [Subscriber] Node: TrajectoryMarkerPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_utils/scripts/trajectory_marker_publisher.py | Line: 49
+  Topic: waypoints
+    [Publisher] Node: DPControllerLocalPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/src/uuv_control_interfaces/dp_controller_local_planner.py | Line: 236
+    [Subscriber] Node: TrajectoryMarkerPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_utils/scripts/trajectory_marker_publisher.py | Line: 52
+  Topic: automatic_on
+    [Publisher] Node: DPControllerLocalPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/src/uuv_control_interfaces/dp_controller_local_planner.py | Line: 240
+    [Subscriber] Node: TrajectoryMarkerPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_utils/scripts/trajectory_marker_publisher.py | Line: 60
+  Topic: trajectory_tracking_on
+    [Publisher] Node: DPControllerLocalPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/src/uuv_control_interfaces/dp_controller_local_planner.py | Line: 242
+    [Subscriber] Node: TrajectoryMarkerPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_utils/scripts/trajectory_marker_publisher.py | Line: 63
+  Topic: station_keeping_on
+    [Publisher] Node: DPControllerLocalPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/src/uuv_control_interfaces/dp_controller_local_planner.py | Line: 238
+    [Subscriber] Node: TrajectoryMarkerPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_utils/scripts/trajectory_marker_publisher.py | Line: 66
+  Topic: reference
+    [Publisher] Node: AUVGeometricTrackingController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/scripts/auv_geometric_tracking_controller.py | Line: 231
+    [Publisher] Node: DPControllerBase (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/src/uuv_control_interfaces/dp_controller_base.py | Line: 178
+    [Subscriber] Node: TrajectoryMarkerPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_utils/scripts/trajectory_marker_publisher.py | Line: 69
+  Topic: trajectory_marker
+    [Publisher] Node: TrajectoryMarkerPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_utils/scripts/trajectory_marker_publisher.py | Line: 89
+  Topic: waypoint_markers
+    [Publisher] Node: TrajectoryMarkerPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_utils/scripts/trajectory_marker_publisher.py | Line: 92
+  Topic: waypoint_path_marker
+    [Publisher] Node: TrajectoryMarkerPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_utils/scripts/trajectory_marker_publisher.py | Line: 95
+  Topic: reference_marker
+    [Publisher] Node: TrajectoryMarkerPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_utils/scripts/trajectory_marker_publisher.py | Line: 98
+  Topic: wrench_perturbation
+    [Publisher] Node: DisturbanceManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_utils/scripts/disturbance_manager.py | Line: 114
+  Topic: odom
+    [Subscriber] Node: AUVGeometricTrackingController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/scripts/auv_geometric_tracking_controller.py | Line: 228
+    [Subscriber] Node: DPControllerBase (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/src/uuv_control_interfaces/dp_controller_base.py | Line: 223
+    [Subscriber] Node: VelocityControllerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_cascaded_pids/scripts/velocity_control.py | Line: 71
+    [Subscriber] Node: PositionControllerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_cascaded_pids/scripts/position_control.py | Line: 75
+    [Subscriber] Node: PositionControllerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_cascaded_pids/scripts/position_control_underactuated.py | Line: 61
+    [Subscriber] Node: VehicleFootprint (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_assistants/scripts/publish_vehicle_footprint.py | Line: 97
+  Topic: error
+    [Publisher] Node: AUVGeometricTrackingController (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/scripts/auv_geometric_tracking_controller.py | Line: 235
+    [Publisher] Node: DPControllerBase (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/src/uuv_control_interfaces/dp_controller_base.py | Line: 180
+  Topic: thruster_output
+    [Publisher] Node: DPControllerBase (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/src/uuv_control_interfaces/dp_controller_base.py | Line: 165
+  Topic: auv_command_output
+    [Publisher] Node: DPControllerBase (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/src/uuv_control_interfaces/dp_controller_base.py | Line: 171
+  Topic: interpolator_visual_markers
+    [Publisher] Node: DPControllerLocalPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/src/uuv_control_interfaces/dp_controller_local_planner.py | Line: 244
+  Topic: cmd_vel
+    [Publisher] Node: PositionControllerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_cascaded_pids/scripts/position_control.py | Line: 77
+    [Publisher] Node: PositionControllerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_cascaded_pids/scripts/position_control_underactuated.py | Line: 62
+    [Subscriber] Node: DPControllerLocalPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/src/uuv_control_interfaces/dp_controller_local_planner.py | Line: 246
+    [Subscriber] Node: VelocityControllerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_cascaded_pids/scripts/velocity_control.py | Line: 70
+  Topic: input_trajectory
+    [Subscriber] Node: DPControllerLocalPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/src/uuv_control_interfaces/dp_controller_local_planner.py | Line: 252
+  Topic: time_to_target
+    [Publisher] Node: DPControllerLocalPlanner (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_trajectory_control/src/uuv_control_interfaces/dp_controller_local_planner.py | Line: 255
+  Topic: thruster_manager/input
+    [Publisher] Node: AccelerationControllerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_cascaded_pids/scripts/acceleration_control.py | Line: 51
+    [Subscriber] Node: ThrusterAllocatorNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_thruster_manager/scripts/thruster_allocator.py | Line: 74
+  Topic: thruster_manager/input_stamped
+    [Subscriber] Node: ThrusterAllocatorNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_thruster_manager/scripts/thruster_allocator.py | Line: 80
+  Topic: robot_description
+    [Subscriber] Node: ThrusterManager (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_thruster_manager/src/uuv_thrusters/thruster_manager.py | Line: 496
+  Topic: cmd_accel
+    [Publisher] Node: VelocityControllerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_cascaded_pids/scripts/velocity_control.py | Line: 72
+    [Subscriber] Node: AccelerationControllerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_cascaded_pids/scripts/acceleration_control.py | Line: 48
+  Topic: cmd_pose
+    [Subscriber] Node: PositionControllerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_cascaded_pids/scripts/position_control.py | Line: 74
+    [Subscriber] Node: PositionControllerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_cascaded_pids/scripts/position_control_underactuated.py | Line: 60
+  Topic: cmd_force
+    [Subscriber] Node: AccelerationControllerNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_control/uuv_control_cascaded_pids/scripts/acceleration_control.py | Line: 49
+  Topic: /world_models
+    [Publisher] Node: WorldPublisher (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_assistants/scripts/publish_world_models.py | Line: 64
+  Topic: footprint
+    [Publisher] Node: VehicleFootprint (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_assistants/scripts/publish_vehicle_footprint.py | Line: 99
+  Topic: label
+    [Publisher] Node: VehicleFootprint (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/Plankton/uuv_assistants/scripts/publish_vehicle_footprint.py | Line: 101
+
+Repository: https://github.com/abizovnuralem/go2_ros2_sdk
+  Topic: /tts
+    [Subscriber] Node: TTSNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/tts.py | Line: 74
+  Topic: /webrtc_req
+    [Publisher] Node: TTSNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/tts.py | Line: 79
+  Topic: joy
+    [Subscriber] Node: RobotBaseNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/go2_driver_node.py | Line: 228
+  Topic: cmd_vel_out
+    [Subscriber] Node: RobotBaseNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/go2_driver_node.py | Line: 205
+  Topic: webrtc_req
+    [Subscriber] Node: RobotBaseNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/go2_driver_node.py | Line: 210
+  Topic: lowstate
+    [Subscriber] Node: RobotBaseNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/go2_driver_node.py | Line: 236
+  Topic: /utlidar/robot_pose
+    [Subscriber] Node: RobotBaseNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/go2_driver_node.py | Line: 242
+  Topic: /utlidar/cloud
+    [Subscriber] Node: RobotBaseNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/go2_driver_node.py | Line: 248
+  Topic: joint_states
+    [Publisher] Node: RobotBaseNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/go2_driver_node.py | Line: 121
+  Topic: go2_states
+    [Publisher] Node: RobotBaseNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/go2_driver_node.py | Line: 123
+  Topic: point_cloud2
+    [Publisher] Node: RobotBaseNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/go2_driver_node.py | Line: 126
+  Topic: odom
+    [Publisher] Node: RobotBaseNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/go2_driver_node.py | Line: 132
+  Topic: imu
+    [Publisher] Node: RobotBaseNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/go2_driver_node.py | Line: 133
+  Topic: camera/image_raw
+    [Publisher] Node: RobotBaseNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/go2_driver_node.py | Line: 136
+  Topic: camera/camera_info
+    [Publisher] Node: RobotBaseNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/go2_driver_node.py | Line: 142
+  Topic: /utlidar/voxel_map_compressed
+    [Publisher] Node: RobotBaseNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/go2_driver_node.py | Line: 149
+  Topic: /pointcloud/deque
+    [Publisher] Node: LidarToPointCloud (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/lidar_to_point.py | Line: 75
+  Topic: /robot0/point_cloud2
+    [Subscriber] Node: LidarToPointCloud (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/go2_robot_sdk/go2_robot_sdk/lidar_to_point.py | Line: 58
+  Topic: /camera/image_raw
+    [Subscriber] Node: CocoDetectorNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/coco_detector/coco_detector/coco_detector_node.py | Line: 39
+  Topic: detected_objects
+    [Publisher] Node: CocoDetectorNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/coco_detector/coco_detector/coco_detector_node.py | Line: 45
+  Topic: annotated_image
+    [Publisher] Node: CocoDetectorNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/go2_ros2_sdk/coco_detector/coco_detector/coco_detector_node.py | Line: 48
+
+Repository: https://github.com/NovoG93/sjtu_drone
+  Topic: joy
+    [Subscriber] Node: TeleopNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/teleop_joystick.py | Line: 28
+  Topic: cmd_vel
+    [Publisher] Node: TeleopNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/teleop_joystick.py | Line: 31
+    [Publisher] Node: TeleopNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/teleop.py | Line: 50
+  Topic: takeoff
+    [Publisher] Node: TeleopNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/teleop_joystick.py | Line: 32
+    [Publisher] Node: TeleopNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/teleop.py | Line: 51
+  Topic: land
+    [Publisher] Node: TeleopNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/teleop_joystick.py | Line: 33
+    [Publisher] Node: TeleopNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/teleop.py | Line: 52
+  Topic: ~/takeoff
+    [Publisher] Node: DroneObject (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/drone_utils/drone_object.py | Line: 43
+  Topic: ~/land
+    [Publisher] Node: DroneObject (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/drone_utils/drone_object.py | Line: 44
+  Topic: ~/reset
+    [Publisher] Node: DroneObject (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/drone_utils/drone_object.py | Line: 45
+  Topic: ~/posctrl
+    [Publisher] Node: DroneObject (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/drone_utils/drone_object.py | Line: 46
+  Topic: ~/cmd_vel
+    [Publisher] Node: DroneObject (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/drone_utils/drone_object.py | Line: 47
+  Topic: ~/dronevel_mode
+    [Publisher] Node: DroneObject (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/drone_utils/drone_object.py | Line: 48
+  Topic: ~/sonar
+    [Subscriber] Node: DroneObject (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/drone_utils/drone_object.py | Line: 51
+  Topic: ~/imu
+    [Subscriber] Node: DroneObject (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/drone_utils/drone_object.py | Line: 52
+  Topic: ~/front/image_raw
+    [Subscriber] Node: DroneObject (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/drone_utils/drone_object.py | Line: 53
+  Topic: ~/bottom/image_raw
+    [Subscriber] Node: DroneObject (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/drone_utils/drone_object.py | Line: 55
+  Topic: ~/gt_pose
+    [Subscriber] Node: DroneObject (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/drone_utils/drone_object.py | Line: 57
+  Topic: ~/state
+    [Subscriber] Node: DroneObject (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/drone_utils/drone_object.py | Line: 58
+  Topic: ~/cmd_mode
+    [Subscriber] Node: DroneObject (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/sjtu_drone/sjtu_drone_control/sjtu_drone_control/drone_utils/drone_object.py | Line: 59
+
+Repository: https://github.com/inorbit-ai/ros_amr_interop
+  Topic: /troubleshooting/errorcodes
+    [Publisher] Node: SampleDataNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_amr_interop/massrobotics_amr_sender_py/sample/synthetic/node.py | Line: 47
+  Topic: /mode
+    [Publisher] Node: SampleDataNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_amr_interop/massrobotics_amr_sender_py/sample/synthetic/node.py | Line: 50
+  Topic: /battery
+    [Publisher] Node: SampleDataNode (class-based) | File: file:////Users/professormichel/Documents/GitHub/vem2025/repos/ros_amr_interop/massrobotics_amr_sender_py/sample/synthetic/node.py | Line: 51
+  Topic: /battery_runtime

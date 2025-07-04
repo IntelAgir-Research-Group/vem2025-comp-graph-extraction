@@ -1,0 +1,322 @@
+[
+  {
+    "repository": "https://github.com/hello-robot/stretch_ros2",
+    "topics": {
+      "/stretch/joint_states": {
+        "subscribers": [
+          "CleanSurfaceNode",
+          "Client",
+          "FunmapNode",
+          "GraspObjectNode",
+          "HandoverObjectNode",
+          "HelloNode",
+          "HelloWorldNode",
+          "JointPosePublisher",
+          "KeyboardTeleopNode",
+          "MakeTestNode",
+          "OpenDrawerNode"
+        ]
+      },
+      "/nearest_mouth/marker_array": {
+        "subscribers": [
+          "HandoverObjectNode"
+        ]
+      },
+      "/scan": {
+        "subscribers": [
+          "MakeTestNode"
+        ]
+      },
+      "/scan_filtered": {
+        "publishers": [
+          "StretchMujocoDriver"
+        ],
+        "subscribers": [
+          "Avoider",
+          "MakeTestNode"
+        ]
+      },
+      "/camera/accel/sample_corrected": {
+        "publishers": [
+          "D435iAccelCorrectionNode"
+        ],
+        "subscribers": [
+          "MakeTestNode"
+        ]
+      },
+      "/camera/color/image_raw": {
+        "subscribers": [
+          "MakeTestNode"
+        ]
+      },
+      "/camera/depth/image_rect_raw": {
+        "subscribers": [
+          "MakeTestNode"
+        ]
+      },
+      "/camera/color/camera_info": {
+        "subscribers": [
+          "MakeTestNode"
+        ]
+      },
+      "/camera/aligned_depth_to_color/image_raw": {
+        "subscribers": [
+          "MakeTestNode"
+        ]
+      },
+      "/aruco/marker_array": {
+        "publishers": [
+          "DetectArucoNode"
+        ],
+        "subscribers": [
+          "MakeTestNode"
+        ]
+      },
+      "/aruco/axes": {
+        "publishers": [
+          "DetectArucoNode"
+        ],
+        "subscribers": [
+          "MakeTestNode"
+        ]
+      },
+      "battery": {
+        "publishers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ],
+        "subscribers": [
+          "MakeTestNode"
+        ]
+      },
+      "mode": {
+        "publishers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ],
+        "subscribers": [
+          "KeyboardTeleopNode",
+          "MakeTestNode"
+        ]
+      },
+      "/is_homed": {
+        "subscribers": [
+          "MakeTestNode"
+        ]
+      },
+      "/is_runstopped": {
+        "subscribers": [
+          "MakeTestNode"
+        ]
+      },
+      "/odom": {
+        "subscribers": [
+          "MakeTestNode"
+        ]
+      },
+      "/tool": {
+        "subscribers": [
+          "HelloNode",
+          "MakeTestNode"
+        ]
+      },
+      "/tf": {
+        "subscribers": [
+          "MakeTestNode"
+        ]
+      },
+      "joint_pose_cmd": {
+        "publishers": [
+          "JointPosePublisher"
+        ],
+        "subscribers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "/mode": {
+        "subscribers": [
+          "Client",
+          "HelloNode"
+        ]
+      },
+      "/aruco/point_cloud2": {
+        "publishers": [
+          "DetectArucoNode"
+        ]
+      },
+      "/aruco/wrist_top": {
+        "publishers": [
+          "DetectArucoNode"
+        ]
+      },
+      "/aruco/wrist_inside": {
+        "publishers": [
+          "DetectArucoNode"
+        ]
+      },
+      "/stretch/cmd_vel": {
+        "publishers": [
+          "Avoider"
+        ]
+      },
+      "odom": {
+        "publishers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "is_homed": {
+        "publishers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "tool": {
+        "publishers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "is_streaming_position": {
+        "publishers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "imu_mobile_base": {
+        "publishers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "magnetometer_mobile_base": {
+        "publishers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "imu_wrist": {
+        "publishers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "is_runstopped": {
+        "publishers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "is_gamepad_dongle": {
+        "publishers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "stretch_gamepad_state": {
+        "publishers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "cmd_vel": {
+        "subscribers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "gamepad_joy": {
+        "publishers": [
+          "StretchRemoteGamepad"
+        ],
+        "subscribers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "joint_states": {
+        "publishers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "joint_limits": {
+        "publishers": [
+          "StretchDriver",
+          "StretchMujocoDriver"
+        ]
+      },
+      "/frustum_marker/depth_camera": {
+        "publishers": [
+          "FrustumNode"
+        ]
+      },
+      "/frustum_marker/color_camera": {
+        "publishers": [
+          "FrustumNode"
+        ]
+      },
+      "/move_base_simple/goal": {
+        "subscribers": [
+          "FunmapNode"
+        ]
+      },
+      "/initialpose": {
+        "subscribers": [
+          "FunmapNode"
+        ]
+      },
+      "/clicked_point": {
+        "subscribers": [
+          "FunmapNode"
+        ]
+      },
+      "/funmap/point_cloud2": {
+        "publishers": [
+          "FunmapNode"
+        ]
+      },
+      "/funmap/voi_marker": {
+        "publishers": [
+          "FunmapNode"
+        ]
+      },
+      "/funmap/marker_array": {
+        "publishers": [
+          "FunmapNode"
+        ]
+      },
+      "/funmap/navigation_plan_markers": {
+        "publishers": [
+          "FunmapNode"
+        ]
+      },
+      "/funmap/obstacle_point_cloud2": {
+        "publishers": [
+          "FunmapNode"
+        ]
+      },
+      "amcl_pose": {
+        "subscribers": [
+          "BasicNavigator"
+        ]
+      },
+      "initialpose": {
+        "publishers": [
+          "BasicNavigator"
+        ]
+      },
+      "/calibration/marker_array": {
+        "publishers": [
+          "HeadCalibrator"
+        ]
+      },
+      "/camera/depth/color/points": {
+        "subscribers": [
+          "HelloNode"
+        ]
+      }
+    }
+  }
+]
