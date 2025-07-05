@@ -53,8 +53,3 @@ https://github.com/BerkeleyAutomation/FogROS2,1,1,1,0,0,0
 https://github.com/jdgalviss/jetbot-ros2,2,1,1,0,1,0
 https://github.com/NVIDIA-AI-IOT/ros2_deepstream,4,1,1,0,0,0
 https://github.com/hmakelin/gisnav,4,1,0,0,4,0
-max,75,23,6,0,24,31
-avg,8.62962962962963,2.5,1.51851851851852,0,3.24074074074074,4.11111111111111
-med,4.5,1,1,0,2,2
-min,1,0,0,0,0,0
-std,13.0922651748048,4.09210007439553,1.20909666484265,0,4.66595532164549,6.1480681631196
